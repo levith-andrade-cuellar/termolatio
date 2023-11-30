@@ -25,39 +25,33 @@ nlp = spacy.load('es_core_news_md')
 # Step 3: Import Text |
 # ------------------- #
 
-# Regular importing procedure.
-filepath = 'spanish_sample_text.txt'
-text = open(filepath, encoding='utf-8').read()
+# Input files.
+inputFile = open('spanish_sample_text.txt', 'r')
+input = inputFile.read()
+
+# Output files.
+outputPOS = open('sample.pos', 'w')
+outputCHUNKS = open('sample.tchunk', 'w')
 
 # ----------------------- #
 # Step 4: Processing Text |
 # ----------------------- #
 
 # Create a processed spaCy document.
-document = nlp(text)
+document = nlp(input)
 
 # --------------------------- #
 # Step 5: Extract Information |
 # --------------------------- #
 
-# Within the processed spaCy document,
+# Using the processed spaCy document (an object),
+
+# For each word in the document,
 for token in document:
-    # We can extract its lemmatized version, part of speech tag and dependency information.
-    print(token.lemma_, token.pos_, token.dep_)
+    # We output its lemmatized version and part of speech tag.
+    outputPOS.write(f"{token.lemma_}\t{token.pos_}\n")
 
-
-# An example for extracting all nouns.
-nouns = []
-
-for token in document:
-    if (token.pos_ == 'NOUN'):
-        nouns.append(token.lemma_)
-
-print(nouns)
-
-# Counts how many times a noun appears in the list.
-numberOfNouns = Counter(nouns)
-
-# Organizes the above from most to least common.
-print(numberOfNouns.most_common)
-
+# For each chunk in the document,
+for chunk in document.noun_chunks:
+    # We output the chunk.
+    outputCHUNKS.write(f"{chunk.text}\n")
