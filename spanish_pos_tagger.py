@@ -26,7 +26,7 @@ nlp = spacy.load('es_core_news_md')
 # ------------------- #
 
 # Input files.
-inputFile = open('spanish_sample_text.txt', 'r')
+inputFile = open('sample.txt', 'r')
 input = inputFile.read()
 
 # Output files.
