@@ -49,7 +49,7 @@ document = nlp(input)
 # For each word in the document,
 for token in document:
     # We output its lemmatized version and part of speech tag.
-    outputPOS.write(f"{token.lemma_}\t{token.pos_}\n")
+    outputPOS.write(f"{token.text}\t{token.pos_}\n")
 
 # For each chunk in the document,
 for chunk in document.noun_chunks:
