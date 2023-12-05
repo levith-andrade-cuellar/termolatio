@@ -17,7 +17,7 @@ def process_data(filename):
         line = line.strip()
         line_in_list = line.split(' ') # change the line into a list by space
         for pair in line_in_list:
-            splited_pair = pair.split('_') # change 本_DT to [‘本’, DT]
+            splited_pair = pair.split('/t') # change 本_DT to [‘本’, DT]
             if len(splited_pair) < 2:
                 continue
             result.append([splited_pair[0], splited_pair[1]])
