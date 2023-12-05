@@ -7,18 +7,24 @@
 # For more information check the "Method Source" linked above.                   |
 # ------------------------------------------------------------------------------ #
 
+# HOW TO USE ------------------------------------------------------------------- #
+# This program takes a single argument. It takes a .txt file containing cleaned  |
+# text from our scraper.                                                         |
+# ------------------------------------------------------------------------------ #
 
+# INPUT (as an argument) ------------------------------------------------------- #
+# .txt file - containing cleaned text from our scraper.                          |
+# ------------------------------------------------------------------------------ #
 
-
-
-
-
-
+# OUTPUT ----------------------------------------------------------------------- #
+# .pos file - containing all tokens in the text and their corresponding POS tags |
+# .tchunk file - containing all noun chunks found in the text.                   |
+# ------------------------------------------------------------------------------ #
 
 # ---------------------- #
 # Step 1: Import Modules |
 # ---------------------- #
-
+import sys
 import spacy
 from spacy import displacy
 from collections import Counter
@@ -33,17 +39,17 @@ nlp = spacy.load('es_core_news_md')
 # Step 3: Import Text |
 # ------------------- #
 
-# Input files.
-inputFile = open('sample.txt', 'r')
+# Input file, use the one indicated by the argument.
+inputFile = open(sys.argv[1], 'r') 
 input = inputFile.read()
 
 # Output files.
-outputPOS = open('sample.pos', 'w')
-outputCHUNKS = open('sample.tchunk', 'w')
+outputPOS = open(f'{sys.argv[1][:-4]}.pos', 'w')
+outputCHUNKS = open(f'{sys.argv[1][:-4]}.tchunk', 'w')
 
-# ----------------------- #
-# Step 4: Processing Text |
-# ----------------------- #
+# -------------------- #
+# Step 4: Process Text |
+# -------------------- #
 
 # Create a processed spaCy document.
 document = nlp(input)
