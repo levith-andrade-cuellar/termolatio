@@ -1,4 +1,4 @@
-# Subject: Spanish POS Tagger
+# Subject: Spanish Noun Chunker Tagger
 # Method Source: https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/Multilingual/Spanish/03-POS-Keywords-Spanish.html
 # Sample Text Source: https://www.latimes.com/espanol/internacional/articulo/2023-11-28/rehen-israeli-liberada-describe-como-se-deterioraban-las-condiciones-de-cautiverio-con-hamas
 
@@ -17,7 +17,7 @@
 # ------------------------------------------------------------------------------ #
 
 # OUTPUT ----------------------------------------------------------------------- #
-# .pos file - containing all tokens in the text and their corresponding POS tags |
+# .tchunk file - containing all noun chunks found in the text.                   |
 # ------------------------------------------------------------------------------ #
 
 # ---------------------- #
@@ -43,7 +43,7 @@ inputFile = open(sys.argv[1], 'r')
 input = inputFile.read()
 
 # Output files.
-outputPOS = open(f'{sys.argv[1][:-4]}.pos', 'w')
+outputCHUNKS = open(f'{sys.argv[1][:-4]}.tchunk', 'w')
 
 # -------------------- #
 # Step 4: Process Text |
@@ -58,7 +58,7 @@ document = nlp(input)
 
 # Using the processed spaCy document (an object),
 
-# For each word in the document,
-for token in document:
-    # We output the token and part of speech tag.
-    outputPOS.write(f"{token.text}\t{token.pos_}\n")
+# For each chunk in the document,
+for chunk in document.noun_chunks:
+    # We output the chunk.
+    outputCHUNKS.write(f"{chunk.text}\n")
