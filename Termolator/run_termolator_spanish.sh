@@ -25,7 +25,7 @@ python3 $4/spanish_pos_tagger.py -input $1_cleaned/foreground/ -output $1_tagged
 
 echo -e "Step 2 : Noun Chunker Generator\nGenerating .tchunk and .pos files for the distributional ranking..."
 # noun_chunker_generator.py implemented by Leizhen
-python3 $4/spanish_noun_chunker_generator.py -f $1_tagged/foreground -b $1_tagged/background #-d $1 -p $5
+python3 $4/spanish_noun_chunker_generator.py -f $1_tagged/foreground -b $1_tagged/background #-d $1 -p $5 <- $1 is for chinese dict & $5 for text file chinese1.txt
 
 echo
 
