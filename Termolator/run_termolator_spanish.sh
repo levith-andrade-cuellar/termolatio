@@ -2,10 +2,12 @@
 # Date: November 28, 2023
 # Description: Script to run the Spanish version of the Termolator.
 # Usage Format: 
-# run_termolator_spanish.sh True desired_output_name cleaned/foreground cleaned/background Termulator True
+# run_termolator_spanish.sh desired_output_name cleaned/foreground cleaned/background Termulator True
 
+# Usage example: bash run_Termolator_chinese.sh desired_output_name foreground directory, background directory Termolator directory
+# bash run_Termolator_chinese.sh results cleaned/background cleaned/foreground ..
 echo
-echo -e "Step 1 : Tagging using Brandeis tagger\nRunning Brandeis Chinese word segmenter and part-of-speech tagger..."
+echo -e "Step 1 : Tagging using  Spanish POS tagger"
 # create directories for POS tagged files
 DIR=$2_tagged
 if [ -d "$DIR" ]; then
@@ -16,10 +18,9 @@ mkdir $2_tagged
 mkdir $2_tagged/background/
 mkdir $2_tagged/foreground/
 
-# Run Brandeis Chinese word segmenter and part-of-speech tagger
-## cd $5/Brandeis-CASIA-LanguageProcesser
-python3 $5/spanish_noun_chunker_generator.py -input $2_cleaned/background/ -output $2_tagged/background
-python3 $5/spanish_noun_chunker_generator.py -input $2_cleaned/foreground/ -output $2_tagged/foreground
+# Run Spanish Noun Chunker
+python3 $5/spanish_pos_tagger.py -input $2_cleaned/background/ -output $2_tagged/background
+python3 $5/spanish_pos_tagger.py -input $2_cleaned/foreground/ -output $2_tagged/foreground
 
 echo -e "Step 2 : Noun Chunker Generator\nGenerating .tchunk and .pos files for the distributional ranking..."
 # noun_chunker_generator.py implemented by Leizhen
