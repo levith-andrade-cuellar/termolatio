@@ -25,8 +25,8 @@
 # ---------------------- #
 import sys
 import spacy
-from spacy import displacy
-from collections import Counter
+# from spacy import displacy
+# from collections import Counter
 
 # --------------------------- #
 # Step 2: Load Language Model |
@@ -39,18 +39,26 @@ nlp = spacy.load('es_core_news_md')
 # ------------------- #
 
 # Input file, use the one indicated by the argument.
-inputFile = open(sys.argv[1], 'r') 
-input = inputFile.read()
+# inputFile = open(sys.argv[1], 'r') 
+# input = inputFile.read()
+input_file_path = sys.argv[1]
+output_directory = sys.argv[2]
+# print('this is the output directory', output_directory)
+
+# output_file_path = Path(output_directory) / f'{Path(input_file_path).stem}.pos'
+
 
 # Output files.
-outputPOS = open(f'{sys.argv[1][:-4]}.pos', 'w')
+# outputPOS = open(f'{sys.argv[1][:-4]}.pos', 'w')
+with open(input_file_path, 'r') as inputFile:
+    input_text = inputFile.read()
 
 # -------------------- #
 # Step 4: Process Text |
 # -------------------- #
 
 # Create a processed spaCy document.
-document = nlp(input)
+document = nlp(input_text)
 
 # --------------------------- #
 # Step 5: Extract Information |
@@ -59,6 +67,9 @@ document = nlp(input)
 # Using the processed spaCy document (an object),
 
 # For each word in the document,
-for token in document:
-    # We output the token and part of speech tag.
-    outputPOS.write(f"{token.text}\t{token.pos_}\n")
+# for token in document:
+#     # We output the token and part of speech tag.
+#     outputPOS.write(f"{token.text}\t{token.pos_}\n")
+with open(output_directory, 'w') as outputPOS:
+    for token in document:
+        outputPOS.write(f"{token.text}\t{token.pos_}\n")
