@@ -39,7 +39,7 @@ def scrapeWikiArticle(url, max_articles):
         text_content = ''.join(paragraph.get_text() for paragraph in paragraphs)
 
         # Create a 'scraped' folder if it doesn't exist
-        folder_path = 'scraped'
+        folder_path = 'scraped/foreground'
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
@@ -48,5 +48,7 @@ def scrapeWikiArticle(url, max_articles):
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(text_content)
 
-# Example usage with a limit of 5 articles
-scrapeLinkedPages("https://es.wikipedia.org/wiki/Categor%C3%ADa:Platos_con_chorizo", max_articles=13)
+
+scrapeLinkedPages("https://es.wikipedia.org/wiki/Categor%C3%ADa:Chorizo", max_articles=43)
+# foreground: https://es.wikipedia.org/wiki/Categor%C3%ADa:Chorizo
+# background: https://es.wikipedia.org/wiki/Categor%C3%ADa:Embutidos_de_cerdo
