@@ -18,8 +18,8 @@ mkdir $2_tagged/foreground/
 
 # Run Brandeis Chinese word segmenter and part-of-speech tagger
 ## cd $5/Brandeis-CASIA-LanguageProcesser
-java -Xmx25000m -cp "$5/Brandeis-CASIA-LanguageProcesser/WS_POS_brandeis.jar" brandeis.transition.wordseg.WordSegmentToolkit -mode test -model $5/Brandeis-CASIA-LanguageProcesser/model/train_brandeis.model.gz -test $2_cleaned/background/ -out $2_tagged/background
-java -Xmx25000m -cp "$5/Brandeis-CASIA-LanguageProcesser/WS_POS_brandeis.jar" brandeis.transition.wordseg.WordSegmentToolkit -mode test -model $5/Brandeis-CASIA-LanguageProcesser/model/train_brandeis.model.gz -test $2_cleaned/foreground/ -out $2_tagged/foreground
+python3 $5/spanish_noun_chunker_generator.py -input $2_cleaned/background/ -output $2_tagged/background
+python3 $5/spanish_noun_chunker_generator.py -input $2_cleaned/foreground/ -output $2_tagged/foreground
 
 echo -e "Step 2 : Noun Chunker Generator\nGenerating .tchunk and .pos files for the distributional ranking..."
 # noun_chunker_generator.py implemented by Leizhen
@@ -32,8 +32,9 @@ ls -1 output_foreground/ | grep "tchunk$" | awk '{print "output_foreground/"$1}'
 ls -1 output_background/ | grep "tchunk$" | awk '{print "output_background/"$1}' > $2.internal_background_tchunk_list
 python3 $5/distributional_component.py NormalRank $2.internal_foreground_tchunk_list $2.all_terms False $2.internal_background_tchunk_list
 
-echo -e "Step 4 : Accessor Variety Filter\nFiltering all terms obtained previously...\n"
-python3 $5/accessorvariety.py $2.all_terms foreground_tchunk_list > $2.AV_filtered_terms
-echo -e "All steps completed! Final output file: $2.AV_filtered_terms"
+# echo -e "Step 4 : Accessor Variety Filter\nFiltering all terms obtained previously...\n"
+# python3 $5/accessorvariety.py $2.all_terms foreground_tchunk_list > $2.AV_filtered_terms
+# echo -e "All steps completed! Final output file: $2.AV_filtered_terms"
 
-cut -f 1 $2.AV_filtered_terms > $2.out_term_list
+cut -f 1 $2.all_terms > $2.out_term_list
+

@@ -86,8 +86,8 @@ ls -1 output_foreground/ | grep "tchunk$" | awk '{print "output_foreground/"$1}'
 ls -1 output_background/ | grep "tchunk$" | awk '{print "output_background/"$1}' > $2.internal_background_tchunk_list
 python3 $5/distributional_component.py NormalRank $2.internal_foreground_tchunk_list $2.all_terms False $2.internal_background_tchunk_list
 
-echo -e "Step 4 : Accessor Variety Filter\nFiltering all terms obtained previously...\n"
-python3 $5/accessorvariety.py $2.all_terms foreground_tchunk_list > $2.AV_filtered_terms
+# echo -e "Step 4 : Accessor Variety Filter\nFiltering all terms obtained previously...\n"
+# python3 $5/accessorvariety.py $2.all_terms foreground_tchunk_list > $2.AV_filtered_terms
 echo -e "All steps completed! Final output file: $2.AV_filtered_terms"
 
 cut -f 1 $2.AV_filtered_terms > $2.out_term_list
