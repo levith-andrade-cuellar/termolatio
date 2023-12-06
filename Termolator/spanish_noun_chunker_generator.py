@@ -68,11 +68,11 @@ def is_inword(BIOtag):
         return False
 
 def is_adj(tag):
-    adj_tag_set = set(["JJ", "JJS", "JJR"])
+    adj_tag_set = set(["ADJ"])
     return True if tag in adj_tag_set else False
 
 def is_noun(tag):
-    noun_tag_set = set(["NN", "NP"])
+    noun_tag_set = set(["NOUN"])
     return True if tag in noun_tag_set else False
 
 # optional filter of adding dictionary
