@@ -73,6 +73,7 @@ def __main__(args):
                 i += 1
         # default measure to 'Weighted'
         if 'measure' not in locals():
+            # print('No measure given, defaulting to Weighted')
             measure = 'Weighted'
     except:
         # Remind the user what input is acceptable
@@ -114,6 +115,7 @@ def __main__(args):
                         if (len(ranking[i][0]) > MAX_LEN):
                             continue
                     ## sys.stdout.write(ranking[i][0]+'\t'+str(ranking[i][1])+'\n')
+                        print("117",ranking[i][0]+'\t'+str(ranking[i][1])+'\n')
                         outstream.write(ranking[i][0]+'\t'+str(ranking[i][1])+'\n')
             except IOError as e:
                 if e.errno == errno.EPIPE: #no longer printing to stdout

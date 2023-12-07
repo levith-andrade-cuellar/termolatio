@@ -10,13 +10,13 @@ words - a dict with words as keys and word counts as values."""
         #REMINDER, INCLUDE METATAG DATA (SECTION, WORDCLASS, ETC.)
         #self.positions = {}
         # If filename given, input the file
-        print("Document.py: filename: ",filename)
+        # print("Document.py: filename: ",filename)
         if filename:
             if not os.path.isfile(filename):
                 raise OSError(2, 'No such file', filename)
             # get terms from noun groups
             if filename.endswith('.tchunk'):
-                print("18 filename: ",filename)
+                # print("18 filename: ",filename)
                 parser = NPParser.NPParser()
                 # expand abbreviations, stemming phrase endings, etc.
                 #filters = ['abbreviation', 'isWord', 'case', 'stops', 'stem']

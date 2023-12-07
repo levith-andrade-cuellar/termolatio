@@ -59,6 +59,5 @@ echo -e "Step 3 : Distributional ranking\nGenerating .tchunk and .pos files for 
 ls -1 output_foreground/ | grep "tchunk$" | awk '{print "output_foreground/"$1}' > $1.internal_foreground_tchunk_list
 ls -1 output_background/ | grep "tchunk$" | awk '{print "output_background/"$1}' > $1.internal_background_tchunk_list
 python $4/distributional_component.py NormalRank $1.internal_foreground_tchunk_list $1.all_terms False $1.internal_background_tchunk_list
-
 cut -f 1 $1.all_terms > $1.out_term_list
 

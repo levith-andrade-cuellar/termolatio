@@ -25,10 +25,10 @@ class Metric:
         self.genDocsNum = 0
         # General document group is given as files in a directory
         if rank_from_previous:
-            print("28 rank from previous")
+            # print("28 rank from previous")
             pass
         elif type(general)== type(str()):
-            print("31 second if statement")
+            # print("31 second if statement")
             logging.debug('Loading general documents from '+general)
             # gen = [Document(general+genFile) for genFile in os.listdir(general) if genFile[-4:]=='.txt']
             gen = map(lambda x: Document(filename=x.strip(),overwrite=overwrite), open(general,encoding="utf-8-sig").readlines())
@@ -41,19 +41,19 @@ class Metric:
             ## Updated again by Y Gu 11/2018 for type compatibility
             for iterator in gen:
                 self.genDocsNum += 1
-                print("44 self.genDocsNum: ",self.genDocsNum)
-                print("iteratpr.counts: ",iterator.counts)
+                # print("44 self.genDocsNum: ",self.genDocsNum)
+                # print("iteratpr.counts: ",iterator.counts)
                 for w in iterator.counts:
-                    print("46  w: ",w)
+                    # print("46  w: ",w)
                     self.genDocs.counts[w] += iterator.counts[w]
                     self.genDocs.token_counts[w] += 1 # updates by Y Gu 11/2018 for pkl file type compatibility
-                    print("48 self.genDocs.counts[w]: ",self.genDocs.counts[w])
+                    # print("48 self.genDocs.counts[w]: ",self.genDocs.counts[w])
         # General document group is given as a corpus
         else:
             logging.debug('Loading from general corpus...')
             # NGrams in lieu of NPs -- we are storing extra info
             words = general.words()
-            print("54 this is the words",  words)
+            # print("54 this is the words",  words)
             logging.debug('Unigrams loading')
             bigrams = nltk.bigrams(words)
             logging.debug('Bigrams loading')
@@ -70,30 +70,30 @@ class Metric:
                     #     ## would be to allow all filters to take multiple arguments.
                     #     ## If these get expanded, that would be the way to go.
                     # else:
-                    print('66: this is the word: ',w)
+                    # print('66: this is the word: ',w)
                     w = Filter.criteria[filt](w)
                 if w:
                     self.genDocs.counts[w] += 1
                     self.genDocs.token_counts[w] += 1
-                    print('76: this is the word: ',w)
+                    # print('76: this is the word: ',w)
             logging.debug('Filtering bigrams')
             for gram in bigrams:
                 w = ' '.join(gram)
                 for filt in filters:
-                    print("81: this is the word: ",w)
+                    # print("81: this is the word: ",w)
                     w = Filter.criteria[filt](w)
                 if w:
                     self.genDocs.counts[w] += 1
-                    print("85: this is the word: ",w)
+                    # print("85: this is the word: ",w)
             logging.debug('Filtering trigrams')
             for gram in trigrams:
                 w = ' '.join(gram)
                 for filt in filters:
                     w = Filter.criteria[filt](w)
-                    print("91: this is the word: ",w)
+                    # print("91: this is the word: ",w)
                 if w:
                     self.genDocs.counts[w] += 1
-                    print("94: this is the word: ",w)
+                    # print("94: this is the word: ",w)
             logging.debug('done')
         # Related Document Group -- we need each document separately
         logging.debug('Loading RDG from '+rdgDir+'...')
@@ -101,12 +101,12 @@ class Metric:
         ## Python 3 compatibility -- rdgDocs needs to be a list and Python3 makes it an iterator
         logging.debug('done')
         # Inside __init__ method
-        print(f"Number of general documents: {self.genDocsNum}")
-        print(f"Number of RDG documents: {len(self.rdgDocs)}")
+        # print(f"Number of general documents: {self.genDocsNum}")
+        # print(f"Number of RDG documents: {len(self.rdgDocs)}")
         # Inside __init__ method, after processing general and RDG documents
-        print(f"General document word counts: {self.genDocs.counts}")
+        # print(f"General document word counts: {self.genDocs.counts}")
         # Inside __init__ method, after processing general and RDG documents
-        print(f"General document word counts: {self.genDocs.counts}")
+        # print(f"General document word counts: {self.genDocs.counts}")
 
 
 
@@ -116,10 +116,10 @@ class Metric:
         """Returns the term frequency in the rdgDocs"""
         if not hasattr(self, '_TermFreq'):
             self._TermFreq = {}
-            print("119")
+            # print("119")
         if word in self._TermFreq:
             freq = self._TermFreq[word]
-            print("122 freq: ", freq)
+            # print("122 freq: ", freq)
         else:
             freq = 0
             ## print(0,'Looking for',word)
@@ -135,13 +135,13 @@ class Metric:
     def _getTermDocFreq(self, word):
         """Returns the document frequency of a term in the rdg"""
         if not hasattr(self, '_TermDocFreq'):
-            print("_getTermDocFreq 1st if statement")
+            # print("_getTermDocFreq 1st if statement")
             self._TermDocFreq = {}
         if word in self._TermDocFreq:
             freq = self._TermDocFreq[word]
-            print("_getTermDocFreq 2nd if statement")
+            # print("_getTermDocFreq 2nd if statement")
         else:
-            print("_getTermDocFreq 3rd if statement")
+            # print("_getTermDocFreq 3rd if statement")
             freq = 0
             for doc in self.rdgDocs:
                 if word in doc.counts:
@@ -152,16 +152,16 @@ class Metric:
         """Returns the document relevance of a proposed term"""
         if not hasattr(self, '_DR'):
             self._DR = {}
-            print("_calDR 1st if statement")
+            # print("_calDR 1st if statement")
         ## check map
         if (word,'DR') in self.rankingmap:
             DR = self.rankingmap[(word,'DR')]
-            print("_calDR 2nd if statement")
+            # print("_calDR 2nd if statement")
         elif word in self._DR:
             DR = self._DR[word]
-            print("_calDR 3rd if statement")
+            # print("_calDR 3rd if statement")
         else:
-            print("_calDR 4th if statement")
+            # print("_calDR 4th if statement")
             posFreq = self._getTermFreq(word)
             if word in self.genDocs.counts:
                 negFreq = self.genDocs.counts[word]
@@ -173,21 +173,21 @@ class Metric:
                 DR = 0 ## AM july 2017 -- assuming 0/0 equals 0
             self._DR[word] = DR
             # Example inside _calDR method
-            print(f"Calculating DR for word: {word}, result: {DR}")
+            # print(f"Calculating DR for word: {word}, result: {DR}")
         return DR
     def _calDC(self, word):
         """Returns the document consensus of a proposed term"""
         if not hasattr(self, '_DC'):
             self._DC = {}
-            print("_calDC 1st if statement")
+            # print("_calDC 1st if statement")
         if (word,'DC') in self.rankingmap:
             DC = self.rankingmap[(word,'DC')]
-            print("_calDC 2nd if statement")
+            # print("_calDC 2nd if statement")
         elif word in self._DC:
             DC = self._DC[word]
-            print("_calDC 3rd if statement")
+            # print("_calDC 3rd if statement")
         else:
-            print("_calDC 4th if statement")
+            # print("_calDC 4th if statement")
             posFreq = self._getTermFreq(word)
             DC = 0
             for doc in self.rdgDocs:
@@ -199,16 +199,16 @@ class Metric:
                         ptd = 0
                         DC = 0 ## AM July 2017 -- assumes 0/0 = 0
             self._DC[word] = DC
-            print(f"Calculating DR for word: {word}, result: {DC}")
+            # print(f"Calculating DR for word: {word}, result: {DC}")
         return DC
     def _calDRDC(self, word):
         """Returns the document relevance-document consensus \
 (DRDC) of a proposed term"""
         if (word,'DRDC') in self.rankingmap:
-            print("_calDRDC 1st if statement")
+            # print("_calDRDC 1st if statement")
             return self.rankingmap[(word,'DRDC')]
         else:
-            print("_calDRDC 2nd if statement")
+            # print("_calDRDC 2nd if statement")
             return self._calDR(word)*self._calDC(word)
     # edit to calculate true IDF = log (numBackDocs/numBackDocs(t)) Y. Gu edit 6/2018
     def _calTrueIDF(self,word):
@@ -220,10 +220,10 @@ class Metric:
         """Returns the document relevance-inverse document frequency \
 (DR-IDF) of a proposed term"""
         if (word,'IDF') in self.rankingmap:
-            print("_calIDF 1st if statement")
+            # print("_calIDF 1st if statement")
             return self.rankingmap[(word,'IDF')]
         else:
-            print("_calIDF 2nd if statement")
+            # print("_calIDF 2nd if statement")
             return self._calDR(word)/math.log(self._getTermDocFreq(word)+3.0)
     def _calTF(self, word):
         """Returns the term frequency of a proposed term"""
@@ -233,13 +233,13 @@ class Metric:
         """Returns the term frequency-inverse document frequency (TF-IDF) \
 of a proposed term"""
         if not hasattr(self, '_TFIDF'):
-            print("_calTFIDF 1st if statement")
+            # print("_calTFIDF 1st if statement")
             self._TFIDF = {}
         if word in self._TFIDF:
-            print("_calTFIDF 2nd if statement")
+            # print("_calTFIDF 2nd if statement")
             TFIDF = self._TFIDF[word]
         else:
-            print("_calTFIDF 3rd if statement")
+            # print("_calTFIDF 3rd if statement")
             maxFreq = 0
             for doc in self.rdgDocs:
                 if word in doc.counts and doc.counts[word] > maxFreq:
@@ -252,13 +252,13 @@ of a proposed term"""
     def _calTokenDR(self, word):
         """Token frequency adjustment helper function"""
         if not hasattr(self, '_TokenDR'):
-            print("_calTokenDR 1st if statement")
+            # print("_calTokenDR 1st if statement")
             self._TokenDR = {}
         if word in self._TokenDR:
-            print("_calTokenDR 2nd if statement")
+            # print("_calTokenDR 2nd if statement")
             tokenDR = self._TokenDR[word]
         else:
-            print("_calTokenDR 3rd if statement")
+            # print("_calTokenDR 3rd if statement")
             tokenDR = 0.0
             tokens = word.split()
             for t in tokens:
@@ -281,10 +281,10 @@ of a proposed term"""
         """Returns the document relevance-document consensus (DRDC) of \
 a proposed term, adjusted for token frquency"""
         if (word,'TokenDRDC') in self.rankingmap:
-            print("_calTokenDRDC 1st if statement")
+            # print("_calTokenDRDC 1st if statement")
             return self.rankingmap[(word,'TokenDRDC')]
         else:
-            print("_calTokenDRDC 2nd if statement")
+            # print("_calTokenDRDC 2nd if statement")
             return self._calDRDC(word)*self._calTokenDR(word)
     def _calTokenIDF(self, word):
         """Returns the document relevance-inverse document frequency \

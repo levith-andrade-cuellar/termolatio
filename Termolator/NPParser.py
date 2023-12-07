@@ -146,7 +146,7 @@ class NPParser:
         ## this function may overgenerate
         ## disable_substrings portion of this function to test this
         terms = set()
-        print("149 terms: ", terms)
+        # print("149 terms: ", terms)
         # set pos equal to the possible terms' start position
         # (i.e. trim leading words)
         pos = 0
@@ -180,7 +180,7 @@ class NPParser:
                     ## weird POS's (like IN)
                     term = NP[i].word.strip(' ') + " " + term
                     terms.add(term.strip())
-        print("182: ", terms)
+        # print("182: ", terms)
         return terms
     def getNPs(self, filename):
         """Input a file, output a list of noun phrases"""
@@ -200,12 +200,12 @@ class NPParser:
         NPs = self.getNPs(filename)
         for NP in NPs:
             NP_words = ' '.join([f"{word_obj.word} (POS: {word_obj.pos}, Chunk: {word_obj.chunk})" for word_obj in NP])
-            print(f"Noun Phrase: {NP_words}")
+            # print(f"Noun Phrase: {NP_words}")
         fd = FreqDist()
         for NP in NPs:
             # get the possible terms for each NP
             terms = self.extractPossibleTerms(NP, relaxed)
-            print("207: ", terms)
+            # print("207: ", terms)
             # filter each term by some given criteria
             # this requires keeping case information until this point
             #filt = Filter.Filter() # class containing all filters
