@@ -185,7 +185,7 @@ def print_pos(filename, tagged_words):
 # Functions: String to Boolean |
 # ---------------------------- #
 
-# This function returns a corresponding boolen variable.
+# This function returns a corresponding boolean variable.
 
 def str_to_bool(s):
     if s == 'True':
