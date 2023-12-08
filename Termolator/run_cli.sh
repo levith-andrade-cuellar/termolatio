@@ -24,4 +24,4 @@ termolator=${termolator:-.}
 
 echo -e "Input complete"
 # Run the command with user input
-./run_termolator_spanish.sh "$results" "$background" "$foreground" "$termolator"
+bash run_termolator_spanish.sh "$results" "$background" "$foreground" "$termolator"
