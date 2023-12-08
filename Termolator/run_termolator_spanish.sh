@@ -4,7 +4,7 @@
 # Date: November 28, 2023
 # Description: Script to run the Spanish version of the Termolator.
 # Usage Format: 
-# bash run_Termolator_spanish.sh results cleaned/background cleaned/foreground .
+#  ./run_termolator_spanish.sh results cleaned/background cleaned/foreground .
 # $1 = desired_output_name
 # $2 = foreground directory
 # $3 = background directory
