@@ -11,6 +11,8 @@ import os
 # OUTPUT ----------------------------------------------------------------------- #
 # .pos file - in the format outline by the "print_pos" function.                 |
 # .tchunk file - in the format outline by the "print_tchunk" function.           |
+#                                                                                |
+# The output created is in the format required by "distributional_component.py". |
 # ------------------------------------------------------------------------------ #
 
 # --------- #
