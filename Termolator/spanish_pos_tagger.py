@@ -25,51 +25,63 @@
 # ---------------------- #
 import sys
 import spacy
-# from spacy import displacy
-# from collections import Counter
+import argparse
+import os
 
-# --------------------------- #
-# Step 2: Load Language Model |
-# --------------------------- #
-
+# ---------------------- #
+# Step 2: Load spacy     |
+# ---------------------- #
 nlp = spacy.load('es_core_news_md')
 
-# ------------------- #
-# Step 3: Import Text |
-# ------------------- #
+# ---------------------- #
+# Step 3: Load directory |
+# ---------------------- #
+def process_directory(input_dir, output_dir):
+    for filename in os.listdir(input_dir):
+        if not filename.endswith('.txt'):
+            continue  # skiping non-txt files e.g. .DS_Store
 
-# Input file, use the one indicated by the argument.
-# inputFile = open(sys.argv[1], 'r') 
-# input = inputFile.read()
-input_file_path = sys.argv[1]
-output_directory = sys.argv[2]
-# print('this is the output directory', output_directory)
+        input_file_path = os.path.join(input_dir, filename)
+        tagged_text = pos_tag_file(input_file_path)
 
-# output_file_path = Path(output_directory) / f'{Path(input_file_path).stem}.pos'
+        # remove .txt extension from filename before appending .pos
+        output_filename = filename[:-4] + '.pos'
+        output_file_path = os.path.join(output_dir, output_filename)
 
+        with open(output_file_path, 'w', encoding='UTF-8') as output_file:
+            for word, tag in tagged_text:
+                output_file.write(f"{word}\t{tag}\n")
 
-# Output files.
-# outputPOS = open(f'{sys.argv[1][:-4]}.pos', 'w')
-with open(input_file_path, 'r') as inputFile:
-    input_text = inputFile.read()
+# ---------------------- #
+# Step 4: POS tagging    |
+# ---------------------- #
+def pos_tag_file(file_path):
+    with open(file_path, 'r', encoding='UTF-8') as file:
+        text = file.read()
+        doc = nlp(text)
+        return [(token.text, token.pos_) for token in doc]
 
-# -------------------- #
-# Step 4: Process Text |
-# -------------------- #
+# ---------------------- #
+#    Loading arguments   |
+# ---------------------- #
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="POS Tagging for Foreground and Background directories.")
+    parser.add_argument('-f', '--foreground', required=True, help="Input directory for foreground files")
+    parser.add_argument('-b', '--background', required=True, help="Input directory for background files")
+    parser.add_argument('-o', '--output', required=True, help="Output directory for tagged results")
+    args = parser.parse_args()
 
-# Create a processed spaCy document.
-document = nlp(input_text)
+    foreground_input_dir = args.foreground
+    background_input_dir = args.background
+    output_dir = args.output
 
-# --------------------------- #
-# Step 5: Extract Information |
-# --------------------------- #
+    foreground_output_dir = os.path.join(output_dir, "foreground")
+    background_output_dir = os.path.join(output_dir, "background")
 
-# Using the processed spaCy document (an object),
+    os.makedirs(foreground_output_dir, exist_ok=True)
+    os.makedirs(background_output_dir, exist_ok=True)
 
-# For each word in the document,
-# for token in document:
-#     # We output the token and part of speech tag.
-#     outputPOS.write(f"{token.text}\t{token.pos_}\n")
-with open(output_directory, 'w') as outputPOS:
-    for token in document:
-        outputPOS.write(f"{token.text}\t{token.pos_}\n")
+    process_directory(foreground_input_dir, foreground_output_dir)
+    process_directory(background_input_dir, background_output_dir)
+
+    print("Finished POS tagging for foreground and background directories.")
