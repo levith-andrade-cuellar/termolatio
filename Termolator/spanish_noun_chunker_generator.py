@@ -75,31 +75,6 @@ def is_noun(tag):
     noun_tag_set = set(["NOUN"])
     return True if tag in noun_tag_set else False
 
-# optional filter of adding dictionary
-# def dict_filter(tagged_nouns,program_directory):
-#     file = open(program_directory+"/chinese1.txt", 'r', encoding= 'utf-8')
-#     hownet_dict = set()
-#     for line in file:
-#         hownet_dict.add(line.strip())
-
-#     for i in range (len(tagged_nouns)):
-#         word_property = tagged_nouns[i] # word set of [word, propertytag, BIOtag]
-#         locations = [] # record the location of words
-#         if word_property[2] == 'B-NP':
-#             to_detect = word_property[0]
-#             locations.append(i)
-#             j = i + 1
-#             while (j < len(tagged_nouns) and tagged_nouns[j][2] != "O"):
-#                 to_detect += tagged_nouns[j][0]
-#                 locations.append(j)
-#                 j += 1
-
-#             if to_detect in hownet_dict: # if the word is in the hownet, it is a common word and should be OOV
-#                 for num in locations:
-#                     tagged_nouns[num][2] = "O"
-#             else:
-#                 continue
-
 def str_to_bool(s):
     if s == 'True':
          return True
@@ -112,13 +87,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Outputting .tchunk and .pos files. A list of the tchunk names will be provided as well.")
     parser.add_argument('-f', '--foreground', nargs = 1, help = "Please enter the input foreground directory", required = True)
     parser.add_argument('-b', '--background', nargs = 1, help = "Please enter the input background directory", required = True)
-    # parser.add_argument('-d', '--dict_filter', nargs=1, default= False, help="Please enter True or False for turning dictionary on or off", required=False)
     parser.add_argument('-p','--program_directory',nargs=1,default=".",help="This should be the directory containing program files",required=True)
     args = parser.parse_args()
 
     foreground_files = load_directory(args.foreground[0])
     background_files = load_directory(args.background[0])
-    # dict_on = str_to_bool(args.dict_filter[0])
     program_dir = args.program_directory[0]
 
     out_foreground_path = os.path.join(os.getcwd(), "output_foreground")
