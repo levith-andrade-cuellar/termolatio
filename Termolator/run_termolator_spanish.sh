@@ -9,6 +9,7 @@
 # $2 = foreground directory
 # $3 = background directory
 # $4 = Termolator directory
+
 echo
 echo -e "Step 1 : Tagging using  Spanish POS tagger"
 # create directories for POS tagged files
@@ -27,11 +28,11 @@ output_directory="$1_tagged"
 input_directory2="cleaned/foreground/"
 pos_tagger_script="$4/spanish_pos_tagger.py"
 
-python ./spanish_pos_tagger.py --foreground $input_directory2 --background $input_directory1 --output $output_directory 
+python3 ./spanish_pos_tagger.py --foreground $input_directory2 --background $input_directory1 --output $output_directory 
 
 echo -e "Step 2 : Noun Chunker Generator\nGenerating .tchunk and .pos files for the distributional ranking..."
 # noun_chunker_generator.py implemented by Leizhen
-python $4/spanish_noun_chunker_generator.py -f $1_tagged/foreground -b $1_tagged/background -p $4 #-d $1 -p $5 <- $1 is for chinese dict & $5 for text file chinese1.txt
+python3 $4/spanish_noun_chunker_generator.py -f $1_tagged/foreground -b $1_tagged/background -p $4 #-d $1 -p $5 <- $1 is for chinese dict & $5 for text file chinese1.txt
 
 echo
 
@@ -39,5 +40,5 @@ echo -e "Step 3 : Distributional ranking\nGenerating .tchunk and .pos files for 
 # MEASURES = ['TFIDF', 'DRDC', 'KLDiv', 'Weighted'] , same as English version
 ls -1 output_foreground/ | grep "tchunk$" | awk '{print "output_foreground/"$1}' > $1.internal_foreground_tchunk_list
 ls -1 output_background/ | grep "tchunk$" | awk '{print "output_background/"$1}' > $1.internal_background_tchunk_list
-python $4/distributional_component.py NormalRank $1.internal_foreground_tchunk_list $1.all_terms False $1.internal_background_tchunk_list
+python3 $4/distributional_component.py NormalRank $1.internal_foreground_tchunk_list $1.all_terms False $1.internal_background_tchunk_list
 cut -f 1 $1.all_terms > $1.out_term_list
