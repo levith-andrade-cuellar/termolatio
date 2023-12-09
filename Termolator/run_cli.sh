@@ -6,8 +6,24 @@
 
 # reach goal: allow users to input url for foreground and background to scrape
 
-echo -e "Welcome to Spanish Termolator!\n"
-echo -e "Please specify your folder arguments below.\n"
+echo "\nWelcome to Spanish Termolator!\n"
+
+echo '       termulatio
+  is at your service!
+
+         __     
+ _(\    |@@|  <( nlp4lyf )
+(__/\__ \--/ __ 
+   \___|----|  |   __
+       \ }{ /\ )_ / _\
+       /\__/\ \__O (__ 
+      (--/\--)    \__/
+      _)(  )(_
+     `---'\'''\''---`
+
+'
+
+echo "Please specify your folder arguments below.\n"
 
 # Prompt the user for input with default values
 read -p "Enter results folder (enter for default): " results
@@ -24,4 +40,4 @@ termolator=${termolator:-.}
 
 echo -e "Input complete"
 # Run the command with user input
-bash run_termolator_spanish.sh "$results" "$background" "$foreground" "$termolator"
+./run_termolator_spanish.sh "$results" "$background" "$foreground" "$termolator"
