@@ -10,9 +10,10 @@ from selenium.webdriver.common.by import By
 import time
 
 # INPUT FIELDS - modify these
-url = "https://es.wikipedia.org/wiki/Categor%C3%ADa:Charcuter%C3%ADa" #Category page
+url = "https://es.wikipedia.org/wiki/Categor%C3%ADa:Charcuter%C3%ADa" #Category page (has toggles that do not reveal until clicked)
 scrape_layers = 4 # Number of Tree Layers to Scrape. Minimum 1 for if bullets and not toggles
-folder_path = "scraped/foreground" # Folder to save scraped files
+folder_path = "scraped/foreground" # Folder to save scraped files. Program will generate it if it doesn't exist
+# After filling these in, just run python3 scraper.py or python scraper.py
 
 # TOPIC1: PLATOS AND CARNE
 # background: https://es.wikipedia.org/wiki/Categor%C3%ADa:Carnes Links:  Scraped Pages:  2347
