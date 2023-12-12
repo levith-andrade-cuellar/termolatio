@@ -53,6 +53,7 @@ output_background/Amêijoas_à_Bulhão_Pato.pos.tchunk
 output_background/Anchoa_en_salazón.pos.tchunk
 output_background/Andouillette.pos.tchunk
 output_background/Andrajos.pos.tchunk
+output_background/Androlla.pos.tchunk
 output_background/Androlla.tchunk
 output_background/Anexo:Agentes_del_Grupo_2A_del_IARC_-_Probablemente_cancerígenos_para_humanos.pos.tchunk
 output_background/Ángel_C._Carratalá.pos.tchunk
@@ -611,6 +612,7 @@ output_background/Kusaya.pos.tchunk
 output_background/Kyubey.pos.tchunk
 output_background/La_primera_muerte.pos.tchunk
 output_background/Lacón_Gallego.pos.tchunk
+output_background/Lacón_trufado.pos.tchunk
 output_background/Lacón_trufado.tchunk
 output_background/Lady_Dimitrescu.pos.tchunk
 output_background/Lancashire_hotpot.pos.tchunk
@@ -632,6 +634,7 @@ output_background/Lechón.pos.tchunk
 output_background/Lengua_a_la_vinagreta.pos.tchunk
 output_background/Lenguado_a_la_meunière.pos.tchunk
 output_background/Lentejas_con_chorizo.pos.tchunk
+output_background/Linguiça.pos.tchunk
 output_background/Linguiça.tchunk
 output_background/Liometopum_apiculatum.pos.tchunk
 output_background/Litopenaeus.pos.tchunk
@@ -643,14 +646,18 @@ output_background/Lobster_roll.pos.tchunk
 output_background/Lomito.pos.tchunk
 output_background/Lomo_de_camello.pos.tchunk
 output_background/Lomo_de_cerdo.pos.tchunk
+output_background/Lomo_embuchado.pos.tchunk
 output_background/Lomo_embuchado.tchunk
 output_background/Lomo_saltado.pos.tchunk
 output_background/Longaniza.pos.tchunk
 output_background/Longaniza.tchunk
+output_background/Longaniza_de_Graus.pos.tchunk
 output_background/Longaniza_de_Graus.tchunk
 output_background/Longaniza_pied-noir.pos.tchunk
 output_background/Longaniza_pied-noir.tchunk
+output_background/Longganisa.pos.tchunk
 output_background/Longganisa.tchunk
+output_background/Luganega.pos.tchunk
 output_background/Luganega.tchunk
 output_background/Lukanka.pos.tchunk
 output_background/Lutefisk.pos.tchunk
@@ -733,6 +740,7 @@ output_background/Molpadiida.pos.tchunk
 output_background/Mondonguito_a_la_italiana.pos.tchunk
 output_background/Montanera_(engorde).pos.tchunk
 output_background/Monte_Cristo_sándwich.pos.tchunk
+output_background/Möpkenbrot.pos.tchunk
 output_background/Möpkenbrot.tchunk
 output_background/Moraga_de_sardinas.pos.tchunk
 output_background/Morcilla.pos.tchunk
@@ -745,6 +753,7 @@ output_background/Morcilla_de_León.pos.tchunk
 output_background/Morcilla_de_calabaza.pos.tchunk
 output_background/Morcilla_de_cebolla_(gastronomía_española).pos.tchunk
 output_background/Morcilla_dulce_de_Soria.pos.tchunk
+output_background/Morcón.pos.tchunk
 output_background/Morcón.tchunk
 output_background/Mordred.pos.tchunk
 output_background/Morlocks.pos.tchunk
@@ -760,6 +769,7 @@ output_background/Muerte_de_Diane_Whipple.pos.tchunk
 output_background/Mulujía.pos.tchunk
 output_background/Murtabak.pos.tchunk
 output_background/Myrmecocystus_mexicanus.pos.tchunk
+output_background/Myśliwska.pos.tchunk
 output_background/Myśliwska.tchunk
 output_background/Naan_qalia.pos.tchunk
 output_background/Nam_tok.pos.tchunk
@@ -790,6 +800,7 @@ output_background/Paila_marina.pos.tchunk
 output_background/Palaemonetes.pos.tchunk
 output_background/Palaemonetes_argentinus.pos.tchunk
 output_background/Palaemonetes_granulosus.pos.tchunk
+output_background/Paltruc.pos.tchunk
 output_background/Paltruc.tchunk
 output_background/Pamplona_(comida).pos.tchunk
 output_background/Pan_con_chicharrón.pos.tchunk
@@ -849,6 +860,7 @@ output_background/Peperami.pos.tchunk
 output_background/Pepita_con_tasajo.pos.tchunk
 output_background/Pepitoria.pos.tchunk
 output_background/Perrito_vegetal.pos.tchunk
+output_background/Perro_(embutido).pos.tchunk
 output_background/Perro_(embutido).tchunk
 output_background/Perro_caliente_bailando.pos.tchunk
 output_background/Perro_tahitiano.pos.tchunk
@@ -872,6 +884,7 @@ output_background/Pollo_al_ast.pos.tchunk
 output_background/Pollo_al_chipotle.pos.tchunk
 output_background/Pollo_al_secretario.pos.tchunk
 output_background/Pollo_borracho.pos.tchunk
+output_background/Poltrú.pos.tchunk
 output_background/Poltrú.tchunk
 output_background/Porchetta.pos.tchunk
 output_background/Portajamones.pos.tchunk
@@ -931,6 +944,7 @@ output_background/Salchicha_de_Morteau.pos.tchunk
 output_background/Salchicha_de_Toulouse.pos.tchunk
 output_background/Salchicha_rebozada.pos.tchunk
 output_background/Salchichón_de_ajo.pos.tchunk
+output_background/Salpicão.pos.tchunk
 output_background/Salpicão.tchunk
 output_background/Salsa_Worcestershire.pos.tchunk
 output_background/Salsa_XO.pos.tchunk
@@ -1058,6 +1072,7 @@ output_background/Tostada_de_gamba.pos.tchunk
 output_background/Trancapecho.pos.tchunk
 output_background/Trevor_Philips.pos.tchunk
 output_background/Trilogía_de_los_Karnstein.pos.tchunk
+output_background/Tripa_enfarinhada.pos.tchunk
 output_background/Tripa_enfarinhada.tchunk
 output_background/Tripes_à_la_mode_de_Caen.pos.tchunk
 output_background/Tripou.pos.tchunk
