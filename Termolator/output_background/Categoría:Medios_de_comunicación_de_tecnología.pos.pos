@@ -1,0 +1,16 @@
+Esta	|||	S: 1E: 5	|||	DET
+categoría	|||	S: 5E: 14	|||	NOUN
+incluye	|||	S: 14E: 21	|||	VERB
+las	|||	S: 21E: 24	|||	DET
+siguientes	|||	S: 24E: 34	|||	ADJ
+2	|||	S: 34E: 35	|||	NUM
+subcategorías	|||	S: 35E: 48	|||	NOUN
+:	|||	S: 48E: 49	|||	PUNCT
+Esta	|||	S: 49E: 53	|||	DET
+categoría	|||	S: 53E: 62	|||	NOUN
+solo	|||	S: 62E: 66	|||	ADJ
+contiene	|||	S: 66E: 74	|||	VERB
+la	|||	S: 74E: 76	|||	DET
+siguiente	|||	S: 76E: 85	|||	ADJ
+página	|||	S: 85E: 91	|||	NOUN
+:	|||	S: 91E: 92	|||	PUNCT

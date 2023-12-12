@@ -1,0 +1,90 @@
+Esta	PRON
+es	AUX
+la	DET
+lista	NOUN
+de	ADP
+“	PUNCT
+conectores	NOUN
+físicos	ADJ
+de	ADP
+vídeo	NOUN
+”	PUNCT
+y	CCONJ
+señales	NOUN
+estándares	NOUN
+de	ADP
+video	NOUN
+relacionadas	ADJ
+.	PUNCT
+
+	SPACE
+Resolución	NOUN
+máxima	ADJ
+
+	SPACE
+(	PUNCT
+X-pix	PROPN
+×	SYM
+Y-pix	PROPN
+
+	SPACE
+@	ADP
+Hz	PROPN
+)	PUNCT
+
+	SPACE
+Soporta	VERB
+20,83	NUM
+Mbit	PROPN
+/	PUNCT
+s	NOUN
+canal	NOUN
+ascendente	ADJ
+y	CCONJ
+poder	NOUN
+sobre	ADP
+el	DET
+mismo	DET
+cable	NOUN
+coaxial	ADJ
+
+	SPACE
+50	NUM
+Ω	NUM
+para	ADP
+enlace	NOUN
+de	ADP
+datos	NOUN
+,	PUNCT
+como	SCONJ
+Ethernet	PROPN
+,	PUNCT
+en	ADP
+RG58	PROPN
+.	PUNCT
+
+	SPACE
+93	NUM
+Ω	SYM
+en	ADP
+RG62	PROPN
+.	PUNCT
+
+	SPACE
+Conector	PROPN
+DVI-D	PROPN
+macho	NOUN
+de	ADP
+doble	ADJ
+enlace	NOUN
+.	PUNCT
+
+
+
+
+
+
+
+
+
+	SPACE

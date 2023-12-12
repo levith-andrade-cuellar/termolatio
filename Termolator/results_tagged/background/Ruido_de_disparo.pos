@@ -1,0 +1,983 @@
+El	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+,	PUNCT
+ruido	NOUN
+de	ADP
+granalla	NOUN
+o	CCONJ
+ruido	NOUN
+shot	ADJ
+es	AUX
+un	DET
+tipo	NOUN
+de	ADP
+ruido	NOUN
+electrónico	ADJ
+que	PRON
+tiene	VERB
+lugar	NOUN
+cuando	SCONJ
+el	DET
+número	NOUN
+finito	ADJ
+de	ADP
+partículas	NOUN
+que	PRON
+transportan	VERB
+energía	NOUN
+,	PUNCT
+tales	PRON
+como	SCONJ
+los	DET
+electrones	NOUN
+en	ADP
+un	DET
+circuito	NOUN
+electrónico	ADJ
+o	CCONJ
+los	DET
+fotones	NOUN
+en	ADP
+un	DET
+dispositivo	NOUN
+óptico	ADJ
+,	PUNCT
+es	AUX
+suficientemente	ADV
+pequeño	ADJ
+para	ADP
+dar	VERB
+lugar	NOUN
+a	ADP
+la	DET
+aparición	NOUN
+de	ADP
+fluctuaciones	NOUN
+estadísticas	ADJ
+apreciables	ADJ
+en	ADP
+una	DET
+medición	NOUN
+.	PUNCT
+Este	DET
+tipo	NOUN
+de	ADP
+ruido	NOUN
+resulta	VERB
+importante	ADJ
+en	ADP
+electrónica	ADJ
+,	PUNCT
+en	ADP
+telecomunicaciones	NOUN
+y	CCONJ
+en	ADP
+la	DET
+física	NOUN
+fundamental	ADJ
+.	PUNCT
+
+	SPACE
+El	DET
+nivel	NOUN
+de	ADP
+este	DET
+ruido	NOUN
+es	AUX
+tanto	ADV
+mayor	ADJ
+cuanto	ADV
+mayor	ADJ
+sea	AUX
+el	DET
+valor	NOUN
+promedio	NOUN
+de	ADP
+la	DET
+intensidad	NOUN
+de	ADP
+corriente	NOUN
+eléctrica	ADJ
+o	CCONJ
+de	ADP
+la	DET
+intensidad	NOUN
+luminosa	ADJ
+,	PUNCT
+según	SCONJ
+se	PRON
+trate	VERB
+de	ADP
+un	DET
+dispositivo	NOUN
+electrónico	ADJ
+u	CCONJ
+óptico	ADJ
+.	PUNCT
+Sin	ADP
+embargo	NOUN
+,	PUNCT
+en	ADP
+tanto	NOUN
+que	SCONJ
+el	DET
+nivel	NOUN
+de	ADP
+señal	NOUN
+crece	VERB
+más	ADV
+rápidamente	ADV
+cuanto	ADV
+mayor	ADJ
+es	AUX
+su	DET
+nivel	NOUN
+promedio	NOUN
+,	PUNCT
+a	ADP
+menudo	NOUN
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+sólo	ADV
+supone	VERB
+un	DET
+problema	NOUN
+cuando	SCONJ
+se	PRON
+trabaja	VERB
+con	ADP
+intensidades	NOUN
+de	ADP
+corriente	NOUN
+o	CCONJ
+intensidades	NOUN
+luminosas	ADJ
+bajas	ADJ
+.	PUNCT
+
+	SPACE
+El	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+en	ADP
+los	DET
+dispositivos	NOUN
+electrónicos	ADJ
+consiste	VERB
+en	ADP
+fluctuaciones	NOUN
+aleatorias	ADJ
+de	ADP
+la	DET
+corriente	NOUN
+eléctrica	ADJ
+a	ADP
+través	NOUN
+de	ADP
+un	DET
+conductor	NOUN
+,	PUNCT
+causadas	ADJ
+por	ADP
+el	DET
+hecho	NOUN
+de	ADP
+que	SCONJ
+la	DET
+corriente	NOUN
+se	PRON
+transporta	VERB
+en	ADP
+cargas	NOUN
+discretas	ADJ
+(	PUNCT
+electrones	NOUN
+)	PUNCT
+.	PUNCT
+Es	AUX
+originado	VERB
+por	ADP
+el	DET
+movimiento	NOUN
+de	ADP
+los	DET
+electrones	NOUN
+o	CCONJ
+de	ADP
+otras	DET
+partículas	NOUN
+cargadas	ADJ
+a	ADP
+través	NOUN
+de	ADP
+una	DET
+unión	NOUN
+.	PUNCT
+Esto	PRON
+no	PART
+sólo	ADV
+ocurre	VERB
+en	ADP
+las	DET
+uniones	NOUN
+p-n	PROPN
+,	PUNCT
+sino	CCONJ
+en	ADP
+cualquier	DET
+conductor	NOUN
+,	PUNCT
+incluso	ADV
+en	ADP
+las	DET
+situaciones	NOUN
+en	ADP
+que	PRON
+la	DET
+carga	NOUN
+no	ADV
+esté	AUX
+bien	ADV
+localizada	ADJ
+.	PUNCT
+
+	SPACE
+Debe	AUX
+distinguirse	VERB
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+de	ADP
+las	DET
+fluctuaciones	NOUN
+de	ADP
+corriente	NOUN
+en	ADP
+equilibrio	NOUN
+,	PUNCT
+las	DET
+cuales	PRON
+se	PRON
+producen	VERB
+sin	ADP
+aplicar	VERB
+ningún	DET
+voltaje	NOUN
+y	CCONJ
+sin	ADP
+necesidad	NOUN
+de	ADP
+que	SCONJ
+exista	VERB
+ningún	DET
+flujo	NOUN
+promedio	NOUN
+de	ADP
+corriente	NOUN
+.	PUNCT
+Estas	DET
+fluctuaciones	NOUN
+de	ADP
+la	DET
+corriente	NOUN
+de	ADP
+equilibrio	NOUN
+se	PRON
+conocen	VERB
+como	SCONJ
+ruido	NOUN
+de	ADP
+Johnson-Nyquist	PROPN
+.	PUNCT
+
+	SPACE
+El	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+se	PRON
+puede	AUX
+modelar	VERB
+como	SCONJ
+un	DET
+proceso	NOUN
+de	ADP
+Poisson	PROPN
+y	CCONJ
+los	DET
+portadores	NOUN
+de	ADP
+carga	NOUN
+que	PRON
+forman	VERB
+la	DET
+corriente	NOUN
+siguen	VERB
+una	DET
+distribución	NOUN
+de	ADP
+Poisson	PROPN
+.	PUNCT
+Las	DET
+fluctuaciones	NOUN
+de	ADP
+corriente	NOUN
+tienen	VERB
+una	DET
+desviación	NOUN
+estándar	ADJ
+dada	ADJ
+por	ADP
+:	PUNCT
+
+	SPACE
+donde	PRON
+
+
+
+
+	SPACE
+q	PRON
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+q	PROPN
+}	INTJ
+
+
+ 	SPACE
+es	AUX
+la	DET
+carga	NOUN
+elemental	ADJ
+del	ADP
+electrón	NOUN
+y	CCONJ
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I	CCONJ
+}	NOUN
+
+
+ 	SPACE
+es	AUX
+la	DET
+corriente	NOUN
+promedio	NOUN
+a	ADP
+través	NOUN
+del	DET
+dispositivo	NOUN
+.	PUNCT
+Se	PRON
+asume	VERB
+que	SCONJ
+todas	DET
+las	DET
+cantidades	NOUN
+están	AUX
+referidas	ADJ
+en	ADP
+unidades	NOUN
+del	ADP
+Sistema	PROPN
+Internacional	PROPN
+.	PUNCT
+
+	SPACE
+Para	ADP
+una	DET
+corriente	NOUN
+de	ADP
+
+
+
+
+	SPACE
+100	NUM
+
+	SPACE
+m	NOUN
+
+	SPACE
+A	ADP
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+100mA	NUM
+}	NUM
+
+
+	SPACE
+,	PUNCT
+la	DET
+fórmula	NOUN
+anterior	ADJ
+arroja	VERB
+un	DET
+valor	NOUN
+de	ADP
+:	PUNCT
+
+	SPACE
+Si	SCONJ
+se	PRON
+hace	VERB
+circular	VERB
+esta	DET
+corriente	NOUN
+de	ADP
+ruido	NOUN
+a	ADP
+través	NOUN
+de	ADP
+un	DET
+resistor	NOUN
+,	PUNCT
+la	DET
+potencia	NOUN
+de	ADP
+ruido	NOUN
+resultante	ADJ
+valdrá	VERB
+:	PUNCT
+
+	SPACE
+Si	SCONJ
+la	DET
+carga	NOUN
+no	ADV
+está	AUX
+totalmente	ADV
+localizada	ADJ
+en	ADP
+el	DET
+tiempo	NOUN
+pero	CCONJ
+tiene	VERB
+una	DET
+distribución	NOUN
+temporal	ADJ
+dada	ADJ
+por	ADP
+
+
+
+
+	SPACE
+q	NOUN
+
+	SPACE
+F	PROPN
+
+	SPACE
+(	PUNCT
+
+	SPACE
+t	CCONJ
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+qF(t	NUM
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+siendo	AUX
+la	DET
+integral	ADJ
+de	ADP
+
+
+
+
+	SPACE
+F	PROPN
+
+	SPACE
+(	PUNCT
+
+	SPACE
+t	CCONJ
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+F(t	PROPN
+)	PUNCT
+}	SYM
+
+
+ 	SPACE
+sobre	ADP
+
+
+
+
+	SPACE
+t	CCONJ
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+t	CCONJ
+}	INTJ
+
+
+ 	SPACE
+igual	ADJ
+a	ADP
+la	DET
+unidad	NOUN
+,	PUNCT
+entonces	ADV
+la	DET
+densidad	NOUN
+espectral	ADJ
+de	ADP
+potencia	NOUN
+asociada	ADJ
+a	ADP
+la	DET
+corriente	NOUN
+de	ADP
+la	DET
+señal	NOUN
+de	ADP
+ruido	NOUN
+será	AUX
+:	PUNCT
+
+	SPACE
+donde	PRON
+
+
+
+
+	SPACE
+Ψ	NOUN
+
+	SPACE
+(	PUNCT
+
+	SPACE
+f	CCONJ
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\Psi	NOUN
+(	PUNCT
+f	CCONJ
+)	PUNCT
+}	SYM
+
+
+ 	SPACE
+es	AUX
+la	DET
+transformada	ADJ
+de	ADP
+Fourier	PROPN
+de	ADP
+
+
+
+
+	SPACE
+F	PROPN
+
+	SPACE
+(	PUNCT
+
+	SPACE
+t	CCONJ
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+F(t	PROPN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+
+	SPACE
+Nota	NOUN
+:	PUNCT
+tanto	ADV
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+como	SCONJ
+el	DET
+ruido	NOUN
+de	ADP
+Johnson-Nyquist	PROPN
+son	AUX
+fluctuaciones	NOUN
+cuánticas	ADJ
+.	PUNCT
+Algunos	DET
+autores	NOUN
+tratan	VERB
+ambos	NUM
+tipos	NOUN
+de	ADP
+ruido	NOUN
+como	SCONJ
+un	DET
+único	ADJ
+concepto	NOUN
+unificado.[1]​	PROPN
+(	PUNCT
+véase	VERB
+la	DET
+discusión	NOUN
+)	PUNCT
+.	PUNCT
+
+	SPACE
+En	ADP
+la	DET
+óptica	NOUN
+cuántica	ADJ
+,	PUNCT
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+se	PRON
+origina	VERB
+por	ADP
+las	DET
+fluctuaciones	NOUN
+de	ADP
+los	DET
+fotones	NOUN
+detectados	ADJ
+,	PUNCT
+de	ADP
+nuevo	ADJ
+como	SCONJ
+consecuencia	NOUN
+de	ADP
+la	DET
+discretización	NOUN
+(	PUNCT
+en	ADP
+este	DET
+caso	NOUN
+,	PUNCT
+de	ADP
+la	DET
+discretización	NOUN
+de	ADP
+la	DET
+energía	NOUN
+en	ADP
+el	DET
+campo	NOUN
+electromagnético	ADJ
+)	PUNCT
+.	PUNCT
+El	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+es	AUX
+una	DET
+parte	NOUN
+importante	ADJ
+del	ADP
+ruido	NOUN
+cuántico	ADJ
+.	PUNCT
+
+	SPACE
+El	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+resulta	VERB
+medible	ADJ
+tanto	ADV
+en	ADP
+mediciones	NOUN
+del	ADP
+orden	NOUN
+de	ADP
+unos	DET
+pocos	DET
+fotones	NOUN
+mediante	ADP
+fotomultiplicadores	NOUN
+como	SCONJ
+en	ADP
+mediciones	NOUN
+de	ADP
+intensidades	NOUN
+luminosas	ADJ
+más	ADV
+fuertes	ADJ
+realizadas	ADJ
+a	ADP
+través	NOUN
+de	ADP
+fotodiodos	NOUN
+,	PUNCT
+cuando	SCONJ
+se	PRON
+emplean	VERB
+osciloscopios	NOUN
+de	ADP
+alta	ADJ
+resolución	NOUN
+temporal	ADJ
+.	PUNCT
+En	ADP
+tanto	NOUN
+que	SCONJ
+la	DET
+fotocorriente	NOUN
+es	AUX
+proporcional	ADJ
+a	ADP
+la	DET
+intensidad	NOUN
+luminosa	ADJ
+(	PUNCT
+número	NOUN
+de	ADP
+fotones	NOUN
+)	PUNCT
+,	PUNCT
+las	DET
+fluctuaciones	NOUN
+del	ADP
+campo	NOUN
+electromagnético	ADJ
+están	AUX
+normalmente	ADV
+presentes	ADJ
+en	ADP
+la	DET
+intensidad	NOUN
+de	ADP
+corriente	NOUN
+eléctrica	ADJ
+medida	ADJ
+.	PUNCT
+
+	SPACE
+En	ADP
+el	DET
+caso	NOUN
+de	ADP
+una	DET
+fuente	NOUN
+luminosa	ADJ
+coherente	ADJ
+como	SCONJ
+puede	AUX
+ser	AUX
+un	DET
+láser	NOUN
+,	PUNCT
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+se	PRON
+escala	VERB
+como	SCONJ
+la	DET
+raíz	NOUN
+cuadrada	ADJ
+de	ADP
+la	DET
+intensidad	NOUN
+promedio	NOUN
+:	PUNCT
+
+	SPACE
+Existe	VERB
+un	DET
+límite	NOUN
+inferior	ADJ
+similar	ADJ
+del	ADP
+ruido	NOUN
+cuántico	ADJ
+para	ADP
+los	DET
+amplificadores	NOUN
+cuánticos	NOUN
+lineales	ADJ
+.	PUNCT
+La	DET
+única	ADJ
+excepción	NOUN
+es	AUX
+que	SCONJ
+pueda	AUX
+llegarse	VERB
+a	ADP
+un	DET
+estado	NOUN
+forzado	ADJ
+coherente	ADJ
+mediante	ADP
+la	DET
+generación	NOUN
+de	ADP
+fotones	NOUN
+correlada	ADJ
+.	PUNCT
+Puede	AUX
+producirse	VERB
+la	DET
+reducción	NOUN
+de	ADP
+la	DET
+incertidumbre	NOUN
+sobre	ADP
+el	DET
+número	NOUN
+de	ADP
+fotones	NOUN
+por	ADP
+modo	NOUN
+(	PUNCT
+y	CCONJ
+,	PUNCT
+por	ADP
+lo	PRON
+tanto	NOUN
+,	PUNCT
+la	DET
+fotocorriente	NOUN
+)	PUNCT
+simplemente	ADV
+debido	ADJ
+a	ADP
+la	DET
+saturación	NOUN
+de	ADP
+la	DET
+ganancia	NOUN
+;	PUNCT
+este	PRON
+es	AUX
+un	DET
+caso	NOUN
+intermedio	ADJ
+entre	ADP
+un	DET
+láser	NOUN
+con	ADP
+bloqueo	NOUN
+de	ADP
+fase	NOUN
+y	CCONJ
+un	DET
+láser	NOUN
+estabilizado	ADJ
+en	ADP
+amplitud	NOUN
+.	PUNCT
+
+	SPACE
+Los	DET
+dispositivos	NOUN
+electrónicos	ADJ
+de	ADP
+bajo	ADJ
+ruido	NOUN
+se	PRON
+diseñan	VERB
+de	ADP
+forma	NOUN
+que	SCONJ
+el	DET
+ruido	NOUN
+de	ADP
+disparo	NOUN
+sea	AUX
+suprimido	VERB
+por	ADP
+la	DET
+repulsión	NOUN
+electrostática	ADJ
+de	ADP
+los	DET
+portadores	NOUN
+de	ADP
+carga	NOUN
+.	PUNCT
+La	DET
+limitación	NOUN
+de	ADP
+la	DET
+carga	NOUN
+espacial	ADJ
+no	ADV
+es	AUX
+posible	ADJ
+en	ADP
+los	DET
+dispositivos	NOUN
+fotónicos	ADJ
+.	PUNCT
+
+	SPACE

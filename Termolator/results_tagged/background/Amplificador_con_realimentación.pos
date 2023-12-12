@@ -1,0 +1,550 @@
+Un	DET
+amplificador	NOUN
+con	ADP
+realimentación	NOUN
+es	AUX
+un	DET
+circuito	NOUN
+electrónico	ADJ
+(	PUNCT
+normalmente	ADV
+se	PRON
+presenta	VERB
+como	SCONJ
+circuito	NOUN
+integrado	ADJ
+)	PUNCT
+que	PRON
+tiene	VERB
+dos	NUM
+entradas	NOUN
+y	CCONJ
+una	DET
+salida	NOUN
+.	PUNCT
+La	DET
+señal	NOUN
+de	ADP
+salida	NOUN
+Sout	PROPN
+es	AUX
+la	DET
+diferencia	NOUN
+de	ADP
+las	DET
+dos	NUM
+señales	NOUN
+de	ADP
+entrada	NOUN
+Sin	ADP
+A	PROPN
+y	CCONJ
+Sin	ADP
+B	NOUN
+multiplicada	ADJ
+por	ADP
+un	DET
+factor	NOUN
+de	ADP
+ganancia	NOUN
+G	NOUN
+:	PUNCT
+
+
+
+
+
+	SPACE
+G	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+G	PROPN
+}	INTJ
+
+
+ 	SPACE
+representa	VERB
+la	DET
+ganancia	NOUN
+del	ADP
+dispositivo	NOUN
+realimentado	ADJ
+dada	VERB
+por	ADP
+la	DET
+red	NOUN
+de	ADP
+realimentación	NOUN
+,	PUNCT
+condición	NOUN
+conocida	ADJ
+también	ADV
+como	SCONJ
+"	PUNCT
+lazo	NOUN
+(	PUNCT
+o	CCONJ
+bucle	NOUN
+)	PUNCT
+cerrado	ADJ
+"	PUNCT
+.	PUNCT
+Los	DET
+amplificadores	NOUN
+con	ADP
+realimentación	NOUN
+más	ADV
+comunes	ADJ
+son	AUX
+los	DET
+amplificadores	NOUN
+con	ADP
+realimentación	NOUN
+en	ADP
+voltaje	NOUN
+,	PUNCT
+también	ADV
+llamados	ADJ
+operacionales	ADJ
+.	PUNCT
+
+	SPACE
+Los	DET
+diseños	NOUN
+varían	VERB
+entre	ADP
+cada	DET
+fabricante	NOUN
+y	CCONJ
+cada	DET
+producto	NOUN
+,	PUNCT
+pero	CCONJ
+todos	DET
+los	DET
+amplificadores	NOUN
+realimentados	ADJ
+tienen	VERB
+básicamente	ADV
+la	DET
+misma	DET
+estructura	NOUN
+:	PUNCT
+
+	SPACE
+El	DET
+dispositivo	NOUN
+posee	VERB
+dos	NUM
+entradas	NOUN
+y	CCONJ
+una	DET
+red	NOUN
+de	ADP
+realimentación	NOUN
+.	PUNCT
+La	DET
+entrada	NOUN
+no	ADV
+inversora	ADJ
+(	PUNCT
++	PROPN
+)	PUNCT
+,	PUNCT
+en	ADP
+la	DET
+cual	PRON
+hay	AUX
+una	DET
+tensión	NOUN
+indicada	ADJ
+como	SCONJ
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
++	PROPN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{+	PROPN
+}	PROPN
+}	SYM
+
+
+ 	SPACE
+y	CCONJ
+otra	DET
+inversora	NOUN
+(	PUNCT
+–	PUNCT
+)	PUNCT
+sometida	ADJ
+a	ADP
+una	DET
+tensión	NOUN
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+−	PROPN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{-	PROPN
+}	NOUN
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+En	ADP
+forma	NOUN
+ideal	ADJ
+,	PUNCT
+el	DET
+dispositivo	NOUN
+amplifica	VERB
+solamente	ADV
+la	DET
+diferencia	NOUN
+de	ADP
+tensión	NOUN
+en	ADP
+las	DET
+entradas	NOUN
+,	PUNCT
+conocida	ADJ
+como	SCONJ
+tensión	NOUN
+de	ADP
+entrada	NOUN
+diferencial	ADJ
+(	PUNCT
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+in	ADP
+
+
+
+	SPACE
+=	SYM
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
++	PROPN
+
+
+
+	SPACE
+−	PROPN
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+−	PROPN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{\text{in}}=V_{+}-V_{-	PROPN
+}	PROPN
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+.	PUNCT
+La	DET
+tensión	NOUN
+o	CCONJ
+voltaje	NOUN
+de	ADP
+salida	NOUN
+del	ADP
+dispositivo	NOUN
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+
+	SPACE
+o	CCONJ
+
+	SPACE
+u	CCONJ
+
+	SPACE
+t	CCONJ
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{\rm	PROPN
+{	NUM
+out	NOUN
+}	NOUN
+}	PUNCT
+}	INTJ
+
+
+ 	SPACE
+está	AUX
+dada	VERB
+por	ADP
+la	DET
+ecuación	NOUN
+:	PUNCT
+
+	SPACE
+Los	DET
+amplificadores	NOUN
+realimentados	ADJ
+en	ADP
+corriente	NOUN
+(	PUNCT
+CFA	PROPN
+)	PUNCT
+es	AUX
+un	DET
+tipo	NOUN
+de	ADP
+amplificador	NOUN
+electrónico	ADJ
+cuya	PRON
+entrada	NOUN
+negativa	ADJ
+es	AUX
+sensible	ADJ
+a	ADP
+la	DET
+corriente	NOUN
+,	PUNCT
+a	ADP
+diferencia	NOUN
+de	ADP
+los	DET
+amplificadores	NOUN
+normales	ADJ
+que	PRON
+lo	PRON
+son	AUX
+a	ADP
+la	DET
+tensión	NOUN
+(	PUNCT
+VFA	PROPN
+)	PUNCT
+.	PUNCT
+
+	SPACE
+El	DET
+CFA	PROPN
+fue	AUX
+inventado	VERB
+sobre	ADP
+1988	NOUN
+.	PUNCT
+Normalmente	ADV
+son	AUX
+producidos	VERB
+como	SCONJ
+circuitos	NOUN
+integrados	ADJ
+con	ADP
+la	DET
+misma	DET
+asignación	NOUN
+de	ADP
+pines	NOUN
+que	PRON
+los	DET
+VFA	PROPN
+,	PUNCT
+permitiendo	VERB
+así	ADV
+que	SCONJ
+los	DET
+dos	NUM
+tipos	NOUN
+puedan	AUX
+ser	AUX
+fácilmente	ADV
+intercambiables	ADJ
+.	PUNCT
+En	ADP
+configuraciones	NOUN
+simples	ADJ
+,	PUNCT
+tales	PRON
+como	SCONJ
+amplificadores	NOUN
+lineales	ADJ
+,	PUNCT
+un	DET
+CFA	PROPN
+puede	AUX
+ser	AUX
+usado	VERB
+en	ADP
+lugar	NOUN
+de	ADP
+un	DET
+VFA	PROPN
+sin	ADP
+modificar	VERB
+el	DET
+circuito	NOUN
+,	PUNCT
+pero	CCONJ
+en	ADP
+otros	DET
+casos	NOUN
+,	PUNCT
+como	SCONJ
+en	ADP
+los	DET
+integradores	NOUN
+se	PRON
+necesita	VERB
+un	DET
+rediseño	NOUN
+.	PUNCT
+La	DET
+configuración	NOUN
+clásica	ADJ
+del	ADP
+amplificador	NOUN
+con	ADP
+cuatro	NUM
+resistencias	NOUN
+también	ADV
+funciona	VERB
+con	ADP
+un	DET
+CFA	PROPN
+,	PUNCT
+pero	CCONJ
+el	DET
+CMRR	PROPN
+es	AUX
+muy	ADV
+pobre	ADJ
+.	PUNCT
+
+	SPACE
+La	DET
+principal	ADJ
+ventaja	NOUN
+del	ADP
+desarrollo	NOUN
+usando	VERB
+amplificadores	NOUN
+con	ADP
+realimentación	NOUN
+en	ADP
+corriente	NOUN
+es	AUX
+la	DET
+altísima	ADJ
+velocidad	NOUN
+que	PRON
+proporcionan	VERB
+.	PUNCT
+En	ADP
+consecuencia	NOUN
+,	PUNCT
+se	PRON
+ha	AUX
+comprobado	VERB
+que	SCONJ
+aumentar	VERB
+la	DET
+velocidad	NOUN
+tiene	VERB
+como	SCONJ
+ventaja	NOUN
+una	DET
+mejora	NOUN
+del	ADP
+sonido	NOUN
+.	PUNCT
+Así	ADV
+mismo	ADJ
+,	PUNCT
+la	DET
+velocidad	NOUN
+influye	VERB
+en	ADP
+la	DET
+rapidez	NOUN
+en	ADP
+la	DET
+que	PRON
+se	PRON
+podrán	AUX
+corregir	VERB
+los	DET
+fallos	NOUN
+que	PRON
+ellos	PRON
+mismos	PRON
+producen	VERB
+.	PUNCT
+
+	SPACE

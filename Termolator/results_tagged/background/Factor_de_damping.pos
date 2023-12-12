@@ -1,0 +1,209 @@
+El	DET
+factor	NOUN
+de	ADP
+damping	NOUN
+es	AUX
+un	DET
+parámetro	NOUN
+de	ADP
+calidad	NOUN
+de	ADP
+un	DET
+amplificador	NOUN
+de	ADP
+audio	NOUN
+,	PUNCT
+que	PRON
+mide	VERB
+la	DET
+razón	NOUN
+de	ADP
+la	DET
+impedancia	NOUN
+del	ADP
+amplificador	NOUN
+a	ADP
+la	DET
+impedancia	NOUN
+de	ADP
+salida	NOUN
+.	PUNCT
+Sólo	ADV
+la	DET
+parte	NOUN
+resistiva	ADJ
+de	ADP
+la	DET
+impedancia	NOUN
+de	ADP
+salida	NOUN
+es	AUX
+usada	VERB
+.	PUNCT
+La	DET
+impedancia	NOUN
+de	ADP
+salida	NOUN
+del	ADP
+amplificador	NOUN
+se	PRON
+asume	VERB
+también	ADV
+que	SCONJ
+es	AUX
+totalmente	ADV
+resistiva	ADJ
+.	PUNCT
+La	DET
+impedancia	NOUN
+de	ADP
+entrada	NOUN
+incluye	VERB
+la	DET
+impedancia	NOUN
+del	ADP
+cable	NOUN
+conector	NOUN
+.	PUNCT
+La	DET
+impedancia	NOUN
+de	ADP
+entrada	NOUN
+
+
+
+
+
+	SPACE
+Z	NOUN
+
+
+
+	SPACE
+L	NOUN
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+Z_{\mathrm	PROPN
+{	NUM
+L	PROPN
+}	NOUN
+}	PUNCT
+}	SYM
+
+
+ 	SPACE
+y	CCONJ
+la	DET
+impedancia	NOUN
+de	ADP
+salida	NOUN
+
+
+
+
+
+	SPACE
+Z	NOUN
+
+
+
+	SPACE
+S	PROPN
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+Z_{\mathrm	PROPN
+{	NOUN
+S	PROPN
+}	NOUN
+}	PUNCT
+}	INTJ
+
+
+ 	SPACE
+están	AUX
+mostradas	ADJ
+en	ADP
+este	DET
+diagrama	NOUN
+:	PUNCT
+
+
+	SPACE
+El	DET
+factor	NOUN
+de	ADP
+damping	NOUN
+
+
+
+
+	SPACE
+D	NOUN
+
+	SPACE
+F	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+DF	PROPN
+}	SYM
+
+
+ 	SPACE
+se	PRON
+mide	VERB
+como	SCONJ
+:	PUNCT
+
+	SPACE
+Despejando	VERB
+
+
+
+
+
+	SPACE
+Z	NOUN
+
+
+
+	SPACE
+S	PROPN
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+Z_{\mathrm	PROPN
+{	NOUN
+S	PROPN
+}	NOUN
+}	PUNCT
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+
+	SPACE

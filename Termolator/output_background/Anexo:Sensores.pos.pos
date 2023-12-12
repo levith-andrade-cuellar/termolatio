@@ -1,0 +1,16 @@
+Esta	|||	S: 1E: 5	|||	PRON
+es	|||	S: 5E: 7	|||	AUX
+una	|||	S: 7E: 10	|||	DET
+lista	|||	S: 10E: 15	|||	NOUN
+de	|||	S: 15E: 17	|||	ADP
+sensores	|||	S: 17E: 25	|||	NOUN
+clasificados	|||	S: 25E: 37	|||	ADJ
+en	|||	S: 37E: 39	|||	ADP
+función	|||	S: 39E: 46	|||	NOUN
+de	|||	S: 46E: 48	|||	ADP
+la	|||	S: 48E: 50	|||	DET
+magnitud	|||	S: 50E: 58	|||	NOUN
+física	|||	S: 58E: 64	|||	ADJ
+que	|||	S: 64E: 67	|||	PRON
+detectan	|||	S: 67E: 75	|||	VERB
+.	|||	S: 75E: 76	|||	PUNCT

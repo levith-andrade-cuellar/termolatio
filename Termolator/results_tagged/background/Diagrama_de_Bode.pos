@@ -1,0 +1,1299 @@
+Un	DET
+diagrama	NOUN
+de	ADP
+Bode	PROPN
+es	AUX
+una	DET
+representación	NOUN
+gráfica	ADJ
+que	PRON
+sirve	VERB
+para	ADP
+caracterizar	VERB
+la	DET
+respuesta	NOUN
+en	ADP
+frecuencia	NOUN
+de	ADP
+un	DET
+sistema	NOUN
+.	PUNCT
+Normalmente	ADV
+consta	VERB
+de	ADP
+dos	NUM
+gráficas	NOUN
+separadas	ADJ
+,	PUNCT
+una	DET
+que	PRON
+corresponde	VERB
+con	ADP
+la	DET
+magnitud	NOUN
+de	ADP
+dicha	ADJ
+función	NOUN
+y	CCONJ
+otra	PRON
+que	PRON
+corresponde	VERB
+con	ADP
+la	DET
+fase	NOUN
+.	PUNCT
+Recibe	VERB
+su	DET
+nombre	NOUN
+del	ADP
+científico	NOUN
+estadounidense	ADJ
+que	PRON
+lo	PRON
+desarrolló	VERB
+,	PUNCT
+Hendrik	PROPN
+Wade	PROPN
+Bode	PROPN
+.	PUNCT
+
+	SPACE
+Es	AUX
+una	DET
+herramienta	NOUN
+muy	ADV
+utilizada	ADJ
+en	ADP
+el	DET
+análisis	NOUN
+de	ADP
+circuitos	NOUN
+en	ADP
+electrónica	NOUN
+,	PUNCT
+siendo	AUX
+fundamental	ADJ
+para	ADP
+el	DET
+diseño	NOUN
+y	CCONJ
+análisis	NOUN
+de	ADP
+filtros	NOUN
+y	CCONJ
+amplificadores	NOUN
+.	PUNCT
+
+	SPACE
+El	DET
+diagrama	NOUN
+de	ADP
+magnitud	NOUN
+de	ADP
+Bode	PROPN
+dibuja	VERB
+el	DET
+módulo	NOUN
+de	ADP
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+(	PUNCT
+ganancia	NOUN
+)	PUNCT
+en	ADP
+decibelios	NOUN
+en	ADP
+función	NOUN
+de	ADP
+la	DET
+frecuencia	NOUN
+(	PUNCT
+o	CCONJ
+la	DET
+frecuencia	NOUN
+angular	ADJ
+)	PUNCT
+en	ADP
+escala	NOUN
+logarítmica	ADJ
+.	PUNCT
+Se	PRON
+suele	VERB
+emplear	VERB
+en	ADP
+procesado	NOUN
+de	ADP
+señal	NOUN
+para	ADP
+mostrar	VERB
+la	DET
+respuesta	NOUN
+en	ADP
+frecuencia	NOUN
+de	ADP
+un	DET
+sistema	NOUN
+lineal	ADJ
+e	CCONJ
+invariante	ADV
+en	ADP
+el	DET
+tiempo	NOUN
+.	PUNCT
+
+	SPACE
+El	DET
+diagrama	NOUN
+de	ADP
+fase	NOUN
+de	ADP
+Bode	PROPN
+representa	VERB
+la	DET
+fase	NOUN
+de	ADP
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+en	ADP
+función	NOUN
+de	ADP
+la	DET
+frecuencia	NOUN
+(	PUNCT
+o	CCONJ
+frecuencia	NOUN
+angular	ADJ
+)	PUNCT
+en	ADP
+escala	NOUN
+logarítmica	ADJ
+.	PUNCT
+Se	PRON
+puede	AUX
+dar	VERB
+en	ADP
+grados	NOUN
+o	CCONJ
+en	ADP
+radianes	NOUN
+.	PUNCT
+Permite	VERB
+evaluar	VERB
+el	DET
+desplazamiento	NOUN
+en	ADP
+fase	NOUN
+de	ADP
+una	DET
+señal	NOUN
+a	ADP
+la	DET
+salida	NOUN
+del	ADP
+sistema	NOUN
+respecto	NOUN
+a	ADP
+la	DET
+entrada	NOUN
+para	ADP
+una	DET
+frecuencia	NOUN
+determinada	ADJ
+.	PUNCT
+Por	ADP
+ejemplo	NOUN
+,	PUNCT
+tenemos	VERB
+una	DET
+señal	NOUN
+Asin(ωt	PROPN
+)	PUNCT
+a	ADP
+la	DET
+entrada	NOUN
+del	ADP
+sistema	NOUN
+y	CCONJ
+asumimos	VERB
+que	SCONJ
+el	DET
+sistema	NOUN
+atenúa	VERB
+por	ADP
+un	DET
+factor	NOUN
+x	VERB
+y	CCONJ
+desplaza	VERB
+en	ADP
+fase	NOUN
+−Φ.	PUNCT
+En	ADP
+este	DET
+caso	NOUN
+,	PUNCT
+la	DET
+salida	NOUN
+del	ADP
+sistema	NOUN
+será	AUX
+(	PUNCT
+A	NOUN
+/	PUNCT
+x	NOUN
+)	PUNCT
+ 	SPACE
+sin(ωt	INTJ
+ 	SPACE
+−	PROPN
+ 	SPACE
+Φ	PROPN
+)	PUNCT
+.	PUNCT
+Generalmente	ADV
+,	PUNCT
+este	DET
+desfase	NOUN
+es	AUX
+función	NOUN
+de	ADP
+la	DET
+frecuencia	NOUN
+(	PUNCT
+Φ=	VERB
+Φ(f	PROPN
+)	PUNCT
+)	PUNCT
+;	PUNCT
+esta	DET
+dependencia	NOUN
+es	AUX
+lo	PRON
+que	PRON
+nos	PRON
+muestra	VERB
+el	DET
+Bode	PROPN
+.	PUNCT
+En	ADP
+sistemas	NOUN
+eléctricos	ADJ
+esta	DET
+fase	NOUN
+deberá	AUX
+estar	AUX
+acotada	ADJ
+entre	ADP
+-90	NUM
+°	NUM
+y	CCONJ
+90	NUM
+°	NUM
+.	PUNCT
+	
+	SPACE
+La	DET
+respuesta	NOUN
+en	ADP
+amplitud	NOUN
+y	CCONJ
+en	ADP
+fase	NOUN
+de	ADP
+los	DET
+diagramas	NOUN
+de	ADP
+Bode	PROPN
+no	ADV
+pueden	AUX
+por	ADP
+lo	PRON
+general	ADJ
+cambiarse	VERB
+de	ADP
+forma	NOUN
+independiente	ADJ
+:	PUNCT
+cambiar	VERB
+la	DET
+ganancia	NOUN
+implica	VERB
+cambiar	VERB
+también	ADV
+desfase	VERB
+y	CCONJ
+viceversa	NOUN
+.	PUNCT
+En	ADP
+sistemas	NOUN
+de	ADP
+fase	NOUN
+mínima	ADJ
+(	PUNCT
+aquellos	PRON
+que	PRON
+tanto	ADV
+su	DET
+sistema	NOUN
+inverso	ADJ
+como	SCONJ
+ellos	PRON
+mismos	PRON
+son	AUX
+causales	ADJ
+y	CCONJ
+estables	ADJ
+)	PUNCT
+se	PRON
+puede	AUX
+obtener	VERB
+uno	PRON
+a	ADP
+partir	NOUN
+del	DET
+otro	PRON
+mediante	ADP
+la	DET
+transformada	ADJ
+de	ADP
+Hilbert	PROPN
+.	PUNCT
+
+	SPACE
+Si	SCONJ
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+es	AUX
+una	DET
+función	NOUN
+racional	ADJ
+,	PUNCT
+entonces	ADV
+el	DET
+diagrama	NOUN
+de	ADP
+Bode	PROPN
+se	PRON
+puede	AUX
+aproximar	VERB
+con	ADP
+segmentos	NOUN
+rectilíneos	ADJ
+.	PUNCT
+Estas	DET
+representaciones	NOUN
+asintóticas	ADJ
+son	AUX
+útiles	ADJ
+porque	SCONJ
+se	PRON
+pueden	AUX
+dibujar	VERB
+a	ADP
+mano	NOUN
+siguiendo	VERB
+una	DET
+serie	NOUN
+de	ADP
+sencillas	ADJ
+reglas	NOUN
+(	PUNCT
+y	CCONJ
+en	ADP
+algunos	DET
+casos	NOUN
+se	PRON
+pueden	AUX
+predecir	VERB
+incluso	ADV
+sin	ADP
+dibujar	VERB
+la	DET
+gráfica	ADJ
+)	PUNCT
+.	PUNCT
+
+	SPACE
+Esta	DET
+aproximación	NOUN
+se	PRON
+puede	AUX
+hacer	VERB
+más	ADV
+precisa	ADJ
+corrigiendo	VERB
+el	DET
+valor	NOUN
+de	ADP
+las	DET
+frecuencias	NOUN
+de	ADP
+corte	NOUN
+(	PUNCT
+“	PUNCT
+diagrama	NOUN
+de	ADP
+Bode	PROPN
+corregido	ADJ
+”	PUNCT
+)	PUNCT
+.	PUNCT
+
+	SPACE
+El	DET
+uso	NOUN
+de	ADP
+cálculo	NOUN
+logarítmico	ADJ
+nos	PRON
+va	AUX
+a	ADP
+permitir	VERB
+simplificar	VERB
+funciones	NOUN
+del	ADP
+tipo	NOUN
+
+	SPACE
+a	ADP
+un	DET
+simple	ADJ
+sumatorio	ADJ
+de	ADP
+los	DET
+logaritmos	NOUN
+de	ADP
+polos	NOUN
+y	CCONJ
+ceros	NOUN
+:	PUNCT
+
+	SPACE
+Supongamos	VERB
+que	SCONJ
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+del	ADP
+sistema	NOUN
+objeto	NOUN
+de	ADP
+estudio	NOUN
+viene	VERB
+dada	ADJ
+por	ADP
+la	DET
+siguiente	ADJ
+transformada	ADJ
+de	ADP
+Laplace	PROPN
+:	PUNCT
+
+	SPACE
+Las	DET
+normas	NOUN
+a	ADP
+seguir	VERB
+para	ADP
+dibujar	VERB
+la	DET
+aproximación	NOUN
+del	ADP
+Bode	PROPN
+son	AUX
+las	DET
+siguientes	ADJ
+
+	SPACE
+Para	ADP
+poder	AUX
+manejar	VERB
+polinomios	NOUN
+irreducibles	ADJ
+de	ADP
+segundo	ADJ
+grado	NOUN
+(	PUNCT
+
+
+
+
+	SPACE
+a	ADP
+
+
+	SPACE
+x	NOUN
+
+
+	SPACE
+2	NUM
+
+
+
+	SPACE
++	PROPN
+
+	SPACE
+b	NOUN
+
+	SPACE
+x	NOUN
+
+	SPACE
++	PROPN
+
+	SPACE
+c	NOUN
+
+ 
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+ax^{2}+bx+c\	PROPN
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+se	PRON
+puede	VERB
+en	ADP
+muchos	DET
+casos	NOUN
+aproximar	VERB
+dicha	ADJ
+expresión	NOUN
+por	ADP
+
+
+
+
+	SPACE
+(	PUNCT
+
+
+
+	SPACE
+a	ADP
+
+
+
+	SPACE
+x	NOUN
+
+	SPACE
++	PROPN
+
+
+
+	SPACE
+c	NOUN
+
+
+
+
+	SPACE
+)	PUNCT
+
+
+	SPACE
+2	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+(	PUNCT
+{	SYM
+\sqrt	NOUN
+{	NUM
+a}}x+{\sqrt	NOUN
+{	CCONJ
+c}})^{2	NOUN
+}	NOUN
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+
+	SPACE
+Nótese	VERB
+que	SCONJ
+hay	AUX
+ceros	NOUN
+y	CCONJ
+polos	NOUN
+cuando	SCONJ
+ω	PRON
+es	AUX
+igual	ADJ
+a	ADP
+un	DET
+determinado	ADJ
+
+
+
+
+
+	SPACE
+x	NOUN
+
+
+	SPACE
+n	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+x_{n	PROPN
+}	NUM
+}	SYM
+
+
+ 	SPACE
+o	CCONJ
+
+
+
+
+
+	SPACE
+y	CCONJ
+
+
+	SPACE
+n	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+y_{n	PROPN
+}	INTJ
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+Eso	PRON
+ocurre	VERB
+porque	SCONJ
+la	DET
+función	NOUN
+en	ADP
+cuestión	NOUN
+es	AUX
+el	DET
+módulo	NOUN
+de	ADP
+H(jω	PROPN
+)	PUNCT
+,	PUNCT
+y	CCONJ
+como	SCONJ
+dicha	ADJ
+función	NOUN
+es	AUX
+compleja	ADJ
+,	PUNCT
+
+	SPACE
+Por	ADP
+ello	PRON
+,	PUNCT
+en	ADP
+cualquier	DET
+lugar	NOUN
+en	ADP
+el	DET
+que	PRON
+haya	AUX
+un	DET
+cero	NOUN
+o	CCONJ
+un	DET
+polo	NOUN
+asociado	ADJ
+a	ADP
+un	DET
+término	NOUN
+
+
+
+
+	SPACE
+(	PUNCT
+
+	SPACE
+s	NOUN
+
+	SPACE
++	PROPN
+
+
+	SPACE
+x	NOUN
+
+
+	SPACE
+n	NOUN
+
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+(	PUNCT
+s+x_{n	ADV
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+el	DET
+módulo	NOUN
+de	ADP
+dicho	ADJ
+término	NOUN
+será	AUX
+
+	SPACE
+Para	ADP
+corregir	VERB
+la	DET
+aproximación	NOUN
+dibujada	ADJ
+en	ADP
+el	DET
+apartado	NOUN
+anterior	ADJ
+:	PUNCT
+
+	SPACE
+Este	DET
+método	NOUN
+de	ADP
+corrección	NOUN
+no	ADV
+indica	VERB
+cómo	PRON
+trabajar	VERB
+con	ADP
+valores	NOUN
+de	ADP
+
+
+
+
+
+	SPACE
+x	NOUN
+
+
+	SPACE
+n	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+x_{n	PROPN
+}	NUM
+}	SYM
+
+
+ 	SPACE
+o	CCONJ
+
+
+
+
+
+	SPACE
+y	CCONJ
+
+
+	SPACE
+n	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+y_{n	PROPN
+}	INTJ
+}	SYM
+
+
+ 	SPACE
+complejos	NOUN
+.	PUNCT
+En	ADP
+caso	NOUN
+de	ADP
+un	DET
+polinomio	NOUN
+irreducible	ADJ
+,	PUNCT
+el	DET
+mejor	ADJ
+modo	NOUN
+de	ADP
+corregir	VERB
+la	DET
+gráfica	NOUN
+es	AUX
+calcular	VERB
+el	DET
+módulo	NOUN
+de	ADP
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+en	ADP
+el	DET
+polo	NOUN
+o	CCONJ
+el	DET
+cero	NOUN
+correspondiente	ADJ
+al	ADP
+polinomio	NOUN
+irreducible	ADJ
+,	PUNCT
+y	CCONJ
+dibujar	VERB
+ese	DET
+punto	NOUN
+por	ADP
+encima	ADV
+o	CCONJ
+por	ADP
+debajo	ADV
+de	ADP
+la	DET
+línea	NOUN
+en	ADP
+el	DET
+valor	NOUN
+de	ADP
+frecuencia	NOUN
+angular	ADJ
+correspondiente	ADJ
+.	PUNCT
+
+	SPACE
+Sea	AUX
+una	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+de	ADP
+la	DET
+misma	DET
+forma	NOUN
+que	SCONJ
+la	DET
+anterior	ADJ
+:	PUNCT
+
+	SPACE
+Ahora	ADV
+se	PRON
+trata	VERB
+de	ADP
+dibujar	VERB
+gráficas	NOUN
+separadas	ADJ
+para	ADP
+cada	DET
+polo	NOUN
+y	CCONJ
+cero	NOUN
+,	PUNCT
+y	CCONJ
+después	ADV
+unificarlas	VERB
+en	ADP
+un	DET
+solo	ADJ
+gráfico	NOUN
+.	PUNCT
+El	DET
+valor	NOUN
+real	ADJ
+de	ADP
+la	DET
+fase	NOUN
+está	AUX
+dado	ADJ
+por	ADP
+la	DET
+fórmula	NOUN
+
+	SPACE
+Para	ADP
+dibujar	VERB
+la	DET
+aproximación	NOUN
+,	PUNCT
+para	ADP
+cada	DET
+polo	NOUN
+y	CCONJ
+cero	NOUN
+:	PUNCT
+
+	SPACE
+Un	DET
+filtro	NOUN
+paso	NOUN
+bajo	ADP
+RC	PROPN
+,	PUNCT
+por	ADP
+ejemplo	NOUN
+,	PUNCT
+tiene	VERB
+la	DET
+siguiente	ADJ
+respuesta	NOUN
+en	ADP
+frecuencia	NOUN
+:	PUNCT
+
+	SPACE
+La	DET
+frecuencia	NOUN
+de	ADP
+corte	NOUN
+(	PUNCT
+fc	PROPN
+)	PUNCT
+toma	VERB
+el	DET
+valor	NOUN
+(	PUNCT
+en	ADP
+hercios	NOUN
+):	PUNCT
+
+	SPACE
+La	DET
+aproximación	NOUN
+lineal	ADJ
+del	ADP
+diagrama	NOUN
+consta	VERB
+de	ADP
+dos	NUM
+líneas	NOUN
+agudos	ADJ
+y	CCONJ
+centimetricos	NOUN
+:	PUNCT
+
+	SPACE
+Estas	DET
+dos	NUM
+líneas	NOUN
+se	PRON
+encuentran	VERB
+en	ADP
+la	DET
+frecuencia	NOUN
+de	ADP
+corte	NOUN
+.	PUNCT
+Observando	VERB
+el	DET
+gráfico	NOUN
+se	PRON
+verá	VERB
+que	SCONJ
+a	ADP
+frecuencias	NOUN
+bastante	ADV
+por	ADP
+debajo	ADV
+de	ADP
+dicha	ADJ
+frecuencia	NOUN
+,	PUNCT
+el	DET
+circuito	NOUN
+tendrá	VERB
+una	DET
+atenuación	NOUN
+de	ADP
+0	NUM
+decibelios	NOUN
+.	PUNCT
+Por	ADP
+encima	ADV
+,	PUNCT
+la	DET
+señal	NOUN
+se	PRON
+atenuará	VERB
+,	PUNCT
+y	CCONJ
+a	ADP
+mayor	ADJ
+frecuencia	NOUN
+,	PUNCT
+mayor	ADJ
+atenuación	NOUN
+.	PUNCT
+
+	SPACE
+Los	DET
+diagramas	NOUN
+de	ADP
+Bode	PROPN
+son	AUX
+de	ADP
+amplia	ADJ
+aplicación	NOUN
+en	ADP
+la	DET
+Ingeniería	PROPN
+de	ADP
+Control	PROPN
+,	PUNCT
+pues	SCONJ
+permiten	VERB
+representar	VERB
+la	DET
+magnitud	NOUN
+y	CCONJ
+la	DET
+fase	NOUN
+de	ADP
+la	DET
+función	NOUN
+de	ADP
+transferencia	NOUN
+de	ADP
+un	DET
+sistema	NOUN
+,	PUNCT
+sea	AUX
+este	DET
+eléctrico	ADJ
+,	PUNCT
+mecánico	ADJ
+,	PUNCT
+...	PUNCT
+Su	DET
+uso	NOUN
+se	PRON
+justifica	VERB
+en	ADP
+la	DET
+simplicidad	NOUN
+con	ADP
+que	PRON
+permiten	VERB
+,	PUNCT
+atendiendo	VERB
+a	ADP
+la	DET
+forma	NOUN
+del	ADP
+diagrama	NOUN
+,	PUNCT
+sintonizar	VERB
+diferentes	DET
+controladores	NOUN
+(	PUNCT
+mediante	ADP
+el	DET
+empleo	NOUN
+de	ADP
+redes	NOUN
+de	ADP
+adelanto	NOUN
+o	CCONJ
+retraso	NOUN
+,	PUNCT
+y	CCONJ
+los	DET
+conceptos	NOUN
+de	ADP
+margen	NOUN
+de	ADP
+fase	NOUN
+y	CCONJ
+margen	NOUN
+de	ADP
+ganancia	NOUN
+,	PUNCT
+estrechamente	ADV
+ligados	ADJ
+estos	DET
+últimos	ADJ
+a	ADP
+los	DET
+llamados	ADJ
+diagramas	NOUN
+de	ADP
+Nyquist	PROPN
+)	PUNCT
+,	PUNCT
+y	CCONJ
+porque	SCONJ
+permiten	VERB
+,	PUNCT
+en	ADP
+un	DET
+reducido	ADJ
+espacio	NOUN
+,	PUNCT
+representar	VERB
+un	DET
+amplio	ADJ
+espectro	NOUN
+de	ADP
+frecuencias	NOUN
+.	PUNCT
+En	ADP
+la	DET
+teoría	NOUN
+de	ADP
+control	NOUN
+,	PUNCT
+ni	CCONJ
+la	DET
+fase	NOUN
+ni	CCONJ
+el	DET
+argumento	NOUN
+están	AUX
+acotadas	ADJ
+salvo	ADP
+por	ADP
+características	NOUN
+propias	ADJ
+del	ADP
+sistema	NOUN
+.	PUNCT
+En	ADP
+este	DET
+sentido	NOUN
+,	PUNCT
+sólo	ADV
+cabe	VERB
+esperar	VERB
+,	PUNCT
+si	SCONJ
+el	DET
+sistema	NOUN
+es	AUX
+de	ADP
+orden	NOUN
+2	NUM
+tipo	NOUN
+0	NUM
+,	PUNCT
+por	ADP
+ejemplo	NOUN
+,	PUNCT
+que	SCONJ
+la	DET
+fase	NOUN
+esté	AUX
+acotada	ADJ
+entre	ADP
+0	NUM
+°	NUM
+y	CCONJ
+-180	NUM
+°	NUM
+.	PUNCT
+
+	SPACE
+Así	ADV
+pues	NOUN
+,	PUNCT
+datos	NOUN
+importantes	ADJ
+a	ADP
+obtener	VERB
+tras	ADP
+la	DET
+realización	NOUN
+del	ADP
+diagrama	NOUN
+de	ADP
+Bode	PROPN
+para	ADP
+en	ADP
+análisis	NOUN
+de	ADP
+la	DET
+estabilidad	NOUN
+de	ADP
+dicho	ADJ
+sistema	NOUN
+son	AUX
+los	DET
+siguientes	ADJ
+:	PUNCT
+
+	SPACE
+El	DET
+sistema	NOUN
+representado	ADJ
+será	AUX
+estable	ADJ
+si	SCONJ
+el	DET
+margen	NOUN
+de	ADP
+ganancia	NOUN
+y	CCONJ
+el	DET
+margen	NOUN
+de	ADP
+fase	NOUN
+son	AUX
+positivos	ADJ
+.	PUNCT
+
+	SPACE

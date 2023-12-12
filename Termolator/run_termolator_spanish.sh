@@ -13,11 +13,15 @@
 echo
 echo -e "Step 1 : Tagging using  Spanish POS tagger"
 # create directories for POS tagged files
-DIR=$1_tagged
-if [ -d "$DIR" ]; then
-    rm -r $DIR
-    echo "Old $DIR removed!"
-fi
+# for item in $1_tagged $1.internal_foreground_tchunk_list $1.internal_background_tchunk_list output_foreground output_background ; do
+#     if [ -f "$item" ]; then
+#         rm "$item"  # Remove file
+#     elif [ -d "$item" ]; then
+#         rm -r "$item"  # Remove directory and its contents
+#     fi
+# done
+
+
 mkdir $1_tagged
 mkdir $1_tagged/background/
 mkdir $1_tagged/foreground/

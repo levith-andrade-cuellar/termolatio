@@ -1,0 +1,646 @@
+La	DET
+eficiencia	NOUN
+energética	ADJ
+de	ADP
+una	DET
+instalación	NOUN
+de	ADP
+alumbrado	NOUN
+exterior	ADJ
+se	PRON
+define	VERB
+como	SCONJ
+la	DET
+relación	NOUN
+entre	ADP
+el	DET
+producto	NOUN
+de	ADP
+la	DET
+superficie	NOUN
+iluminada	ADJ
+por	ADP
+la	DET
+iluminancia	NOUN
+media	ADJ
+en	ADP
+servicio	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+entre	ADP
+la	DET
+potencia	NOUN
+activa	ADJ
+total	ADJ
+instalada	ADJ
+.	PUNCT
+
+	SPACE
+donde	PRON
+:	PUNCT
+
+
+
+
+
+	SPACE
+ϵ	CCONJ
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\epsilon	PROPN
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+    	SPACE
+Eficiencia	NOUN
+energética	ADJ
+de	ADP
+la	DET
+instalación	NOUN
+de	ADP
+alumbrado	NOUN
+exterior	ADJ
+(	PUNCT
+
+
+
+
+	SPACE
+l	NOUN
+
+	SPACE
+u	CCONJ
+
+	SPACE
+m	NOUN
+
+
+	SPACE
+/	PUNCT
+
+
+	SPACE
+W	PROPN
+
+	SPACE
+=	AUX
+
+
+	SPACE
+m	NOUN
+
+
+	SPACE
+2	NUM
+
+
+
+	SPACE
+×	NOUN
+
+	SPACE
+l	NOUN
+
+	SPACE
+u	CCONJ
+
+	SPACE
+x	NOUN
+
+
+	SPACE
+/	PUNCT
+
+
+	SPACE
+W	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+lum	PROPN
+/	PUNCT
+W	PROPN
+=	PROPN
+m^{2}\times	VERB
+lux	NOUN
+/	PUNCT
+W	PROPN
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+.	PUNCT
+
+
+
+
+
+	SPACE
+P	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+P	PROPN
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+   	SPACE
+Potencia	PROPN
+activa	ADJ
+total	ADJ
+instalada	ADJ
+(	PUNCT
+lámparas	NOUN
+y	CCONJ
+equipos	NOUN
+auxiliares	ADJ
+)	PUNCT
+(	PUNCT
+
+
+
+
+	SPACE
+W	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+W	PROPN
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+.	PUNCT
+
+
+
+
+
+	SPACE
+S	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+S	PROPN
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+   	SPACE
+Superficie	PROPN
+iluminada	ADJ
+(	PUNCT
+
+
+
+
+
+	SPACE
+m	NOUN
+
+
+	SPACE
+2	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+m^{2	ADJ
+}	PUNCT
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+.	PUNCT
+
+
+
+
+
+
+	SPACE
+E	CCONJ
+
+
+	SPACE
+m	NOUN
+
+
+
+
+
+	SPACE
+{	NUM
+\displaystyle	PROPN
+E_{m	PROPN
+}	NOUN
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+Iluminancia	PROPN
+media	ADJ
+en	ADP
+servicio	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+,	PUNCT
+considerando	VERB
+el	DET
+mantenimiento	NOUN
+previsto	ADJ
+(	PUNCT
+
+
+
+
+	SPACE
+l	NOUN
+
+	SPACE
+u	CCONJ
+
+	SPACE
+x	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+lux	NOUN
+}	PART
+
+
+	SPACE
+)	PUNCT
+.	PUNCT
+
+
+	SPACE
+La	DET
+eficiencia	NOUN
+energética	ADJ
+también	ADV
+se	PRON
+puede	AUX
+expresar	VERB
+en	ADP
+función	NOUN
+de	ADP
+ciertos	DET
+factores	NOUN
+o	CCONJ
+coeficientes	NOUN
+:	PUNCT
+
+	SPACE
+donde	PRON
+:	PUNCT
+
+	SPACE
+-	PUNCT
+Eficiencia	NOUN
+de	ADP
+la	DET
+lámpara	NOUN
+y	CCONJ
+equipos	NOUN
+auxiliares	ADJ
+(	PUNCT
+
+
+
+
+
+	SPACE
+ϵ	CCONJ
+
+
+	SPACE
+L	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\epsilon	PROPN
+_	PROPN
+{	NOUN
+L	PROPN
+}	NOUN
+}	INTJ
+
+
+	SPACE
+):	PUNCT
+es	AUX
+la	DET
+relación	NOUN
+entre	ADP
+el	DET
+flujo	NOUN
+luminoso	ADJ
+emitido	ADJ
+por	ADP
+una	DET
+lámpara	NOUN
+y	CCONJ
+la	DET
+potencia	NOUN
+total	ADJ
+consumida	ADJ
+por	ADP
+la	DET
+lámpara	NOUN
+más	ADV
+su	DET
+equipo	NOUN
+auxiliar	ADJ
+.	PUNCT
+
+	SPACE
+-	PUNCT
+Factor	NOUN
+de	ADP
+mantenimiento	NOUN
+(	PUNCT
+
+
+
+
+
+	SPACE
+f	NOUN
+
+
+	SPACE
+m	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+f_{m	ADJ
+}	PRON
+}	SYM
+
+
+	SPACE
+):	PUNCT
+es	AUX
+la	DET
+relación	NOUN
+entre	ADP
+los	DET
+valores	NOUN
+de	ADP
+iluminancia	NOUN
+que	PRON
+se	PRON
+pretenden	VERB
+mantener	VERB
+a	ADP
+lo	PRON
+largo	NOUN
+de	ADP
+la	DET
+vida	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+de	ADP
+alumbrado	NOUN
+y	CCONJ
+los	DET
+valores	NOUN
+iniciales	ADJ
+.	PUNCT
+
+	SPACE
+-	PUNCT
+Factor	NOUN
+de	ADP
+utilización	NOUN
+(	PUNCT
+
+
+
+
+
+	SPACE
+f	NOUN
+
+
+	SPACE
+u	CCONJ
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+f_{u	PROPN
+}	PROPN
+}	INTJ
+
+
+	SPACE
+):	PUNCT
+es	AUX
+la	DET
+relación	NOUN
+entre	ADP
+el	DET
+flujo	NOUN
+útil	ADJ
+procedente	ADJ
+de	ADP
+las	DET
+luminarias	NOUN
+que	PRON
+llega	VERB
+a	ADP
+la	DET
+calzada	NOUN
+o	CCONJ
+superficie	NOUN
+a	ADP
+iluminar	VERB
+y	CCONJ
+el	DET
+flujo	NOUN
+emitido	ADJ
+por	ADP
+las	DET
+lámparas	NOUN
+instaladas	ADJ
+en	ADP
+las	DET
+luminarias	NOUN
+.	PUNCT
+
+	SPACE
+El	DET
+factor	NOUN
+de	ADP
+utilización	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+es	AUX
+función	NOUN
+del	ADP
+tipo	NOUN
+de	ADP
+lámpara	NOUN
+,	PUNCT
+de	ADP
+la	DET
+distribución	NOUN
+de	ADP
+la	DET
+intensidad	NOUN
+luminosa	ADJ
+y	CCONJ
+rendimiento	NOUN
+de	ADP
+las	DET
+luminarias	NOUN
+,	PUNCT
+así	ADV
+como	SCONJ
+de	ADP
+la	DET
+geometría	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+,	PUNCT
+tanto	ADV
+en	ADP
+lo	PRON
+referente	NOUN
+a	ADP
+las	DET
+características	NOUN
+dimensionales	ADJ
+de	ADP
+la	DET
+superficie	NOUN
+a	ADP
+iluminar	VERB
+(	PUNCT
+longitud	NOUN
+y	CCONJ
+anchura	NOUN
+)	PUNCT
+,	PUNCT
+como	SCONJ
+a	ADP
+la	DET
+disposición	NOUN
+de	ADP
+las	DET
+luminarias	NOUN
+en	ADP
+la	DET
+instalación	NOUN
+de	ADP
+alumbrado	NOUN
+exterior	ADJ
+(	PUNCT
+tipo	NOUN
+de	ADP
+implantación	NOUN
+,	PUNCT
+altura	NOUN
+de	ADP
+las	DET
+luminarias	NOUN
+y	CCONJ
+separación	NOUN
+entre	ADP
+puntos	NOUN
+de	ADP
+luz	NOUN
+)	PUNCT
+.	PUNCT
+
+	SPACE
+La	DET
+instalación	NOUN
+más	ADV
+eficiente	ADJ
+será	AUX
+aquella	PRON
+en	ADP
+la	DET
+que	PRON
+el	DET
+producto	NOUN
+de	ADP
+los	DET
+tres	NUM
+factores	NOUN
+-	PUNCT
+eficiencia	NOUN
+de	ADP
+las	DET
+lámparas	NOUN
+y	CCONJ
+equipos	NOUN
+auxiliares	ADJ
+y	CCONJ
+factores	NOUN
+de	ADP
+mantenimiento	NOUN
+y	CCONJ
+utilización	NOUN
+de	ADP
+la	DET
+instalación	NOUN
+sea	AUX
+máximo	ADJ
+.	PUNCT
+
+	SPACE

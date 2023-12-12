@@ -1,0 +1,512 @@
+En	ADP
+electrónica	NOUN
+el	DET
+Slew	PROPN
+Rate	PROPN
+(	PUNCT
+SR	PROPN
+)	PUNCT
+es	AUX
+un	DET
+efecto	NOUN
+no	ADV
+lineal	ADJ
+en	ADP
+los	DET
+amplificadores	NOUN
+.	PUNCT
+Representa	VERB
+la	DET
+incapacidad	NOUN
+de	ADP
+un	DET
+amplificador	NOUN
+para	ADP
+seguir	VERB
+variaciones	NOUN
+rápidas	ADJ
+de	ADP
+la	DET
+señal	NOUN
+de	ADP
+entrada	NOUN
+.	PUNCT
+Se	PRON
+le	PRON
+define	VERB
+como	SCONJ
+la	DET
+máxima	ADJ
+tasa	NOUN
+de	ADP
+cambio	NOUN
+en	ADP
+el	DET
+voltaje	NOUN
+de	ADP
+salida	NOUN
+cuando	SCONJ
+el	DET
+voltaje	NOUN
+de	ADP
+entrada	NOUN
+cambia	VERB
+.	PUNCT
+
+	SPACE
+El	DET
+slew	PROPN
+rate	PROPN
+de	ADP
+un	DET
+amplificador	NOUN
+se	PRON
+define	VERB
+como	SCONJ
+el	DET
+rango	NOUN
+máximo	ADJ
+de	ADP
+cambio	NOUN
+de	ADP
+la	DET
+tensión	NOUN
+de	ADP
+salida	NOUN
+para	ADP
+todas	DET
+las	DET
+señales	NOUN
+de	ADP
+entrada	NOUN
+posibles	ADJ
+,	PUNCT
+por	ADP
+lo	PRON
+que	PRON
+limita	VERB
+la	DET
+velocidad	NOUN
+de	ADP
+funcionamiento	NOUN
+,	PUNCT
+es	NOUN
+decir	NOUN
+la	DET
+frecuencia	NOUN
+máxima	ADJ
+a	ADP
+la	DET
+que	PRON
+puede	AUX
+funcionar	VERB
+el	DET
+amplificador	NOUN
+para	ADP
+un	DET
+nivel	NOUN
+dado	ADJ
+de	ADP
+señal	NOUN
+de	ADP
+salida	NOUN
+.	PUNCT
+
+	SPACE
+Según	ADP
+su	DET
+definición	NOUN
+,	PUNCT
+el	DET
+SR	PROPN
+es	AUX
+:	PUNCT
+
+	SPACE
+dónde	PRON
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+
+	SPACE
+o	CCONJ
+
+
+
+
+	SPACE
+(	PUNCT
+
+	SPACE
+t	CCONJ
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{\mathrm	ADJ
+{	NOUN
+o	CCONJ
+}	NOUN
+}	NOUN
+(	PUNCT
+t	NOUN
+)	PUNCT
+}	INTJ
+
+
+ 	SPACE
+es	AUX
+la	DET
+tensión	NOUN
+de	ADP
+salida	NOUN
+.	PUNCT
+
+	SPACE
+Si	SCONJ
+la	DET
+señal	NOUN
+es	AUX
+senoidal	ADJ
+,	PUNCT
+podemos	AUX
+relacionar	VERB
+el	DET
+valor	NOUN
+máximo	ADJ
+de	ADP
+tensión	NOUN
+a	ADP
+la	DET
+salida	NOUN
+con	ADP
+la	DET
+frecuencia	NOUN
+máxima	ADJ
+de	ADP
+operación	NOUN
+del	ADP
+amplificador	NOUN
+simplemente	ADV
+usando	VERB
+:	PUNCT
+
+	SPACE
+dónde	PRON
+hemos	AUX
+llamado	VERB
+
+
+
+
+
+	SPACE
+V	PROPN
+
+
+
+	SPACE
+p	NOUN
+
+	SPACE
+k	NOUN
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+V_{\mathrm	PROPN
+{	PROPN
+pk	PROPN
+}	NOUN
+}	PUNCT
+}	SYM
+
+
+ 	SPACE
+a	ADP
+la	DET
+tensión	NOUN
+pico	NOUN
+máxima	ADJ
+que	PRON
+podemos	AUX
+tener	VERB
+a	ADP
+la	DET
+salida	NOUN
+.	PUNCT
+Y	CCONJ
+a	ADP
+
+
+
+
+
+	SPACE
+f	NOUN
+
+
+
+	SPACE
+m	NOUN
+
+	SPACE
+a	ADP
+
+	SPACE
+x	NOUN
+
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+f_{\mathrm	ADV
+{	PROPN
+max	PROPN
+}	PROPN
+}	PUNCT
+}	SYM
+
+
+ 	SPACE
+la	DET
+frecuencia	NOUN
+máxima	ADJ
+de	ADP
+operación	NOUN
+del	ADP
+amplificador	NOUN
+.	PUNCT
+
+	SPACE
+El	DET
+Slew	PROPN
+Rate	PROPN
+se	PRON
+suele	VERB
+expresar	VERB
+en	ADP
+unidades	NOUN
+de	ADP
+V	PROPN
+/	PUNCT
+μs	PROPN
+.	PUNCT
+
+	SPACE
+Para	ADP
+un	DET
+amplificador	NOUN
+operacional	ADJ
+741	NUM
+la	DET
+máxima	ADJ
+velocidad	NOUN
+de	ADP
+respuesta	NOUN
+es	AUX
+0,5	NUM
+V	PROPN
+/	PUNCT
+μs	PROPN
+.	PUNCT
+,	PUNCT
+y	CCONJ
+para	ADP
+el	DET
+OP-07	PROPN
+es	AUX
+de	ADP
+0,3V	SYM
+/	PUNCT
+μs	NOUN
+,	PUNCT
+lo	PRON
+que	PRON
+quiere	VERB
+decir	NOUN
+que	SCONJ
+el	DET
+voltaje	NOUN
+de	ADP
+salida	NOUN
+cambiará	VERB
+a	ADP
+una	DET
+razón	NOUN
+máxima	ADJ
+de	ADP
+0,5	NUM
+V	PROPN
+en	ADP
+1µs	NUM
+y	CCONJ
+0,3	NUM
+V	PROPN
+en	ADP
+1µs	NUM
+respectivamente	ADV
+.	PUNCT
+
+	SPACE
+La	DET
+razón	NOUN
+de	ADP
+la	DET
+limitación	NOUN
+del	ADP
+SR	PROPN
+es	AUX
+el	DET
+condensador	NOUN
+de	ADP
+compensación	NOUN
+que	PRON
+usa	VERB
+internamente	ADV
+el	DET
+amplificador	NOUN
+para	ADP
+corregir	VERB
+ciertas	DET
+características	NOUN
+de	ADP
+la	DET
+respuesta	NOUN
+en	ADP
+frecuencia	NOUN
+.	PUNCT
+Se	PRON
+puede	AUX
+analizar	VERB
+que	SCONJ
+la	DET
+relación	NOUN
+aproximada	ADJ
+entre	ADP
+el	DET
+slew-rate	PROPN
+,	PUNCT
+la	DET
+capacidad	NOUN
+de	ADP
+dicho	ADJ
+condensador	NOUN
+y	CCONJ
+la	DET
+corriente	NOUN
+máxima	ADJ
+que	PRON
+puede	AUX
+suministrar	VERB
+el	DET
+operacional	NOUN
+viene	VERB
+dada	ADJ
+por	ADP
+:	PUNCT
+
+	SPACE
+En	ADP
+el	DET
+caso	NOUN
+del	ADP
+741	NUM
+:	PUNCT
+
+	SPACE
+En	ADP
+electrónica	NOUN
+digital	ADJ
+,	PUNCT
+el	DET
+concepto	NOUN
+de	ADP
+slew	PROPN
+rate	PROPN
+es	AUX
+también	ADV
+relevante	ADJ
+,	PUNCT
+aunque	SCONJ
+suele	VERB
+manejarse	VERB
+de	ADP
+una	DET
+forma	NOUN
+ligeramente	ADV
+distinta	ADJ
+:	PUNCT
+el	DET
+tiempo	NOUN
+de	ADP
+transición	NOUN
+de	ADP
+una	DET
+señal	NOUN
+digital	ADJ
+entre	ADP
+dos	NUM
+puntos	NOUN
+fijos	ADJ
+de	ADP
+medida	NOUN
+,	PUNCT
+que	PRON
+suelen	VERB
+ser	AUX
+típicamente	ADV
+el	DET
+20%	SYM
+y	CCONJ
+el	DET
+80%	SYM
+de	ADP
+la	DET
+tensión	NOUN
+de	ADP
+alimentación	NOUN
+respectivamente	ADV
+.	PUNCT
+
+	SPACE
+El	DET
+slew	PROPN
+rate	PROPN
+ha	AUX
+de	ADP
+ser	AUX
+mantenido	VERB
+cuidadosamente	ADV
+dentro	ADV
+de	ADP
+unos	DET
+límites	NOUN
+por	ADP
+una	DET
+serie	NOUN
+de	ADP
+motivos	NOUN
+:	PUNCT
+
+	SPACE

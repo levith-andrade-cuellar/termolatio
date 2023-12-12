@@ -1,0 +1,2227 @@
+En	ADP
+Física	PROPN
+de	ADP
+plasmas	NOUN
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+,	PUNCT
+también	ADV
+llamada	ADJ
+radio	NOUN
+de	ADP
+Debye	PROPN
+es	AUX
+la	DET
+escala	NOUN
+a	ADP
+través	NOUN
+de	ADP
+la	DET
+cual	PRON
+portadores	NOUN
+de	ADP
+carga	NOUN
+móviles	ADJ
+—	PUNCT
+por	ADP
+ejemplo	NOUN
+,	PUNCT
+electrones	NOUN
+—	PUNCT
+generan	VERB
+un	DET
+apantallamiento	NOUN
+de	ADP
+los	DET
+campos	NOUN
+eléctricos	ADJ
+en	ADP
+los	DET
+plasmas	NOUN
+y	CCONJ
+otros	DET
+conductores	NOUN
+.	PUNCT
+En	ADP
+otras	DET
+palabras	NOUN
+,	PUNCT
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+es	AUX
+la	DET
+distancia	NOUN
+sobre	ADP
+la	DET
+cual	PRON
+puede	AUX
+ocurrir	VERB
+una	DET
+separación	NOUN
+significativa	ADJ
+de	ADP
+carga	NOUN
+.	PUNCT
+Análogamente	ADV
+,	PUNCT
+una	DET
+esfera	NOUN
+de	ADP
+Debye	PROPN
+es	AUX
+el	DET
+volumen	NOUN
+cuyo	PRON
+radio	NOUN
+es	AUX
+una	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+,	PUNCT
+dentro	ADV
+de	ADP
+la	DET
+cual	PRON
+existe	VERB
+una	DET
+esfera	NOUN
+de	ADP
+influencia	NOUN
+,	PUNCT
+y	CCONJ
+fuera	ADV
+de	ADP
+la	DET
+cual	PRON
+las	DET
+cargas	NOUN
+son	AUX
+«	PUNCT
+apantalladas	NOUN
+»	PUNCT
+.	PUNCT
+La	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+recibe	VERB
+su	DET
+nombre	NOUN
+en	ADP
+honor	NOUN
+del	ADP
+físico	NOUN
+y	CCONJ
+físico-químico	NOUN
+holandés	ADJ
+Peter	PROPN
+Debye	PROPN
+.	PUNCT
+La	DET
+noción	NOUN
+de	ADP
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+juega	VERB
+un	DET
+importante	ADJ
+papel	NOUN
+en	ADP
+la	DET
+Física	PROPN
+de	ADP
+plasmas	NOUN
+,	PUNCT
+electrolitos	NOUN
+y	CCONJ
+coloides	NOUN
+(	PUNCT
+teoría	NOUN
+DLVO	PROPN
+)	PUNCT
+.	PUNCT
+
+	SPACE
+La	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+surge	VERB
+de	ADP
+forma	NOUN
+natural	ADJ
+en	ADP
+la	DET
+descripción	NOUN
+termodinámica	ADJ
+de	ADP
+grandes	ADJ
+sistemas	NOUN
+que	PRON
+contienen	VERB
+cargas	NOUN
+en	ADP
+movimiento	NOUN
+.	PUNCT
+En	ADP
+un	DET
+sistema	NOUN
+de	ADP
+
+
+
+
+	SPACE
+N	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+N	PROPN
+}	SYM
+
+
+ 	SPACE
+diferentes	DET
+especies	NOUN
+de	ADP
+cargas	NOUN
+,	PUNCT
+la	DET
+
+
+
+
+	SPACE
+j	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+j	NOUN
+}	INTJ
+
+
+	SPACE
+-ésima	NOUN
+especie	NOUN
+porta	VERB
+una	DET
+carga	NOUN
+
+
+
+
+
+	SPACE
+q	CCONJ
+
+
+	SPACE
+j	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+q_{j	PROPN
+}	NOUN
+}	SYM
+
+
+ 	SPACE
+y	CCONJ
+tiene	VERB
+una	DET
+concentración	NOUN
+
+
+
+
+
+	SPACE
+n	NOUN
+
+
+	SPACE
+j	ADV
+
+
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+n_{j}(\mathbf	PROPN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	SYM
+
+
+ 	SPACE
+en	ADP
+la	DET
+posición	NOUN
+
+
+
+
+
+	SPACE
+r	ADV
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+De	ADP
+acuerdo	NOUN
+con	ADP
+el	DET
+llamado	ADJ
+«	PUNCT
+modelo	NOUN
+primitivo	ADJ
+»	PUNCT
+,	PUNCT
+estas	DET
+cargas	NOUN
+se	PRON
+distribuyen	VERB
+en	ADP
+un	DET
+medio	NOUN
+continuo	ADJ
+caracterizado	ADJ
+solamente	ADV
+por	ADP
+su	DET
+permitividad	NOUN
+relativa	ADJ
+estática	ADJ
+:	PUNCT
+
+
+
+
+
+	SPACE
+ε	CCONJ
+
+
+	SPACE
+r	ADV
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\varepsilon	PROPN
+_	PROPN
+{	NOUN
+r	ADV
+}	INTJ
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+La	DET
+distribución	NOUN
+de	ADP
+cargas	NOUN
+dentro	ADV
+de	ADP
+este	DET
+medio	NOUN
+da	VERB
+lugar	NOUN
+a	ADP
+un	DET
+potencial	NOUN
+eléctrico	ADJ
+,	PUNCT
+
+
+
+
+	SPACE
+Φ	PROPN
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+\Phi	ADJ
+(	PUNCT
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+que	PRON
+satisface	VERB
+la	DET
+ecuación	NOUN
+de	ADP
+Poisson	PROPN
+:	PUNCT
+
+	SPACE
+siendo	AUX
+
+
+
+
+
+	SPACE
+ε	SYM
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\varepsilon	PROPN
+_	PROPN
+{	PROPN
+0	NUM
+}	NOUN
+}	SYM
+
+
+ 	SPACE
+la	DET
+permitividad	NOUN
+eléctrica	ADJ
+del	ADP
+vacío	NOUN
+.	PUNCT
+
+	SPACE
+Las	DET
+cargas	NOUN
+en	ADP
+movimiento	NOUN
+no	PART
+solo	NOUN
+establecen	VERB
+
+
+
+
+	SPACE
+Φ	PROPN
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+\Phi	ADJ
+(	PUNCT
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+sino	CCONJ
+que	SCONJ
+también	ADV
+se	PRON
+mueven	VERB
+respondiendo	VERB
+a	ADP
+la	DET
+fuerza	NOUN
+de	ADP
+Coulomb	PROPN
+asociada	ADJ
+:	PUNCT
+
+
+
+
+
+	SPACE
+F	NOUN
+
+
+	SPACE
+=	SYM
+
+	SPACE
+−	PROPN
+
+
+	SPACE
+q	PROPN
+
+
+	SPACE
+j	NOUN
+
+
+
+
+	SPACE
+∇	PROPN
+
+	SPACE
+Φ	PROPN
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\mathbf	PROPN
+{	NOUN
+F	PROPN
+}	NOUN
+=	SYM
+-q_{j}\,\nabla	PROPN
+\Phi	ADJ
+(	PUNCT
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+Si	SCONJ
+además	ADV
+suponemos	VERB
+que	SCONJ
+el	DET
+sistema	NOUN
+se	PRON
+encuentra	VERB
+en	ADP
+equilibrio	NOUN
+termodinámico	ADJ
+con	ADP
+un	DET
+foco	NOUN
+calórico	ADJ
+a	ADP
+temperatura	NOUN
+absoluta	ADJ
+
+
+
+
+	SPACE
+T	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+T	PROPN
+}	PROPN
+
+
+	SPACE
+,	PUNCT
+entonces	ADV
+las	DET
+concentraciones	NOUN
+de	ADP
+carga	NOUN
+discreta	ADJ
+,	PUNCT
+
+
+
+
+
+	SPACE
+n	NOUN
+
+
+	SPACE
+j	ADV
+
+
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+n_{j}(\mathbf	PROPN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+pueden	AUX
+considerarse	VERB
+ensambles	NOUN
+termodinámicos	ADJ
+promedio	NOUN
+y	CCONJ
+el	DET
+potencial	NOUN
+eléctrico	ADJ
+asociado	ADJ
+puede	AUX
+considerarse	VERB
+un	DET
+campo	NOUN
+medio	ADJ
+.	PUNCT
+Con	ADP
+estas	DET
+suposiciones	NOUN
+,	PUNCT
+la	DET
+concentración	NOUN
+de	ADP
+la	DET
+
+
+
+
+	SPACE
+j	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+j	NOUN
+}	INTJ
+
+
+	SPACE
+-ésima	NOUN
+especie	ADJ
+de	ADP
+carga	NOUN
+está	AUX
+descrita	ADJ
+por	ADP
+la	DET
+distribución	NOUN
+de	ADP
+Boltzmann	PROPN
+.	PUNCT
+
+
+	SPACE
+donde	PRON
+
+
+
+
+
+	SPACE
+k	PROPN
+
+
+	SPACE
+B	PROPN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+k_{B	PROPN
+}	SYM
+}	INTJ
+
+
+ 	SPACE
+es	AUX
+la	DET
+constante	ADJ
+de	ADP
+Boltzmann	PROPN
+y	CCONJ
+
+
+
+
+
+	SPACE
+n	NOUN
+
+
+	SPACE
+j	ADV
+
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+n_{j}^{0	VERB
+}	PRON
+}	INTJ
+
+
+ 	SPACE
+es	AUX
+la	DET
+concentración	NOUN
+media	ADJ
+de	ADP
+cargas	NOUN
+de	ADP
+especies	NOUN
+
+
+
+
+	SPACE
+j	NOUN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	NOUN
+j	NOUN
+}	INTJ
+
+
+	SPACE
+.	PUNCT
+Al	ADP
+identificar	VERB
+las	DET
+concentraciones	NOUN
+instantáneas	ADJ
+y	CCONJ
+el	DET
+potencial	NOUN
+instantáneo	ADJ
+en	ADP
+la	DET
+ecuación	NOUN
+de	ADP
+Poisson	PROPN
+con	ADP
+sus	DET
+contrapartes	NOUN
+de	ADP
+campo	NOUN
+medio	ADJ
+en	ADP
+la	DET
+distribución	NOUN
+de	ADP
+Boltzmann	PROPN
+,	PUNCT
+se	PRON
+obtiene	VERB
+la	DET
+ecuación	NOUN
+de	ADP
+Poisson-Boltzmann	PROPN
+:	PUNCT
+
+	SPACE
+Se	PRON
+conocen	VERB
+soluciones	NOUN
+para	ADP
+esta	DET
+ecuación	NOUN
+no	ADV
+lineal	ADJ
+para	ADP
+algunos	DET
+sistemas	NOUN
+simples	ADJ
+.	PUNCT
+Para	ADP
+sistemas	NOUN
+más	ADV
+generales	ADJ
+,	PUNCT
+se	PRON
+pueden	AUX
+obtener	VERB
+soluciones	NOUN
+en	ADP
+el	DET
+límite	NOUN
+de	ADP
+alta	ADJ
+temperatura	NOUN
+(	PUNCT
+acoplamiento	NOUN
+débil	PROPN
+)	PUNCT
+,	PUNCT
+
+
+
+
+
+	SPACE
+q	CCONJ
+
+
+	SPACE
+j	NOUN
+
+
+
+
+	SPACE
+Φ	PROPN
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+	SPACE
+≪	NOUN
+
+
+	SPACE
+k	PROPN
+
+
+	SPACE
+B	NOUN
+
+
+
+	SPACE
+T	PROPN
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+q_{j}\,\Phi	PRON
+(	PUNCT
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+\ll	PROPN
+k_{B}T	PROPN
+}	INTJ
+
+
+	SPACE
+,	PUNCT
+por	ADP
+medio	NOUN
+de	ADP
+una	DET
+expansión	NOUN
+en	ADP
+serie	NOUN
+de	ADP
+Taylor	PROPN
+de	ADP
+la	DET
+función	NOUN
+exponencial	ADJ
+:	PUNCT
+
+	SPACE
+Esta	DET
+aproximación	NOUN
+da	VERB
+como	SCONJ
+resultado	NOUN
+la	DET
+ecuación	NOUN
+linearizada	ADJ
+de	ADP
+Poisson-Boltzmann	PROPN
+:	PUNCT
+
+	SPACE
+la	DET
+cual	PRON
+se	PRON
+conoce	VERB
+como	SCONJ
+ecuación	NOUN
+de	ADP
+Debye-Hückel.[1]​	PROPN
+
+	SPACE
+[	NUM
+2]​	NOUN
+
+	SPACE
+[	NOUN
+3]​	NUM
+
+	SPACE
+[	NUM
+4]​	PUNCT
+
+	SPACE
+[	NUM
+5]​	NOUN
+
+	SPACE
+El	DET
+segundo	ADJ
+término	NOUN
+del	ADP
+lado	NOUN
+derecho	ADJ
+de	ADP
+la	DET
+ecuación	NOUN
+desaparece	VERB
+en	ADP
+sistemas	NOUN
+que	PRON
+son	AUX
+eléctricamente	ADV
+neutros	ADJ
+.	PUNCT
+El	DET
+término	NOUN
+entre	ADP
+paréntesis	NOUN
+de	ADP
+longitud	NOUN
+inversa	ADJ
+al	ADP
+cuadrado	NOUN
+y	CCONJ
+conduce	VERB
+de	ADP
+manera	NOUN
+natural	ADJ
+a	ADP
+la	DET
+definición	NOUN
+de	ADP
+escala	NOUN
+de	ADP
+longitud	NOUN
+característica	ADJ
+:	PUNCT
+
+
+
+
+
+
+	SPACE
+λ	ADV
+
+
+	SPACE
+D	NOUN
+
+
+
+	SPACE
+=	SYM
+
+
+
+	SPACE
+(	PUNCT
+
+
+
+
+
+	SPACE
+ε	CCONJ
+
+
+	SPACE
+r	ADV
+
+
+
+
+	SPACE
+ε	SYM
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+	SPACE
+k	PROPN
+
+
+	SPACE
+B	NOUN
+
+
+
+	SPACE
+T	PROPN
+
+
+
+
+	SPACE
+∑	SYM
+
+
+	SPACE
+j	NOUN
+
+	SPACE
+=	SYM
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
+N	NOUN
+
+
+
+
+	SPACE
+n	NOUN
+
+
+	SPACE
+j	ADV
+
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+	SPACE
+q	PRON
+
+
+	SPACE
+j	NOUN
+
+
+
+	SPACE
+2	NUM
+
+
+
+
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+1	NUM
+
+
+	SPACE
+/	PUNCT
+
+
+	SPACE
+2	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\lambda	PROPN
+_	PROPN
+{	NUM
+D}=\left({\frac	PROPN
+{	PROPN
+\varepsilon	PROPN
+_	PROPN
+{	PROPN
+r}\varepsilon	PROPN
+_	PROPN
+{	NUM
+0}\,k_{B}T}{\sum	NUM
+_	ADJ
+{	NOUN
+j=1}^{N}n_{j}^{0}\,q_{j}^{2}}}\right)^{1/2	NOUN
+}	NUM
+}	SYM
+
+
+
+	SPACE
+que	PRON
+es	AUX
+llamada	VERB
+comúnmente	ADV
+«	PUNCT
+longitud	NOUN
+de	ADP
+Debye-Hückel	PROPN
+»	PUNCT
+.	PUNCT
+La	DET
+longitud	NOUN
+
+
+
+
+
+	SPACE
+λ	ADV
+
+
+	SPACE
+D	NOUN
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\lambda	PROPN
+_	PROPN
+{	NOUN
+D	NOUN
+}	NOUN
+}	SYM
+
+
+ 	SPACE
+establece	VERB
+la	DET
+escala	NOUN
+de	ADP
+variaciones	NOUN
+en	ADP
+el	DET
+potencial	NOUN
+y	CCONJ
+en	ADP
+las	DET
+concentraciones	NOUN
+de	ADP
+especies	NOUN
+cargadas	ADJ
+.	PUNCT
+Se	PRON
+debe	AUX
+hacer	VERB
+énfasis	NOUN
+en	ADP
+que	SCONJ
+todas	DET
+las	DET
+especies	NOUN
+cargadas	ADJ
+contribuyen	VERB
+de	ADP
+igual	ADJ
+manera	NOUN
+a	ADP
+la	DET
+longitud	NOUN
+de	ADP
+Debye-Hückel	PROPN
+,	PUNCT
+sin	ADP
+importar	VERB
+el	DET
+signo	NOUN
+de	ADP
+sus	DET
+cargas	NOUN
+.	PUNCT
+El	DET
+potencial	NOUN
+producido	ADJ
+por	ADP
+una	DET
+carga	NOUN
+puntual	ADJ
+externa	ADJ
+
+
+
+
+
+	SPACE
+ρ	NOUN
+
+
+
+	SPACE
+e	CCONJ
+
+	SPACE
+x	NOUN
+
+	SPACE
+t	CCONJ
+
+
+
+
+	SPACE
+=	SYM
+
+	SPACE
+Q	NOUN
+
+	SPACE
+δ	NOUN
+
+	SPACE
+(	PUNCT
+
+
+	SPACE
+r	NOUN
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\rho	PROPN
+_	PROPN
+{	PROPN
+\rm	PROPN
+{	NOUN
+ext}}=Q\delta	NOUN
+(	PUNCT
+\mathbf	NOUN
+{	NUM
+r	NOUN
+}	NOUN
+)	PUNCT
+}	SYM
+
+
+ 	SPACE
+es	AUX
+:	PUNCT
+
+	SPACE
+El	DET
+potencial	NOUN
+de	ADP
+Coulomb	PROPN
+es	AUX
+apantallado	VERB
+exponencialmente	ADV
+por	ADP
+el	DET
+medio	NOUN
+,	PUNCT
+a	ADP
+una	DET
+distancia	NOUN
+del	ADP
+orden	NOUN
+de	ADP
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+:	PUNCT
+esto	PRON
+se	PRON
+llama	VERB
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+.	PUNCT
+
+	SPACE
+En	ADP
+los	DET
+plasmas	NOUN
+en	ADP
+el	DET
+espacio	NOUN
+,	PUNCT
+donde	PRON
+la	DET
+densidad	NOUN
+de	ADP
+electrones	NOUN
+es	AUX
+relativamente	ADV
+baja	ADJ
+,	PUNCT
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+puede	AUX
+alcanzar	VERB
+valores	NOUN
+macroscópicos	ADJ
+,	PUNCT
+como	SCONJ
+en	ADP
+la	DET
+magnetosfera	NOUN
+,	PUNCT
+el	DET
+viento	NOUN
+solar	ADJ
+o	CCONJ
+el	DET
+medio	NOUN
+intergaláctico	ADJ
+(	PUNCT
+véase	VERB
+la	DET
+tabla):[6]​	PROPN
+
+	SPACE
+Hannes	PROPN
+Alfvén	PROPN
+asegura	VERB
+que	SCONJ
+:	PUNCT
+«	PUNCT
+En	ADP
+un	DET
+plasma	NOUN
+de	ADP
+baja	ADJ
+densidad	NOUN
+regiones	NOUN
+localizadas	ADJ
+de	ADP
+carga	NOUN
+pueden	AUX
+generar	VERB
+grandes	ADJ
+caídas	NOUN
+de	ADP
+potencial	NOUN
+a	ADP
+distancias	NOUN
+del	ADP
+orden	NOUN
+de	ADP
+varias	DET
+decenas	NOUN
+de	ADP
+longitudes	NOUN
+de	ADP
+Debye	PROPN
+.	PUNCT
+Estas	DET
+regiones	NOUN
+son	AUX
+llamadas	VERB
+“	PUNCT
+capas	NOUN
+eléctricas	ADJ
+dobles	ADJ
+”	PUNCT
+.	PUNCT
+Una	DET
+doble	ADJ
+capa	NOUN
+eléctrica	ADJ
+es	AUX
+la	DET
+distribución	NOUN
+espacial	ADJ
+de	ADP
+carga	NOUN
+más	ADV
+simple	ADJ
+que	PRON
+da	VERB
+una	DET
+caída	NOUN
+de	ADP
+potencial	NOUN
+en	ADP
+la	DET
+capa	NOUN
+y	CCONJ
+un	DET
+campo	NOUN
+eléctrico	ADJ
+que	PRON
+desaparece	VERB
+al	ADP
+otro	DET
+lado	NOUN
+de	ADP
+la	DET
+capa	NOUN
+.	PUNCT
+En	ADP
+el	DET
+laboratorio	NOUN
+las	DET
+dobles	ADJ
+capas	NOUN
+se	PRON
+han	AUX
+estudiado	VERB
+por	ADP
+medio	NUM
+siglo	NOUN
+,	PUNCT
+pero	CCONJ
+su	DET
+importancia	NOUN
+en	ADP
+plasmas	NOUN
+cósmicos	ADJ
+no	ADV
+ha	AUX
+sido	AUX
+reconocida	VERB
+de	ADP
+forma	NOUN
+general	ADJ
+»	PUNCT
+.	PUNCT
+
+	SPACE
+Para	ADP
+un	DET
+plasma	NOUN
+de	ADP
+baja	ADJ
+colisión	NOUN
+,	PUNCT
+el	DET
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+se	PRON
+puede	AUX
+introducir	VERB
+de	ADP
+forma	NOUN
+muy	ADV
+intuitiva	ADJ
+teniendo	VERB
+en	ADP
+cuenta	NOUN
+su	DET
+carácter	NOUN
+granular	ADJ
+.	PUNCT
+Imaginemos	VERB
+una	DET
+esfera	NOUN
+alrededor	ADV
+de	ADP
+uno	PRON
+de	ADP
+sus	DET
+electrones	NOUN
+,	PUNCT
+y	CCONJ
+comparemos	VERB
+el	DET
+número	NOUN
+de	ADP
+electrones	NOUN
+que	PRON
+atraviesan	VERB
+esa	DET
+esfera	NOUN
+con	ADP
+y	CCONJ
+sin	ADP
+repulsión	NOUN
+de	ADP
+Coulomb	PROPN
+.	PUNCT
+Con	ADP
+la	DET
+repulsión	NOUN
+,	PUNCT
+este	DET
+número	NOUN
+es	AUX
+menor	ADJ
+.	PUNCT
+Por	ADP
+lo	PRON
+tanto	NOUN
+,	PUNCT
+según	ADP
+el	DET
+teorema	NOUN
+de	ADP
+Gauss	PROPN
+,	PUNCT
+la	DET
+carga	NOUN
+aparente	ADJ
+del	ADP
+primer	ADJ
+electrón	NOUN
+es	AUX
+menor	ADJ
+que	SCONJ
+en	ADP
+ausencia	NOUN
+de	ADP
+repulsión	NOUN
+.	PUNCT
+Cuanto	ADV
+mayor	ADJ
+sea	AUX
+el	DET
+radio	NOUN
+de	ADP
+la	DET
+esfera	NOUN
+,	PUNCT
+mayor	ADJ
+será	AUX
+el	DET
+número	NOUN
+de	ADP
+partículas	NOUN
+deflerizadas	ADJ
+,	PUNCT
+y	CCONJ
+menor	ADJ
+será	AUX
+la	DET
+carga	NOUN
+aparente	ADJ
+:	PUNCT
+es	AUX
+el	DET
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+.	PUNCT
+Puesto	NOUN
+que	SCONJ
+la	DET
+desviación	NOUN
+global	ADJ
+de	ADP
+los	DET
+electrones	NOUN
+incluye	VERB
+las	DET
+contribuciones	NOUN
+de	ADP
+muchos	DET
+otros	PRON
+,	PUNCT
+la	DET
+densidad	NOUN
+de	ADP
+los	DET
+electrones	NOUN
+no	ADV
+cambia	VERB
+,	PUNCT
+en	ADP
+contradicción	NOUN
+con	ADP
+el	DET
+apantallamiento	NOUN
+en	ADP
+las	DET
+proximidades	NOUN
+de	ADP
+una	DET
+pared	NOUN
+material	ADJ
+.	PUNCT
+Los	DET
+iones	NOUN
+hacen	VERB
+una	DET
+contribución	NOUN
+similar	ADJ
+al	ADP
+apantallamiento	NOUN
+,	PUNCT
+debido	ADJ
+a	ADP
+la	DET
+desviación	NOUN
+coulombiana	ADJ
+atractiva	ADJ
+de	ADP
+las	DET
+cargas	NOUN
+con	ADP
+signos	NOUN
+opuestos	ADJ
+.	PUNCT
+
+	SPACE
+Esta	DET
+imagen	NOUN
+intuitiva	ADJ
+conduce	VERB
+a	ADP
+un	DET
+cálculo	NOUN
+eficaz	ADJ
+del	ADP
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+(	PUNCT
+ver	VERB
+sección	NOUN
+II.A.2	PROPN
+de[7]​	PROPN
+)	PUNCT
+.	PUNCT
+La	DET
+hipótesis	NOUN
+de	ADP
+una	DET
+distribución	NOUN
+de	ADP
+Boltzmann	PROPN
+no	ADV
+es	AUX
+necesaria	ADJ
+en	ADP
+este	DET
+cálculo	NOUN
+:	PUNCT
+funciona	VERB
+para	ADP
+cualquier	DET
+función	NOUN
+de	ADP
+distribución	NOUN
+de	ADP
+partículas	NOUN
+.	PUNCT
+El	DET
+cálculo	NOUN
+evita	VERB
+también	ADV
+el	DET
+tratamiento	NOUN
+de	ADP
+los	DET
+plasmas	NOUN
+de	ADP
+baja	ADJ
+colisión	NOUN
+como	SCONJ
+medios	NOUN
+continuos	ADJ
+.	PUNCT
+Un	DET
+cálculo	NOUN
+N-cuerpo	ADV
+revela	VERB
+que	SCONJ
+la	DET
+aceleración	NOUN
+de	ADP
+Coulomb	PROPN
+de	ADP
+una	DET
+partícula	NOUN
+por	ADP
+otra	PRON
+se	PRON
+altera	VERB
+por	ADP
+una	DET
+contribución	NOUN
+mediada	ADJ
+por	ADP
+todas	DET
+las	DET
+demás	PRON
+partículas	NOUN
+,	PUNCT
+firma	NOUN
+del	ADP
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+(	PUNCT
+véase	VERB
+la	DET
+sección	NOUN
+8	NUM
+de[8]​	PROPN
+)	PUNCT
+.	PUNCT
+Partiendo	VERB
+de	ADP
+posiciones	NOUN
+aleatorias	ADJ
+de	ADP
+partículas	NOUN
+,	PUNCT
+la	DET
+escala	NOUN
+de	ADP
+tiempo	NOUN
+típica	ADJ
+para	ADP
+el	DET
+apantallamiento	NOUN
+es	AUX
+el	DET
+tiempo	NOUN
+que	PRON
+tarda	VERB
+una	DET
+partícula	NOUN
+térmica	ADJ
+en	ADP
+atravesar	VERB
+una	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+,	PUNCT
+es	NOUN
+decir	NOUN
+,	PUNCT
+el	DET
+inverso	NOUN
+de	ADP
+la	DET
+frecuencia	NOUN
+de	ADP
+plasma	ADJ
+.	PUNCT
+Por	ADP
+lo	PRON
+tanto	NOUN
+,	PUNCT
+en	ADP
+un	DET
+plasma	NOUN
+de	ADP
+baja	ADJ
+colisión	NOUN
+,	PUNCT
+las	DET
+colisiones	NOUN
+juegan	VERB
+un	DET
+papel	NOUN
+esencial	ADJ
+en	ADP
+aportar	VERB
+un	DET
+proceso	NOUN
+de	ADP
+auto-organización	NOUN
+cooperativa	ADJ
+:	PUNCT
+el	DET
+apantallamiento	NOUN
+de	ADP
+Debye	PROPN
+.	PUNCT
+
+	SPACE
+En	ADP
+un	DET
+plasma	NOUN
+,	PUNCT
+el	DET
+medio	NOUN
+que	PRON
+se	PRON
+encuentra	VERB
+en	ADP
+el	DET
+fondo	NOUN
+puede	AUX
+ser	AUX
+tratado	VERB
+como	SCONJ
+vacío	NOUN
+(	PUNCT
+
+
+
+
+
+	SPACE
+ε	CCONJ
+
+
+	SPACE
+r	ADV
+
+
+
+	SPACE
+=	PUNCT
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\varepsilon	PROPN
+_	PROPN
+{	NOUN
+r}=1	PROPN
+}	INTJ
+
+
+	SPACE
+)	PUNCT
+,	PUNCT
+y	CCONJ
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+es	AUX
+
+	SPACE
+donde	PRON
+
+	SPACE
+El	DET
+término	NOUN
+iónico	ADJ
+se	PRON
+elimina	VERB
+generalmente	ADV
+,	PUNCT
+dando	VERB
+
+	SPACE
+aunque	SCONJ
+esto	PRON
+es	AUX
+válido	VERB
+solamente	ADV
+cuando	SCONJ
+la	DET
+movilidad	NOUN
+de	ADP
+los	DET
+iones	NOUN
+es	AUX
+despreciable	ADJ
+comparada	ADJ
+con	ADP
+la	DET
+escala	NOUN
+de	ADP
+tiempo	NOUN
+del	ADP
+proceso.[9]​	PROPN
+
+	SPACE
+En	ADP
+un	DET
+electrolito	NOUN
+o	CCONJ
+un	DET
+coloide	NOUN
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+se	PRON
+denota	VERB
+usualmente	ADV
+con	ADP
+el	DET
+símbolo	NOUN
+
+
+
+
+
+	SPACE
+κ	ADV
+
+
+	SPACE
+−	PROPN
+
+	SPACE
+1	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\kappa	PROPN
+^{-1	PROPN
+}	PUNCT
+}	INTJ
+
+
+	SPACE
+:	PUNCT
+[	PUNCT
+10]​	PUNCT
+
+	SPACE
+donde	PRON
+
+	SPACE
+Para	ADP
+un	DET
+electrolito	NOUN
+simétrico	ADJ
+monovalente	NOUN
+:	PUNCT
+
+	SPACE
+donde	PRON
+
+	SPACE
+De	ADP
+forma	NOUN
+alternativa	ADJ
+:	PUNCT
+
+	SPACE
+donde	PRON
+
+	SPACE
+Para	ADP
+agua	NOUN
+a	ADP
+temperatura	NOUN
+ambiente	NOUN
+
+
+
+
+
+	SPACE
+λ	ADV
+
+
+	SPACE
+B	NOUN
+
+
+
+	SPACE
+≈	SYM
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\lambda	PROPN
+_	PROPN
+{	NOUN
+B}\approx	PROPN
+}	INTJ
+
+
+ 	SPACE
+0,7	NUM
+ 	SPACE
+nm	NOUN
+.	PUNCT
+A	ADP
+esta	DET
+temperatura	NOUN
+se	PRON
+puede	AUX
+considerar	VERB
+en	ADP
+el	DET
+agua	NOUN
+la	DET
+siguiente	ADJ
+relación:[11]​	NOUN
+
+	SPACE
+donde	PRON
+
+	SPACE
+La	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+se	PRON
+ha	AUX
+vuelto	VERB
+cada	DET
+vez	NOUN
+más	ADV
+importante	ADJ
+en	ADP
+el	DET
+modelado	NOUN
+de	ADP
+dispositivos	NOUN
+de	ADP
+estado	NOUN
+sólido	ADJ
+conforme	ADP
+los	DET
+avances	NOUN
+en	ADP
+tecnologías	NOUN
+litográficas	ADJ
+han	AUX
+permitido	VERB
+geometrías	NOUN
+más	ADV
+pequeñas.[12]​[13]​[14]​	ADJ
+
+	SPACE
+La	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+en	ADP
+el	DET
+silicio	NOUN
+está	AUX
+dada	VERB
+por	ADP
+:	PUNCT
+
+	SPACE
+donde	PRON
+
+	SPACE
+cuando	SCONJ
+el	DET
+perfil	NOUN
+de	ADP
+impurezas	NOUN
+excede	VERB
+la	DET
+longitud	NOUN
+de	ADP
+Debye	PROPN
+,	PUNCT
+la	DET
+mayoría	NOUN
+de	ADP
+los	DET
+portadores	NOUN
+no	ADV
+se	PRON
+comportan	VERB
+ya	ADV
+de	ADP
+acuerdo	NOUN
+a	ADP
+la	DET
+distribución	NOUN
+de	ADP
+las	DET
+impurezas	NOUN
+.	PUNCT
+En	ADP
+vez	NOUN
+de	ADP
+ello	PRON
+,	PUNCT
+una	DET
+medida	NOUN
+del	ADP
+perfil	NOUN
+de	ADP
+los	DET
+ 	SPACE
+gradientes	ADJ
+de	ADP
+impurezas	PROPN
+da	VERB
+un	DET
+perfil	NOUN
+«	PUNCT
+efectivo	ADJ
+»	PUNCT
+que	PRON
+se	PRON
+ajusta	VERB
+mejor	ADJ
+al	ADP
+perfil	NOUN
+de	ADP
+la	DET
+densidad	NOUN
+de	ADP
+los	DET
+portadores	NOUN
+.	PUNCT
+
+	SPACE

@@ -1,0 +1,864 @@
+En	ADP
+electrónica	NOUN
+,	PUNCT
+un	DET
+espejo	NOUN
+de	ADP
+corriente	NOUN
+es	AUX
+una	DET
+configuración	NOUN
+con	ADP
+la	DET
+que	PRON
+se	PRON
+pretende	VERB
+obtener	VERB
+una	DET
+corriente	NOUN
+constante	ADJ
+,	PUNCT
+esto	NOUN
+es	NOUN
+,	PUNCT
+una	DET
+fuente	NOUN
+de	ADP
+corriente	NOUN
+.	PUNCT
+Esta	DET
+configuración	NOUN
+consta	VERB
+de	ADP
+dos	NUM
+transistores	NOUN
+,	PUNCT
+idealmente	ADV
+idénticos	ADJ
+,	PUNCT
+y	CCONJ
+una	DET
+resistencia	NOUN
+o	CCONJ
+potenciómetro	NOUN
+,	PUNCT
+si	SCONJ
+se	PRON
+quisiera	VERB
+regular	VERB
+el	DET
+circuito	NOUN
+en	ADP
+el	DET
+caso	NOUN
+de	ADP
+que	SCONJ
+los	DET
+transistores	NOUN
+no	ADV
+fueran	AUX
+idénticos	ADJ
+.	PUNCT
+En	ADP
+la	DET
+figura	NOUN
+1	NUM
+se	PRON
+muestra	VERB
+el	DET
+esquema	NOUN
+básico	ADJ
+de	ADP
+un	DET
+espejo	NOUN
+de	ADP
+corriente	NOUN
+.	PUNCT
+
+	SPACE
+La	DET
+corriente	NOUN
+que	PRON
+circula	VERB
+en	ADP
+R1	PROPN
+está	AUX
+dada	VERB
+por	ADP
+:	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+R	PROPN
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
+=	SYM
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+C	PROPN
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
++	PROPN
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+B	PROPN
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
++	PROPN
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+B	PROPN
+
+	SPACE
+2	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{R1}=I_{C1}+I_{B1}+I_{B2	PROPN
+}	NOUN
+}	SYM
+
+
+
+	SPACE
+Donde	PRON
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+C	PROPN
+
+	SPACE
+1	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{C1	PROPN
+}	PROPN
+}	SYM
+
+
+ 	SPACE
+es	AUX
+la	DET
+corriente	NOUN
+del	ADP
+colector	NOUN
+de	ADP
+Q1	PROPN
+,	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+B	PROPN
+
+	SPACE
+1	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{B1	PROPN
+}	NOUN
+}	SYM
+
+
+ 	SPACE
+es	AUX
+la	DET
+corriente	NOUN
+de	ADP
+base	NOUN
+de	ADP
+Q1	PROPN
+,	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+B	PROPN
+
+	SPACE
+2	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{B2	PROPN
+}	NOUN
+}	SYM
+
+
+ 	SPACE
+es	AUX
+la	DET
+corriente	NOUN
+de	ADP
+base	NOUN
+de	ADP
+Q2	PROPN
+.	PUNCT
+
+	SPACE
+La	DET
+corriente	NOUN
+de	ADP
+colector	NOUN
+de	ADP
+Q1	PROPN
+viene	VERB
+dada	ADJ
+por	ADP
+la	DET
+ecuación	NOUN
+:	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+C	PROPN
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
+=	SYM
+
+
+	SPACE
+β	CCONJ
+
+
+	SPACE
+0	NUM
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+B	PROPN
+
+	SPACE
+1	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{C1}=\beta	PROPN
+_	PROPN
+{	NUM
+0}I_{B1	NUM
+}	NUM
+}	SYM
+
+
+
+	SPACE
+Donde	PRON
+
+
+
+
+
+	SPACE
+β	CCONJ
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\beta	ADJ
+_	PROPN
+{	NUM
+0	NUM
+}	NOUN
+}	NOUN
+
+
+ 	SPACE
+es	AUX
+la	DET
+ganancia	NOUN
+de	ADP
+corriente	NOUN
+de	ADP
+Q1	PROPN
+.	PUNCT
+Si	SCONJ
+Q1	PROPN
+y	CCONJ
+Q2	NOUN
+son	AUX
+idealmente	ADV
+idénticos	ADJ
+,	PUNCT
+la	DET
+
+
+
+
+	SPACE
+β	CCONJ
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\beta	ADJ
+}	INTJ
+
+
+ 	SPACE
+de	ADP
+Q2	NOUN
+será	AUX
+:	PUNCT
+
+	SPACE
+donde	PRON
+VA	NOUN
+es	AUX
+debida	VERB
+al	ADP
+efecto	NOUN
+Early	PROPN
+.	PUNCT
+
+	SPACE
+Como	SCONJ
+VBE1	PROPN
+=	PROPN
+VBE2	PROPN
+y	CCONJ
+Q1	PROPN
+y	CCONJ
+Q2	PROPN
+son	AUX
+idénticos	ADJ
+,	PUNCT
+IB1	PROPN
+=	PROPN
+IB2	PROPN
+.	PUNCT
+La	DET
+corriente	NOUN
+de	ADP
+colector	NOUN
+de	ADP
+Q2	PROPN
+será	AUX
+entonces	ADV
+dado	VERB
+por	ADP
+:	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+C	NOUN
+
+	SPACE
+2	NUM
+
+
+
+	SPACE
+=	SYM
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+R	PROPN
+
+	SPACE
+1	NUM
+
+
+
+
+	SPACE
+1	NUM
+
+	SPACE
++	PROPN
+
+
+
+	SPACE
+2	NUM
+
+
+	SPACE
+β	CCONJ
+
+
+	SPACE
+0	NUM
+
+
+
+
+
+
+
+
+ 
+	SPACE
+(	PUNCT
+
+	SPACE
+1	NUM
+
+	SPACE
++	PROPN
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+C	NOUN
+
+	SPACE
+E	CCONJ
+
+	SPACE
+2	NUM
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+A	ADP
+
+
+
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{C2}={\frac	NOUN
+{	SYM
+I_{R1}}{1+{\frac	PROPN
+{	NUM
+2}{\beta	NUM
+_	PROPN
+{	NUM
+0}}}}}\	NUM
+(	PUNCT
+1+{\frac	NUM
+{	NOUN
+V_{CE2}}{V_{A	PROPN
+}	NOUN
+}	NOUN
+}	NOUN
+)	PUNCT
+}	INTJ
+
+
+
+	SPACE
+Si	SCONJ
+
+
+
+
+
+	SPACE
+β	CCONJ
+
+
+	SPACE
+0	NUM
+
+
+
+	SPACE
+>	PUNCT
+>	PUNCT
+
+	SPACE
+1	NUM
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+\beta	ADJ
+_	PROPN
+{	NUM
+0}>>1	NUM
+}	NOUN
+
+
+	SPACE
+,	PUNCT
+entonces	ADV
+:	PUNCT
+
+
+
+
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+C	NOUN
+
+	SPACE
+2	NUM
+
+
+
+	SPACE
+≈	SYM
+
+
+	SPACE
+I	CCONJ
+
+
+	SPACE
+R	PROPN
+
+	SPACE
+1	NUM
+
+
+
+ 
+	SPACE
+(	PUNCT
+
+	SPACE
+1	NUM
+
+	SPACE
++	PROPN
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+C	NOUN
+
+	SPACE
+E	CCONJ
+
+	SPACE
+2	NUM
+
+
+
+
+	SPACE
+V	PROPN
+
+
+	SPACE
+A	ADP
+
+
+
+
+
+	SPACE
+)	PUNCT
+
+
+
+	SPACE
+{	NOUN
+\displaystyle	PROPN
+I_{C2}\approx	PROPN
+I_{R1}\	PROPN
+(	PUNCT
+1+{\frac	NOUN
+{	NOUN
+V_{CE2}}{V_{A	PROPN
+}	NOUN
+}	NOUN
+}	NOUN
+)	PUNCT
+}	SYM
+
+
+
+	SPACE
+Se	PRON
+obtiene	VERB
+así	ADV
+una	DET
+precisión	NOUN
+superior	ADJ
+a	ADP
+la	DET
+obtenida	ADJ
+con	ADP
+circuitos	NOUN
+más	ADV
+complejos	NOUN
+,	PUNCT
+como	SCONJ
+los	DET
+Widlar	PROPN
+,	PUNCT
+de	ADP
+Wilson	PROPN
+o	CCONJ
+Cascodo	PROPN
+.	PUNCT
+
+	SPACE
+El	DET
+espejo	NOUN
+de	ADP
+corriente	NOUN
+se	PRON
+usa	VERB
+en	ADP
+los	DET
+circuitos	NOUN
+integrados	ADJ
+porque	SCONJ
+es	AUX
+una	DET
+forma	NOUN
+conveniente	ADJ
+de	ADP
+crear	VERB
+fuentes	NOUN
+de	ADP
+corriente	NOUN
+y	CCONJ
+cargas	NOUN
+activas	ADJ
+.	PUNCT
+La	DET
+ventaja	NOUN
+de	ADP
+utilizar	VERB
+espejos	NOUN
+de	ADP
+corriente	NOUN
+es	AUX
+la	DET
+del	ADP
+incremento	NOUN
+en	ADP
+la	DET
+ganancia	NOUN
+de	ADP
+tensión	NOUN
+y	CCONJ
+en	ADP
+el	DET
+rechazo	NOUN
+al	ADP
+modo	NOUN
+común	NOUN
+(	PUNCT
+CMRR	PROPN
+)	PUNCT
+.	PUNCT
+
+	SPACE
+El	DET
+motivo	NOUN
+técnico	ADJ
+de	ADP
+su	DET
+frecuente	ADJ
+uso	NOUN
+en	ADP
+IC	PROPN
+se	PRON
+debe	VERB
+a	ADP
+la	DET
+vez	NOUN
+porque	SCONJ
+es	AUX
+más	ADV
+económico	ADJ
+hacer	VERB
+los	DET
+2	NUM
+transistores	NOUN
+sobre	ADP
+la	DET
+oblea	NOUN
+de	ADP
+silicio	NOUN
+en	ADP
+vez	NOUN
+de	ADP
+las	DET
+resistencias	NOUN
+cuando	SCONJ
+se	PRON
+quiere	VERB
+polarizar	VERB
+un	DET
+determinado	ADJ
+transistor	NOUN
+,	PUNCT
+aparte	ADV
+de	ADP
+ocupar	VERB
+menos	ADV
+espacio	NOUN
+;	PUNCT
+y	CCONJ
+ofrece	VERB
+también	ADV
+mayor	ADJ
+estabilidad	NOUN
+frente	NOUN
+a	ADP
+cambios	NOUN
+de	ADP
+voltaje	NOUN
+y	CCONJ
+temperatura	NOUN
+a	ADP
+la	DET
+polarización	NOUN
+.	PUNCT
+
+	SPACE
