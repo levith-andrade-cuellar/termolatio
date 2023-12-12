@@ -1,6 +1,6 @@
 import os, pickle
-from nltk import FreqDist
 import NPParser, Filter, Section, Settings
+from nltk import FreqDist
 
 class Document:
     """A Document object contains: filename - file location, and \

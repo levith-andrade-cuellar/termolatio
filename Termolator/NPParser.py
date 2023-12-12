@@ -1,8 +1,8 @@
 #NOTE: THE GENIA TAGGER HAS A RESTRICTIVE LICENSE,
 #USE AN UNENCUMBERED GENIA-STYLE ALTERNATIVE
 import subprocess, os, logging, pickle
-from nltk import FreqDist
 import Filter
+from nltk import FreqDist
 
 genia_path = './genia/'
 ### assumes genia tagger -- not currently used

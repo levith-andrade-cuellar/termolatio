@@ -30,10 +30,10 @@ read -p "Enter results folder (enter for default): " results
 results=${results:-results}
 
 read -p "Enter cleaned background folder (enter for default): " background
-background=${background:-cleaned/background}
+background=${background:-platos_carne}
 
 read -p "Enter cleaned foreground folder (enter for default): " foreground
-foreground=${foreground:-cleaned/foreground}
+foreground=${foreground:-platos_carne}
 
 read -p "Enter Termolator folder (enter for default): " termolator
 termolator=${termolator:-.}
