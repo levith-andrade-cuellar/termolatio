@@ -1,0 +1,135 @@
+Un amplificador de instrumentación está hecho a partir de amplificadores operacionales. Está diseñado para tener una alta impedancia de entrada y un alto rechazo al modo común (CMRR) es una medida del rechazo que ofrece la configuración a la entrada de voltaje común. Se puede construir a base de componentes discretos o se puede encontrar encapsulado (por ejemplo el INA114).
+La operación que realiza es la resta de sus dos entradas multiplicada por un factor.
+Su utilización es común en aparatos que trabajan con señales muy débiles, tales como equipos médicos (por ejemplo, el electrocardiógrafo), para minimizar el error de medida.
+En la siguiente figura se muestra la estructura de un amplificador:
+Al existir realimentación negativa se puede considerar un cortocircuito virtual entre las entradas inversoras y no inversoras (símbolos - y + respectivamente) de los dos operacionales. Por ello se tendrán las tensiones en dichos terminales y por lo tanto en los extremos de la resistencia 
+Así que por ella circulará una corriente 
+Y debido a la alta impedancia de entrada del A.O., esa corriente será la misma que atraviesa las resistencias 
+
+
+
+
+R
+
+1
+
+
+
+
+{\displaystyle R_{1}}
+
+
+Por lo tanto la tensión que cae en toda la rama formada por 
+
+
+
+
+R
+
+g
+
+
+,
+
+R
+
+1
+
+
+
+
+{\displaystyle R_{g},R_{1}}
+
+ y 
+
+
+
+
+R
+
+1
+
+
+
+
+{\displaystyle R_{1}}
+
+ será:
+Simplificando:
+Que será la DIFERENCIA de tensión entre la salida inmediata de los dos A.O. 's (justo antes de las 
+
+
+
+
+R
+
+2
+
+
+
+
+{\displaystyle R_{2}}
+
+). Puesto que el resto del circuito es un restador de ganancia la unidad (R2=R3) su salida será exactamente la diferencia de tensión de su entrada (sin añadir ganancia), la cual se acaba de definir.
+
+
+
+
+
+V
+
+out
+
+
+=
+(
+
+V
+
+2
+
+
+−
+
+V
+
+1
+
+
+)
+
+(
+
+1
++
+
+
+
+2
+
+R
+
+1
+
+
+
+
+R
+
+g
+
+
+
+
+
+)
+
+
+
+{\displaystyle V_{\text{out}}=(V_{2}-V_{1})\left(1+{\frac {2R_{1}}{R_{g}}}\right)}
+
+
+Nótese como se ha simplificado la expresión dando valores iguales a las resistencias R2 y R3.
+En caso de que las resistencias no sean iguales, la ganancia total del amplificador de instrumentación será:
+En circuitos integrados suele encapsularse todo excepto la resistencia Rg para poder controlar la ganancia. También puede sustituirse la conexión a tierra por otra a una tensión dada.
+

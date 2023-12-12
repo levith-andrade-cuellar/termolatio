@@ -1,0 +1,4 @@
+El Yamaha YM2413, también llamado OPLL, es un Chip de sonido de muy bajo costo fabricado por Yamaha Corporation y basada en su Yamaha YM3812 (OPL2). 
+Para hacer al chip más barato de fabricar, muchos de los registros internos fueron quitados. Por eso el YM2413 sólo puede tocar un instrumento definido por el usuario a la vez; los otros ajustes de 15 instrumentos son fijos y no se pueden alterar por el usuario. 
+Otras modificaciones realizadas para reducir costos son :
+El YM2413 fue utilizado como extensión de sonido de los MSX y de las videoconsolas de Sega SG-1000 Mark III y la versión japonesa de Master System. Además, el cartucho del juego para la Nintendo Famicom Lagrange Point traía el circuito MMC VRCVII diseñado por Konami, que contiene un núcleo de sonido FM bastante similar (pero no idéntico) al del YM2413.

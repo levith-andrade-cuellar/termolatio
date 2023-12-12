@@ -1,0 +1,109 @@
+La ecuación de Black es un modelo matemático que estima el tiempo medio de operación entre fallos de un circuito semiconductor debido a la electromigración, un fenómeno de agitación molecular del estado sólido en presencia de un campo electromagnético.
+(Mean time of failure)
+
+
+
+
+M
+T
+F
+=
+
+
+A
+
+j
+
+n
+
+
+
+
+
+e
+
+
+(
+
+
+
+E
+
+a
+
+
+
+
+k
+
+
+B
+
+
+
+ 
+T
+
+
+
+)
+
+
+
+
+
+{\displaystyle MTF={\frac {A}{j^{n}}}e^{\left({\frac {E_{a}}{k_{\rm {B}}\ T}}\right)}}
+
+
+El modelo es abstracto, no está basado en un modelo físico específico, pero describe de forma flexible la dependencia de la tasa de fallo con la temperatura (
+
+
+
+T
+
+
+{\displaystyle T}
+
+), la tensión eléctrica a la que se somete al material y la tecnología concreta. Siendo un modelo más descriptivo que predictivo, los valores de (
+
+
+
+A
+
+
+{\displaystyle A}
+
+), (
+
+
+
+n
+
+
+{\displaystyle n}
+
+) y (
+
+
+
+
+E
+
+a
+
+
+
+
+{\displaystyle E_{a}}
+
+) se obtienen mediante ajuste de los datos experimentales.
+La utilidad del modelo reside en su capacidad de relacionar datos tomados bajo condiciones extremas de temperatura (
+
+
+
+T
+
+
+{\displaystyle T}
+
+) y tensión en breves periodos de tiempo con las tasas de fallo esperables bajo condiciones habituales de funcionamiento. Los datos se obtienen sometiendo al material a pruebas a alta temperatura.

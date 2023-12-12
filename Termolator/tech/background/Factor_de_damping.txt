@@ -1,0 +1,62 @@
+El factor de damping es un parámetro de calidad de un amplificador de audio, que mide la razón de la impedancia del amplificador a la impedancia de salida. Sólo la parte resistiva de la impedancia de salida es usada. La impedancia de salida del amplificador se asume también que es totalmente resistiva. La impedancia de entrada incluye la impedancia del cable conector. La impedancia de entrada 
+
+
+
+
+Z
+
+
+L
+
+
+
+
+
+{\displaystyle Z_{\mathrm {L} }}
+
+ y la impedancia de salida 
+
+
+
+
+Z
+
+
+S
+
+
+
+
+
+{\displaystyle Z_{\mathrm {S} }}
+
+ están mostradas en este diagrama:
+
+El factor de damping 
+
+
+
+D
+F
+
+
+{\displaystyle DF}
+
+ se mide como:
+Despejando 
+
+
+
+
+Z
+
+
+S
+
+
+
+
+
+{\displaystyle Z_{\mathrm {S} }}
+
+:

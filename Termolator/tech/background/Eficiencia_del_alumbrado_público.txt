@@ -1,0 +1,161 @@
+La eficiencia energética de una instalación de alumbrado exterior se define como la relación entre el producto de la superficie iluminada por la iluminancia media en servicio de la instalación entre la potencia activa total instalada.
+donde:
+
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+:    Eficiencia energética de la instalación de alumbrado exterior (
+
+
+
+l
+u
+m
+
+/
+
+W
+=
+
+m
+
+2
+
+
+×
+l
+u
+x
+
+/
+
+W
+
+
+{\displaystyle lum/W=m^{2}\times lux/W}
+
+).
+
+
+
+
+P
+
+
+{\displaystyle P}
+
+:   Potencia activa total instalada (lámparas y equipos auxiliares) (
+
+
+
+W
+
+
+{\displaystyle W}
+
+).
+
+
+
+
+S
+
+
+{\displaystyle S}
+
+:   Superficie iluminada (
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m^{2}}
+
+).
+
+
+
+
+
+E
+
+m
+
+
+
+
+{\displaystyle E_{m}}
+
+: Iluminancia media en servicio de la instalación, considerando el mantenimiento previsto (
+
+
+
+l
+u
+x
+
+
+{\displaystyle lux}
+
+).
+
+La eficiencia energética también se puede expresar en función de ciertos factores o coeficientes:
+donde:
+- Eficiencia de la lámpara y equipos auxiliares (
+
+
+
+
+ϵ
+
+L
+
+
+
+
+{\displaystyle \epsilon _{L}}
+
+): es la relación entre el flujo luminoso emitido por una lámpara y la potencia total consumida por la lámpara más su equipo auxiliar.
+- Factor de mantenimiento (
+
+
+
+
+f
+
+m
+
+
+
+
+{\displaystyle f_{m}}
+
+): es la relación entre los valores de iluminancia que se pretenden mantener a lo largo de la vida de la instalación de alumbrado y los valores iniciales.
+- Factor de utilización (
+
+
+
+
+f
+
+u
+
+
+
+
+{\displaystyle f_{u}}
+
+): es la relación entre el flujo útil procedente de las luminarias que llega a la calzada o superficie a iluminar y el flujo emitido por las lámparas instaladas en las luminarias.
+El factor de utilización de la instalación es función del tipo de lámpara, de la distribución de la intensidad luminosa y rendimiento de las luminarias, así como de la geometría de la instalación, tanto en lo referente a las características dimensionales de la superficie a iluminar (longitud y anchura), como a la disposición de las luminarias en la instalación de alumbrado exterior (tipo de implantación, altura de las luminarias y separación entre puntos de luz).
+La instalación más eficiente será aquella en la que el producto de los tres factores - eficiencia de las lámparas y equipos auxiliares y factores de mantenimiento y utilización de la instalación sea máximo.

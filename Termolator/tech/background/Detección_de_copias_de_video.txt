@@ -1,0 +1,187 @@
+Cada vez son más los videos que circulan por la red. La detección de copias de video se basa en detectar a partir de un video ejemplo, cuales han sido copiados con tal de no violar el copyright del video ejemplo.
+También consideramos un video copiado aquel grabado con una cámara, como podría ser un espectador grabando una película en el cine. Se tiene que tener en cuenta que los videos copiados pueden ser modificados, por ejemplo, pueden llevar un logo, transformaciones de color, bordes negros, disminución de la calidad, más ruido, etc.
+Indyk et al. Se basó en la duración de la película para intentar investigar si esta, era una copia. Esto tenía un problema, y era que solamente era válido para películas enteras, y sin muchos retoques, ya que si lo aplicamos a extractos cortados, no las detectará correctamente.
+Más tarde,  Oostveen et al. presenta el concepto de "fingerprint" o función "hash". Esta es una señal extraída del video, con el cual podemos identificarlo unívocamente, y no puede ser descodificado para obtener el video otra vez, ya que únicamente toma ciertas partes del video.
+Esta técnica nos propone una huella basada en la imagen de luminancia partida en trozos (en una rejilla) por un lado, y por otro, la duración de la secuencia de video.
+Después, B.Coskun et al. presentan dos algoritmos muy robustos basados en la DCT, dónde ya miran el contenido por frecuencias de las imágenes del video.
+Hampapur i Balle, dieron una descripción global de un trozo de video, basándose en el movimiento, color, espacio y tiempo de duración.
+Se pensó que también sería buena idea mirar los niveles de color de la imagen, y por eso, Li et al. elaboró un algoritmo que utilizaba una firma binaria sacada a partir del histograma de color de cada imagen.
+Este algoritmo no era muy consistente en caso de inserción de logotipos de colores en la imagen, ya que engañaba al sistema, haciendo creer que el color del logotipo era una parte de la imagen original.
+La marca de agua consiste en introducir una señal no visible en el video con el objetivo de que éste sea reconocido como original y de esta manera, poder detectar fácilmente las copias.
+La marca de agua, en imagen es una técnica muy utilizada por los fotógrafos, ya que permite detectar si la imagen ha sido copiada o no. Muchas veces, esta marca de agua es visible en la imagen, y se sitúa en el fondo de esta, o puesta de manera que impida su uso indebido.
+Las limitaciones de las marcas de agua radican básicamente en que si la imagen original no tiene dicha marca, entonces no podemos saber si otra imagen es una copia suya o no.
+En este caso, la huella o "firma", en inglés "signature" o "fingerprint" que define el video, es su mismo contenido. Los algoritmos de detección de copia basados en el contenido, lo que hacen es extraer un señal huella a través de las características del contenido visual, que entonces es utilizado para comparar con las huellas de otras señales en la base de datos.
+Este tipo de algoritmos tienen un problema difícil de solucionar. Este problema es la diferencia entre video copiado y video similar, ya que las características de contenido de uno son muy parecidas a las del otro y podría llevar a pensar que el video es igual, cuando realmente no lo es.
+Por ejemplo, un presentador presentando las noticias.
+Se define una intensidad global a partir de una ponderación y dependiendo de la intensidad de cada píxel, a lo largo de todo el video
+De esta manera la marca depende de la duración total del video, y de como es el video en cuestión.
+La intensidad global a(t) se define entonces a partir de:
+
+
+
+
+a
+(
+t
+)
+=
+
+∑
+
+i
+=
+1
+
+
+N
+
+
+K
+(
+i
+)
+(
+I
+(
+i
+,
+t
+−
+1
+)
+
+)
+
+2
+
+
+
+
+{\displaystyle a(t)=\sum _{i=1}^{N}K(i)(I(i,t-1))^{2}}
+
+
+Donde k es la ponderación de la imagen y I la imagen en si. Llamamos N a los pixeles de cada imagen.
+Se segmenta la imagen en N bloques, se ordenan los píxeles por nivel de gris y se crea un vector con los niveles de gris medios para cada bloque.
+Con estos niveles medios de gris se crea la firma de la imagen S(t).
+
+
+
+
+S
+(
+t
+)
+=
+(
+
+r
+
+1
+
+
+,
+
+r
+
+2
+
+
+,
+⋯
+,
+
+r
+
+N
+
+
+)
+
+
+{\displaystyle S(t)=(r_{1},r_{2},\cdots ,r_{N})}
+
+
+Entonces, a la hora de comparar los dos videos, también se define D(t) que representa la similitud entre los dos.
+
+
+
+
+D
+(
+t
+)
+=
+
+
+1
+T
+
+
+
+∑
+
+1
+=
+t
+−
+
+
+T
+2
+
+
+
+
+t
++
+
+
+T
+2
+
+
+
+
+
+
+|
+
+
+
+R
+(
+i
+)
+−
+C
+(
+i
+)
+
+
+
+|
+
+
+
+
+{\displaystyle D(t)={\frac {1}{T}}\sum _{1=t-{\frac {T}{2}}}^{t+{\frac {T}{2}}}{\begin{vmatrix}R(i)-C(i)\end{vmatrix}}}
+
+
+A partir de aquí se fija un umbral para determinar si los videos son copiados o no.
+Técnica propuesta por L.Chen y F.Stentiford.
+Se hace una medida D, de "no similitud" combinando las dos técnicas anteriores, Descriptores Globales Temporales y Descriptores Globales de Medida Ordinal, en el tiempo y en el espacio.
+Descrita por A. Joly st. al., y siendo una mejora del detector de puntos de interés de Harris, esta técnica intenta hacer una búsqueda más rápida, y de esta manera más eficiente. Ya que en un video, si todos los cuadros son prácticamente idénticos, no se tendrían que mirar todos, esta técnica se basa en mirar solamente las imágenes que hayan sufrido más movimiento desde el cuadro anterior.
+Utiliza los puntos de interés de cada imagen para poder definir una firma original de todo el video.
+En cualquier imagen podemos identificar y definir dos partes:
+Algoritmo desarrollado por I. Laptev y T.Lindeberg que utiliza la técnica de los puntos de interés a lo largo del espacio y tiempo para extraer una firma propia del video.
+Este algoritmo se crea un vector de 34 dimensiones donde guarda la firma del contenido espacio-tiempo.
+Actualmente hay algunos algoritmos de detección de copias de video. Y es por eso que debemos tener un sistema para probarlos exactamente en las mismas condiciones. De esta forma conseguiremos ver el rendimiento de todos los algoritmos delante de los mismos videos.
+Estos pueden ser de diferentes duraciones (1 minuto a 1 hora) y con diferentes transformaciones de color, contraste, etc. aplicadas.
+Para poder determinar cuál es el mejor algoritmo y ver el rendimiento en las mismas condiciones, se celebran unas pruebas conocidas como MUSLE(Multimedia Understanding through Semantics, Computation and Learning ).
+MUSLE (Multimedia Understanding through Semantics, Computation and Learning) es una celebración que tuvo lugar en ACM CIVR 2007: video Retrieval, Image Retrieval and video Copy Detection.
+Se hicieron un conjunto de pruebas con cada algoritmo, separando los videos en tres apartados:
+Las consultas también podían ser:
+Definieron también dos tipos de consultas:
+Vudeis kargism de 5 minutos a 1 hora de duración. Podían ser videos con más ruido y recodificados. En este caso, las consultas más difíciles serían para los videos grabados con cámaras de manos. (cam-coder).
+En esta caso eran videos cortos, de duración de un segundo hasta un minuto, pero podían estar retocados por profesionales, con bordes negros, logotipos insertados, etc.

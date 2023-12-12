@@ -1,0 +1,66 @@
+El Estilo o Normas de Vancouver es un conjunto de reglas para la publicación de manuscritos en el ámbito de las Ciencias de la Salud. También es conocido por el mismo nombre el subconjunto de esas normas referido a la forma de realizar referencias bibliográficas.[1]​
+El sistema de Vancouver toma su nombre de una reunión celebrada en Vancouver (Canadá) en 1978, que llevó a la creación del Comité Internacional de Editores de Revistas Médicas (ICMJE). Este fue desarrollado por la Biblioteca Nacional de Medicina de los EE. UU., cuya versión "debe ser considerado como estilo autoritario", según la Asociación Médica Británica (BMA). Se han publicado varias versiones de los requisitos de uniformidad, la última actualización es de diciembre de 2018.[2]​
+Las referencias bibliográficas se enumeran consecutivamente en el orden de aparición en el texto. Y se identifican mediante números arábigos entre paréntesis (1), corchetes [1], superíndice 1, o una combinación de corchetes más superíndice [1].
+Hay 41 formatos de citas diferentes para diversos tipos de fuentes bibliográficas (libros, artículos de revistas, etc)[3]​  
+Estructura general: Autor/es. Título del artículo. Abreviatura internacional de la revista. año; volumen (número): página inicial-final del artículo.
+Si los autores fueran más de seis, se mencionan los seis primeros seguidos de la abreviatura et al.
+(1) Artículo estándar
+(2) Organización o equipo como autor
+(3) Autoría compartida entre autores y un equipo
+(4) No se indica autor
+(5) Artículo en otro idioma distinto del inglés
+Nota: Los artículos deben escribirse en su idioma original si la grafía es latina. 
+(6) Suplemento de un volumen
+(7) Suplemento de un número
+(8) Parte de un volumen
+(9) Parte de un número
+(10) Número sin volumen
+(11) Sin número ni volumen
+(12) Paginación en número romanos
+(13) Indicación del tipo de artículo según corresponda (editorial, carta, resumen)
+(14) Artículo que contiene una retractación
+(15) Artículo objeto de retractación
+(16) Artículo reeditado con correcciones
+(17) Artículo sobre el que se ha publicado una fe de erratas
+(18) Artículo publicado electrónicamente antes que en versión impresa
+Estructura general:  Autor/es.Título del libro. Edición. Lugar de publicación: Editorial; año.
+La primera edición no es necesario consignarla. La edición siempre se pone en números arábigos y abreviatura: 2ª ed. Si la obra estuviera compuesta por más de un volumen, debemos citarlo a continuación del título del libro: Vol. 3.
+(19) Autores individuales
+(20) Director(es), compilador(es) como autor
+(21) Autor(es) y editor(es)
+(22) Organización como autor
+(23) Capítulo de libro
+Autor/es del capítulo. Título del capítulo. En*: Director/Coordinador/Editor del libro. Título del libro. Edición. Lugar de publicación: Editorial; año. página inicial-final del capítulo.
+(24) Actas de congresos
+(25) Comunicación presentada a un congreso
+Autor/es de la Comunicación/Ponencia. Título de la Comunicación/Ponencia. En: Título oficial del Congreso. Lugar de Publicación: Editorial; año. página inicial-final de la comunicación/ponencia.
+(26) Informe científico o técnico
+Autor/es. Título del informe. Lugar de publicación: Organismos/Agencia editora; año. Número o serie identificativa del informe.
+(27) Tesis doctoral
+Autor. Título de la tesis [tesis doctoral]. Lugar de publicación: Editorial; año.
+(28) Patente
+(29) Artículo de periódico
+Autor del artículo. Título del artículo. Nombre del periódico. Día mes año; Sección: página (columna).
+(30) Material audiovisual
+Autor/es. Título de la videocinta [videocinta]. Lugar de edición: Editorial; año.
+Aplicable a todos los soportes audiovisuales.
+(31) Documentos legales (leyes, decretos, órdenes, etc)
+Título de la ley/decreto/orden... (Nombre del Boletín Oficial, número, fecha de publicación)
+(32) Mapa
+Nombre del mapa [tipo de mapa]. Lugar de publicación: Editorial; año.
+(33) Diccionarios y obras de consulta
+La NLM prefiere "de próxima aparición" (en inglés: forthcoming) porque no todos los temas serán publicados.
+(34) En prensa
+(35) CD-ROM
+Autor/es. Título [CD-ROM]. Edición. Lugar: Editorial; año.
+(36) Artículo de revista en Internet
+Autor/es del artículo. Título del artículo. Nombre de la revista [revista en Internet] año [fecha de consulta]; volumen (número): [Extensión/páginas]. Dirección electrónica.
+(37) Monografía en Internet
+Autor/es o Director/Coordinador/Editor. Título [monografía en Internet]. Edición. Lugar de publicación: Editor; año [fecha de consulta]. Dirección electrónica.
+(38) Sede Web o Página principal de inicio de un sitio Web
+Autor/es. Título [sede Web]. Lugar de publicación: Editor; Fecha de publicación [fecha de actualización; fecha de acceso]. Dirección electrónica.
+(39) Parte de una página de un sitio o sede Web
+Título de la página [sede Web]. Lugar de publicación: Editor; Fecha de publicación [fecha de actualización/revisión; fecha de acceso]. Título de la sección [número de páginas o pantallas].  Dirección electrónica.
+(40) Base de datos en Internet
+Institución/Autor. Título [base de datos en Internet]. Lugar de publicación: Editor; Fecha de creación, [fecha de actualización; fecha de consulta]. Dirección electrónica.
+(41) Parte de una base de datos en Internet

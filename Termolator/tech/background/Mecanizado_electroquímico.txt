@@ -1,0 +1,7 @@
+El mecanizado electroquímico es un proceso en el que el material se elimina por disolución anódica del mismo en una corriente rápida de electrolito. Se trata básicamente de un proceso desgalvanoplástico en el que la herramienta es el cátodo y la pieza es el ánodo, por lo que ambos han de ser conductores eléctricas, encargándose el electrolito de arrastrar los lodos hasta un filtro de decantación.
+El proceso es:  la herramienta se conecta al cátodo y se la hace avanzar hacia la pieza a una velocidad constante adaptada a la velocidad de disolución de los electrodos, manteniendo un intersticio de 0,07 a 0,75 mm entre ambos. Ese intersticio evita el cortocircuito entre los electrodos y a través de él circula la corriente de electrolito que arrastra los residuos de la descomposición del metal de la pieza.
+Las características de los elementos y parámetros son:
+En cuanto a las aplicaciones, se emplea en el mecanizado de materiales muy duros, en los casos en que se necesite una superficie libre de tensiones residuales o cuando las características geométricas de la pieza lo exijan. Se pueden conseguir tolerancias de ±0,025 mm en trabajos muy finos de precisión dimensional.
+Variantes del proceso de mecanizado electroquímico (MEQ)
+Existen muchas variantes del mecanizado electroquímico, algunas de ellas son:
+Tecnología mecánica: procesos de conformado con arranque de viruta y soldadura de metales.(publicación UJI)

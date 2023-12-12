@@ -1,0 +1,21 @@
+La reflectometría de dominio de tiempo (en inglés, Time-Domain Reflectometry, TDR) es una técnica de medición que se utiliza para determinar las características de las líneas eléctricas mediante la observación de las ondas reflejadas.[1]​ La transmisiometría de dominio de tiempo (Time-Domain Transmissometry, TDT) es una técnica análoga que mide el (más que reflejada) impulso transmitido. Juntos, proporcionan un poderoso medio de análisis de medios de transmisión eléctricos u ópticos, tales como cable coaxial y fibra óptica.
+Existen variaciones de la TDR. Por ejemplo, la reflectometría de dominio de tiempo de espectro extendido (Spread-Spectrum Time-Domain Reflectometry, SSTDR) se utiliza para detectar fallos intermitentes en sistemas complejos y de alto ruido, tales como el cableado aviones.[2]​ La reflectometría óptico-coherente de dominio de tiempo (Coherent Optical Time Domain Reflectometry, COTDR) es otra variante, que se utiliza en los sistemas ópticos, en los que la señal de retorno se mezcla con un oscilador local y después se filtra para reducir el ruido.[3]​
+La  impedancia de la discontinuidad se puede determinar a partir de la amplitud de la señal reflejada. La distancia a la impedancia reflectora también puede determinarse a partir del tiempo que tarda en volver el impulso. La limitación de este método es el tiempo de subida mínimo del sistema. El tiempo total de subida consiste en el tiempo de subida combinado del impulso de activación más el del osciloscopio (o sampler) que supervisa las reflexiones.
+El análisis TDR comienza con la propagación de un  escalón o impulso de energía en un Sistema y la posterior observación de la energía reflejada por el sistema. Mediante el análisis de la magnitud, la duración y la forma de la forma de onda reflejada, la naturaleza de la variación de impedancia en el sistema de transmisión se puede determinar.
+Si una carga resistiva pura se coloca en la salida del  reflectómetro y  se aplica un escalón o impulso de energía, se observa el escalón de la señal en la pantalla, y su altura es una función de la resistencia. La magnitud de la etapa producida por la carga resistiva puede ser expresada como una fracción de la señal de entrada dada por:
+donde 
+
+
+
+
+Z
+
+0
+
+
+
+
+{\displaystyle Z_{0}}
+
+ es la impedancia característica de la línea de transmisión.
+Para  carga reactivas, la forma de onda observada depende de la constante de tiempo formada por la carga y la impedancia característica de la línea.

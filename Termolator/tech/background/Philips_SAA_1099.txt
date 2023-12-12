@@ -1,0 +1,3 @@
+El Philips SAA 1099 es un chip de sonido con capacidad de 6 generadores de frecuencia (voces), 8 octavas por voz y 256 tonos por octava. Tiene dos generadores de ruido blanco, seis mezcladores de sonido y frecuencias, doce controles de amplitud, dos controles de envolvente y dos salidas (estéreo) de seis canales, pudiendo controlarse cada salida independientemente. Se presenta en un encapsulado DIP de 18 pines.
+Requiere una alimentación de 5 V DC a 70 mA (pin 18), con una corriente de referencia de 250 microAmperios (pin 6), presentando un consumo de 500 mWatios. Funciona a temperaturas entre 0 y 70 grados Celsius. Puede operar con un reloj externo a 8 MHz.
+Fue utilizado en numerosos dispositivos en la década de los 80, entre los que podemos citar

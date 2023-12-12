@@ -1,0 +1,19 @@
+La tecnología de materiales es el estudio y práctica de técnicas de análisis, estudios de física y desarrollo de materiales. También es la disciplina de la ingeniería que trata sobre los procesos industriales que proporcionan las piezas que componen las máquinas y objetos diversos, a partir de las materias primas.
+Estas propiedades se ponen de manifiesto ante estímulos como la electricidad, la luz, el calor o la aplicación de fuerzas a un material.
+Describen características como elasticidad, conductividad eléctrica o térmica, magnetismo o comportamiento óptico, vale saber que, por lo general, no se alteran por otras fuerzas que actúan sobre el material.
+-Las propiedades mecánicas son aquellas propiedades de los sólidos que se manifiestan cuando aplicamos una fuerza. Las propiedades mecánicas de los materiales se refieren a la capacidad de los mismos de resistir acciones de cargas: las cargas o fuerzas actúan momentáneamente, tienen carácter de choque.
+Las propiedades mecánicas principales son: dureza, resistencia, elasticidad, plasticidad y resiliencia, aunque también podrían considerarse entre estas a la fatiga y la fluencia (creep).
+
+Materiales transmisores o aislantes del sonido.
+Materiales conductores o dieléctricos. Sus propiedades se dividen en:
+Materiales conductores o aislantes térmicos.
+Las propiedades térmicas determinan el comportamiento de los materiales frente al calor o temperatura ambiente.
+Materiales magnéticos. En física se denomina permeabilidad magnética a la capacidad de una sustancia o medio para atraer y hacer pasar a través de sí los campos magnéticos, la cual está dada por la relación entre la intensidad de campo magnético existente y la inducción magnética que aparece en el interior de dicho material.
+Las más conocidas son las alteraciones químicas de los metales a causa del aire, como la herrumbre del hierro y el acero o la formación de pátina verde en el cobre y sus aleaciones (bronce, latón).
+Sin embargo, la corrosión es un fenómeno mucho más amplio que afecta a todos los materiales (metales, cerámicas, polímeros, etc.) y todos los ambientes (medios acuosos, atmósfera, alta temperatura, etc.).
+Es un problema industrial importante, pues puede causar accidentes (ruptura de una pieza) y, además, representa un costo importante, ya que se calcula que cada pocos segundos se disuelve 5 toneladas de acero en el mundo, procedentes de unos cuantos nanómetros o picómetros, invisibles en cada pieza pero que, multiplicados por la cantidad de acero que existe en el mundo, constituyen una cantidad importante. La corrosión es un campo de las ciencias de materiales que invoca a la vez nociones de química y de física (físico-química).
+El elemento conocido más maleable es el oro, que se puede malear hasta láminas de una diezmilésima de milímetro de espesor. También presentan esta característica otros metales como el platino, la plata, el cobre, el hierro y el aluminio.
+Para que exista una reacción de reducción-oxidación, en el sistema debe haber un elemento que ceda electrones, y otro que los acepte:
+El agente oxidante es el elemento químico que tiende a captar esos electrones, quedando con un estado de oxidación inferior al que tenía, es decir, siendo reducido.2
+El agente reductor es aquel elemento químico que suministra electrones de su estructura química al medio, aumentando su estado de oxidación, es decir, siendo oxidado.
+Cuando un elemento químico reductor cede electrones al medio, se convierte en un elemento oxidado, y la relación que guarda con su precursor queda establecida mediante lo que se llama un «par redox». Análogamente, se dice que, cuando un elemento químico capta electrones del medio, este se convierte en un elemento reducido, e igualmente forma un par redox con su precursor oxidado.

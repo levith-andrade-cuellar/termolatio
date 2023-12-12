@@ -1,0 +1,56 @@
+El término ESR  o resistencia serie equivalente, hace referencia a la resistencia de un condensador (o un inductor) al paso de una corriente alterna de una frecuencia determinada (la resistencia del electrolito, de los dieléctricos, de los recubrimientos, de los conductores.)
+La ESR de un condensador generalmente se especifica para 100 Hz (los marcados como baja impedancia son buenos para utilizarlos en aplicaciones de audio).
+La frecuencia y la ESR están directamente interrelacionadas. En el gráfico se muestra la relación entre la VSG y otros valores de Z a distintas frecuencias. El cuadro indica, entre otras cosas, que para tener condensador con una ESR más baja se necesita que tenga una capacidad más elevada.
+Un condensador electrolítico "ideal" no tiene ningún tipo de resistencia, sólo una capacidad típica. Pero, de hecho, el material del que el condensador está construido, tiene una resistencia determinada. Los condensadores de baja ESR tienen una resistencia baja (específicamente reactancia capacitiva), y por ello, entre otros motivos, se calientan menos que los que tienen una resistencia serie equivalente más alta (no buscada).
+Los condensadores electrolíticos de baja ESR normalmente tienen unas dimensiones más pequeñas que los condensadores electrolíticos convencionales de la misma capacidad y mismo voltaje. Si se suelda un condensador de elevada ESR donde debería haber un condensador de baja ESR (para condiciones de trabajo a frecuencias de por ejemplo 100 kHz) éste se calentará en exceso, el nivel de rizado de corriente será inaceptable y se estropeará con rapidez.
+La ESR es inversamente proporcional a la capacitancia del condensador, es decir, cuanto mayor sea la capacidad, menor será la ESR. Los condensadores de tensiones más altas tienen un valor de ESR menor en comparación con otros de la misma capacidad de un voltaje menor. Por lo general, varios condensadores conectados en paralelo tienen una ESR inferior a uno solo con la misma capacidad total, y también tienen un mayor rizado de corriente (corriente de rizado admisible).
+Un condensador se puede representar como la composición (circuito equivalente) de varios elementos en serie: una ESR (equivalent series resistance |resistencia serie equivalente); una capacidad en paralelo  C  y una resistencia de fugas  Rp ; ESL (equivalent series inductance| inductancia serie equivalente).
+donde 
+F  - frecuencia,
+Df - factor de disipación
+ XC - reactancia capacitiva
+Por otro lado, la impedancia del condensador es igual a:
+Un condensador ideal tiene una reactancia XC , que es un componente de la impedancia Z. Para una conexión en serie de resistencia y condensador el módulo de Z  es:
+La reactancia XC se calcula mediante la fórmula:
+El módulo | Z | se puede determinar a partir de la ley de Ohm el suministro de tensión alterna sinusoidal a un condensador. |Z| se mide para una tensión de una frecuencia específica. Se puede calcular utilizando la fórmula
+
+
+
+
+
+|
+
+Z
+
+|
+
+=
+
+
+
+R
+
+2
+
+
++
+
+
+
+X
+
+C
+
+
+
+
+2
+
+
+
+
+
+
+{\displaystyle |Z|={\sqrt {R^{2}+{X_{C}}^{2}}}}
+
+.

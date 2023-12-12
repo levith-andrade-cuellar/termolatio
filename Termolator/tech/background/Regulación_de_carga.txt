@@ -1,0 +1,2 @@
+La regulación de carga es la capacidad que tiene una fuente de alimentación de regular la tensión solicitada con independencia de la corriente que se le sea solicitada.
+Es decir, una fuente no debe variar la tensión eléctrica que se le haya requerido independiente de que no haya carga (por ejemplo sin nada conectado a la fuente) o haya la máxima admitida por la fuente (por ejemplo un motor con mucha carga).

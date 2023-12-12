@@ -1,0 +1,2 @@
+El NMOS (Negative-channel Metal-Oxide Semiconductor) es un tipo de semiconductor que se carga negativamente de modo que los transistores se enciendan o apaguen con el movimiento de los electrones. En contraste, los PMOS (Positive-channel MOS) funcionan moviendo las valencias de electrones. El NMOS es más veloz que el PMOS, pero también es más costosa su fabricación.
+Actualmente es el tipo de tecnología que más se usa en la fabricación de circuitos integrados.

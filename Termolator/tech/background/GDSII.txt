@@ -1,0 +1,1 @@
+GDSII (Graphic Database System) es un formato de archivo de base de datos, que desde hace años ha sido en la industria de los circuitos integrados el estándar de facto para el intercambio de datos entre herramientas de diseño físico de chips. Fue desarrollado originariamente por la compañía Calma, y ahora es propiedad de Cadence.

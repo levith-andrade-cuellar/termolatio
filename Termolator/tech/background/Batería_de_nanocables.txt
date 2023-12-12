@@ -1,0 +1,3 @@
+Una batería de nanocables, también denominada batería de iones de litio con un ánodo de nanocables de silicio, sustituye al tradicional ánodo de grafito (carbono).
+El silicio, que almacena diez veces más litio que el grafito, ofrece potencial para aumentar la densidad de energía, reduciendo así el peso de la batería.  La gran área de superficie aumenta diez veces la densidad de energía del ánodo (de 400 a 4.000 mAh por gramo), lo que permite la carga rápida y la entrega de corriente. La batería trabaja al 85% de su capacidad tras 6.000 ciclos de carga/descarga, comparada con las baterías de ion de litio que se agotan tras 1000 cargas.
+El ánodo de silicio fue inventado por un equipo liderado por Yi Cui, en la Universidad de Stanford, en 2007.[1]​

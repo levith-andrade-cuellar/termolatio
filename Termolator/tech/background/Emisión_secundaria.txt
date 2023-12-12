@@ -1,0 +1,5 @@
+En física la  emisión secundaria  es un fenómeno de emisión de electrones en el que partículas primarias con suficiente energía, al chocar con una superficie o al pasar a través de algún material, inducen la emisión de partículas secundarias. 
+La emisión de este tipo consta de tres etapas:
+La emisión secundaria se produce normalmente en los tubos de electrones, y a menudo es indeseable, debiéndose tomar medidas para suprimirla (rejilla supresora), pero a veces sus propiedades se utilizan en la práctica para generar algún beneficio lateral.
+Generalmente, el fenómeno de emisión secundaria se utiliza en sputtering y en fotomultiplicador sonido en lámparas de emisión secundaria.
+

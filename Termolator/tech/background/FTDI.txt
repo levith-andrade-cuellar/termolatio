@@ -1,0 +1,5 @@
+Future Technology Devices International, comúnmente conocida por su abreviatura FTDI, es una empresa privada escocesa de dispositivos semiconductores, especializada en tecnología Universal Serial Bus (USB).
+Desarrolla, fabrica, y da apoyo a dispositivos y sus correspondientes controladores de software (drivers) para la conversión de transmisiones serie RS-232 o TTL a señales USB, con el fin de permitir la compatibilidad de dispositivos heredados con los ordenadores modernos.
+FTDI ofrece servicios de diseño de circuitos integrados de aplicación específica (ASIC). También ofrece servicios de consultoría para el diseño de productos, específicamente en el ámbito de los dispositivos electrónicos.
+FTDI fue fundada el 13 de marzo de 1992 por su actual CEO Fred Dart. Esta compañía es descendiente indirecto de Computer Design Concepts Ltd, una Startup dedicada a la tecnología en semiconductores fundada por el mismo Dart.
+

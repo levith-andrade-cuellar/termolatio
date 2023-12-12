@@ -1,0 +1,5 @@
+HDSL es el acrónimo de High bit rate Digital Subscriber Line o Línea de abonado digital de alta velocidad binaria.
+Esta es una más de las tecnologías de la familia DSL, las cuales han permitido la utilización del clásico bucle de abonado telefónico, constituido por el par simétrico de cobre, para operar con tráfico de datos en forma digital.
+Los módems HDSL permiten el establecimiento por un par telefónico de un circuito digital unidireccional de 1,544 Mbit/s (T1) o 2,048 Mbit/s (E1), usando una transmisión full-dúplex simultánea por cada uno de los pares de hilos. En este caso por cada par se transmite y recibe un flujo de 1024 kbit/s.
+La distancia máxima entre terminales en que se puede utilizar está entre 3 y 4 km, dependiendo del calibre y estado de los pares de cobre.
+

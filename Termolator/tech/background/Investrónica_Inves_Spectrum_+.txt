@@ -1,0 +1,8 @@
+El Inves Spectrum + desarrollado por la compañía española Investrónica en 1986, es un microordenador basado en el Sinclair ZX Spectrum de 48 kB.[2]​
+Algunas de las principales diferencias entre el Spectrum de Inves y los ZX Spectrum de 48Kb se encuentran en:
+Mediante pruebas realizadas al Inves se ha podido descubrir las siguientes características (o fallos) adicionales:
+Debido a todos estos cambios en el diseño hardware, presentaba incompatibilidad con parte del software para el ZX Spectrum original, como por ejemplo los videojuegos Commando, Bomb Jack, Arkanoid o Top Gun.[3]​ En su número 156, de diciembre de 1987, la revista MicroHobby se hizo eco de un rumor que afirmaba que tecleando:
+el ordenador se estropeaba.[4]​
+[5]​
+Esto se demostró posteriormente ser absolutamente falso, el ordenador no sufría daño alguno. Quizá el origen de este rumor es que, mediante software, se podría desactivar el sonido y alterar el color del border (mediante escritura a la ram de solo escritura), pero dicho efecto se pierde al desconectar y volver a conectar la corriente.
+

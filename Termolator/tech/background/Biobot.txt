@@ -1,0 +1,5 @@
+Un biobot o bio-bot es un tipo de robot cuyo diseño está inspirado en la naturaleza, principalmente en animales.[1]​ Esencialmente son insectos que llevan acoplada tecnología robótica con la que pueden recopilar información sobre el entorno.[2]​ En determinada ideología científica son considerados como una tercera clase de materia animada: ni son robots ni son estrictamente materia orgánica.[3]​
+En el año 2014, ingenieros de la Universidad de Illinois mostraron los primeros biobots capaces de desplazarse impulsados por células musculares y controlados con impulsos eléctricos.[4]​
+A finales de 2014 unos biobots con forma de cucaracha detectan los movimientos y gemidos de personas atrapadas en un terremoto para que los equipos de rescate puedan localizarlas siguiendo la fuente del sonido.[5]​
+En 2016, científicos norteamericanos desarrollaron biobots capaces de moverse activados mediante impulsos de luz.[6]​
+En enero de 2020 científicos estadounidenses presentaron los primeros biobots reprogramables, llamados xenobots, construidos a partir de células de rana.[3]​[7]​

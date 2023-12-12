@@ -1,0 +1,29 @@
+La notación angular o notación fasorial es una notación utilizada en electrónica y electrotecnia mediante el símbolo «∠». Es una abreviatura debida a la frecuente aparición de la expresión ej φ y se usa para describir fasores. Nótese que el ángulo φ se expresa por lo general en grados sexagesimales.
+En donde φ es la fase, y j es la unidad imaginaria 
+
+
+
+j
+=
+
+
+−
+1
+
+
+
+
+{\displaystyle j={\sqrt {-1}}}
+
+ . Se puede pasar de esta notación angular (a la que también se le llama forma polar) a la forma rectangular de la siguiente forma:
+En donde 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ es el módulo del fasor. Y a la inversa, (teniendo cuidado en situar el ángulo en el cuadrante adecuado):
+donde la parte real R es usualmente la componente resistiva de la impedancia y la parte imaginaria X es usualmente la reactancia, que tiene signo positivo si se trata de reactancia inductiva y signo negativo para las reactancias capacitivas.

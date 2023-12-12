@@ -1,0 +1,4 @@
+El represilador es un oscilador artificial que se construye mediante una red de reguladores génicos. Es uno de los primeros resultados prácticos de la biología sintética.
+La red se compone de tres genes: LacI, extraído de la bacteria E. coli, tetR del transposón Tn10 y cI del fago λ. La proteína expresada por LacI actúa como represor de tetR. A su vez, la proteína expresada por tetR actúa como represor de cI. Cerrando el círculo, la proteína expresada por cI actúa como represor de LacI. Ligando la expresión de una proteína fluorescente a uno de los tres estados posibles se observa que el sistema efectivamente oscila.
+El periodo de oscilación puede ser mayor que el ciclo de la división celular, por lo que el estado del oscilador se hereda de generación en generación.
+Artículo original (Elowitz & Leibler, 2000)]

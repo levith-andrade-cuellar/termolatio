@@ -1,0 +1,10 @@
+En electrónica, la ganancia, en lo referido a señales eléctricas, es una magnitud que expresa la relación entre la amplitud de una señal de salida respecto a la señal de entrada. Por lo tanto, la ganancia es una magnitud adimensional, que se mide en unidades como belio (símbolo: B) o submúltiplos de este como el decibelio (símbolo: dB).
+En términos generales, se puede decir que la ganancia es una magnitud que caracteriza la amplificación en potencia, intensidad o tensión que da un dispositivo ante una determinada señal.[1]​[2]​
+Por ejemplo, si la potencia de salida de un amplificador es 40 W (vatios) y la de entrada era de 20 W, la ganancia sería de 10 log (40 W / 20 W) ≈ 3,0103 dB. 
+Cuando la ganancia es negativa (menor que 0), se denomina atenuación.
+Así, en el ejemplo anterior pero al revés: 40 W de entrada, frente 20 W de salida, el resultado sería de -3,0103 dB. No hablaríamos de una ganancia de -3 dB, sino de una atenuación de 3 dB.
+Aunque la ganancia, como se ha dicho, es adimensional, sin embargo se refiere a cierta magnitud, con lo que tenemos:[3]​
+Estas ganancias se relacionan entre ellas a través de las impedancias de entrada y salida del circuito, pero se tiene una idea de sus magnitudes mediante las relaciones siguientes:
+Además existen ganancias "especiales" para determinados componentes:
+La unidad relativa de medida para ganancias es el belio (B) o múltiplos de este; generalmente se utiliza el decibelio (dB). Como la unidad de medida de ganancia siempre expresa una relación
+entre dos magnitudes, en particular en el caso del decibelio especificaremos de qué tipo de decibelio estamos hablando, acompañando al dB.

@@ -1,0 +1,2 @@
+Modulación en anillo es una señal de procesamiento de efectos en la electrónica, en relación con modulación de amplitud o frecuencia mixta. Es realizada por la multiplicación de dos señales, donde una es típicamente una onda sinusoidal u otra forma de onda simple. Es denominada de modulación anillo porque el circuito análogo de diodos usado inicialmente para aplicar esta técnica tomó forma de anillo. Este circuito es similar a un puente rectificador, excepto que en lugar de los diodos se enfrentan izquierda o derecho, van en sentido a las agujas del reloj o antihorario.
+

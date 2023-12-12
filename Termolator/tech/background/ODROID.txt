@@ -1,0 +1,27 @@
+5 voltios / 0,8-6 amperios (4-30 vatios)
+ODROID es una familia de ordenadores monoprocesador y tabletas creados por Hardkernel, una compañía de hardware libre con base en Corea del Sur. Si bien el nombre 'ODROID' es una combinación de 'Open' (abierto) y 'Droid',[1]​ el hardware no es realmente abierto dado que la propiedad intelectual de algunas partes del diseño pertenece a la compañía.[2]​ Muchos sistemas ODROID pueden no sólo correr Android, sino también distribuciones Linux de uso común.
+Hardkernel ha lanzado diversos modelos de ODROID. La primera generación empezó a comercializarse en 2009, seguida por modelos con especificaciones más altas. Las placas actuales se venden a 35$ la C1+, 46$ la C2 y $49 la XU4 (precios en USD).
+Los modelos C y N incluyen un SoC de Amlogic, mientras que los modelos XU, HC y MC llevan Exynos. En ambos casos las placas van dotadas de una CPU ARM y una GPU integrada. Las arquitecturas de CPU incluyen ARMv7-A y ARMv8-A, mientras que la capacidad de memoria está entre 1 y 4 GB de RAM. Para almacenar el sistema operativo y la memoria de los programas se emplean tarjetas SD, pudiendo ser de tamaño SDHC o MicroSDHC. La mayoría de placas disponen de entre tres y cinco puertos USB combinando 2.0 y 3.0, salida HDMI y jack de audio de 3.5 mm. La salida a bajo nivel está a cargo de varios pins GPIO que soportan protocolos comunes, tales como I²C. Los modelos actuales cuentan con un puerto Gigabit Ethernet (8P8C) y un zócalo para un módulo eMMC.[3]​
+CSR BC4-ROM (Bluetooth)
+Puerto LAN de 10/100Mbps
+Sensor de luz ambiental
+eMMC preincluida de 16GB
+1x microUSB Host
+1x microUSB (para ADB/almacenamiento masivo)
+Zócalo para módulo eMMC
+1x microUSB (ADB/Almacenamiento masivo)
+ADC y LCD
+1x USB 3.0
+1x OTG USB 3.0
+puertos MIPI DSI y táctil I²C
+Herramienta integrada para monitorización de consumo eléctrico
+ADC y LCD
+ADC
+5V / 6A
+Conector NVMe
+2 puertos SATA 3.0
+2x USB 3.0
+Ambos a 4K@60Hz
+4 GB
+Zócalo eMMC, Ranura para tarjetas microSD
+1x USB 2.0 OTG

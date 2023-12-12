@@ -1,0 +1,18 @@
+ISO/IEC 14443 es un estándar internacional relacionado con las tarjetas y dispositivos de seguridad de identificación personal electrónicas, en especial las tarjetas de proximidad, gestionado conjuntamente por la Organización Internacional de Estandarización (ISO) y la Comisión Electrotécnica Internacional (IEC).
+El estándar ISO/IEC 14443 consta de cuatro partes y se describen dos tipos de tarjetas: tipo A y tipo B. Las principales diferencias entre estos tipos se encuentran en los métodos de modulación, codificación de los planes (parte 2) y el protocolo de inicialización de los procedimientos (parte 3). Las tarjetas de ambos tipos (A y B) utilizan el mismo protocolo de alto nivel (llamado T=CL) que se describe en la parte 4. El protocolo T=CL especifica los bloques de datos y los mecanismos de intercambio:
+Esta diseñado para que las cuatro partes del estándar se usen conjuntamente. Hay que tener en cuenta que en ninguna de sus cuatro partes hace referencia a la seguridad o encriptación de los datos que se intercambian.
+En esta parte del estándar se hace referencia a otros estándares ya definidos anteriormente como es el ISO 7810:2019, ISO/IEC 7816 o el ISO/IEC 15457-1. Los puntos que toca son:
+Este estándar define una tarjeta de proximidad utilizada para identificación y pagos que por lo general utiliza el formato de una tarjeta de crédito definida por ISO 7816 - ID 1 (aunque otros formatos son posibles).
+En esta parte del estándar se especifica la potencia de radiofrecuencia y la señal de la interfaz para cada tipo de tarjeta (A y B). Los puntos que se definen en la misma son:
+Uno de los sistemas utilizados es el sistema RFID que utiliza un lector con un microcontrolador incrustado y una antena que opera a 13.56 MHz (frecuencia RFID). El lector mantiene a su alrededor un campo electromagnético de modo que al acercarse una tarjeta al campo, esta se alimenta eléctricamente de esta energía inducida y puede establecerse la comunicación lector-tarjeta.
+Las tarjetas de Tipo A se comunica con el lector de tarjetas mediante una codificación ASK o Manchester. Respecto al Tipo B esta comunicación se hace mediante una codificación BPSK o NRZ. Si la comunicación se realiza a la inversa, es decir, desde el lector a la tarjeta el tipo A recibe una señal codificada en ASK al 100% mientras que el tipo B recibe la misma al 10% (NRZ).
+
+Se explica los mensajes enviados entre el lector de tarjetas y la misma y se define para cada tipo de tarjetas un método de anti-colisión. Es el comienzo de la comunicación donde intervienen mensajes de solicitud de comunicación.
+Para el tipo A se utiliza un método de anti-colisión denominado arbitraje sabio y para el tipo B es el método de intervalo de tiempo.
+En esta parte del estándar se especifica un protocolo de transmisión de bloque semidúplex ya que define las necesidades para un entorno sin contacto y las secuencias de activación y desactivación del protocolo.
+La tarjeta Calypso cumple con la norma ISO/IEC 14443 parte 1, 2, 3 y 4 de tipo B. Las tarjetas Mifare cumplen con las partes 1, 2 y 3 de tipo A de la especificación ISO/IEC 14443.
+http://read.pudn.com/downloads134/ebook/572228/M303_ISO14443_Intro_V1.pdf - PHILIPS Contactless Interface Introduction
+https://www.iso.org/obp/ui/#iso:std:iso-iec:14443:-1:ed-4:v1:en - ISO/IEC 14443-1:2018
+https://www.iso.org/obp/ui/#iso:std:iso-iec:14443:-2:ed-3:v1:en - ISO/IEC 14443-2:2016
+https://www.iso.org/obp/ui/#iso:std:iso-iec:14443:-3:ed-4:v1:en - ISO/IEC 14443-3:2018
+https://www.iso.org/obp/ui/#iso:std:iso-iec:14443:-4:ed-4:v1:en - ISO/IEC 14443-4:2018

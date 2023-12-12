@@ -1,0 +1,807 @@
+Un amplificador operacional, a menudo conocido op-amp por sus siglas en inglés (operational amplifier), es un dispositivo amplificador electrónico de alta ganancia acoplado en corriente continua que tiene dos entradas y una salida. En esta configuración, la salida del dispositivo es, generalmente, de cientos de miles de veces mayor que la diferencia de potencial entre sus entradas.
+El concepto del amplificador operacional surgió hacia 1947, como un dispositivo construido con tubos de vacío,[1]​ como parte de las primeras computadoras analógicas dentro de las cuales ejecutaban operaciones matemáticas (suma, resta, multiplicación, división, integración, derivación, etc.), de lo cual se originó el nombre por el cual se le conoce. El primer amplificador operacional monolítico construido como circuito integrado, fue desarrollado en 1964 en la empresa Fairchild Semiconductor por el ingeniero electricista estadounidense Robert John Widlar y llevó el número de modelo μA702.[1]​ A este le siguió el μA709 (1965), también de Widlar, y que constituyó un gran éxito comercial. Más tarde sería sustituido por el popular μA741 (1968), desarrollado por David Fullagar, y fabricado por numerosas empresas, basado en tecnología bipolar, el cual se convirtió en estándar de la industria electrónica.
+Los diseños varían entre cada fabricante y cada producto, pero todos los amplificadores operacionales tienen básicamente la misma estructura interna, que consiste en tres etapas:
+El dispositivo posee dos entradas: una entrada no inversora (+), en la cual hay una tensión indicada como 
+
+
+
+
+V
+
++
+
+
+
+
+{\displaystyle V_{+}}
+
+ y otra inversora (–) sometida a una tensión 
+
+
+
+
+V
+
+−
+
+
+
+
+{\displaystyle V_{-}}
+
+. En forma ideal, el dispositivo amplifica solamente la diferencia de tensión en las entradas, conocida como tensión de entrada diferencial (
+
+
+
+
+V
+
+in
+
+
+=
+
+V
+
++
+
+
+−
+
+V
+
+−
+
+
+
+
+{\displaystyle V_{\text{in}}=V_{+}-V_{-}}
+
+). La tensión o voltaje de salida del dispositivo 
+
+
+
+
+V
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle V_{\rm {out}}}
+
+ está dada por la ecuación:
+en la cual 
+
+
+
+
+A
+
+
+O
+L
+
+
+
+
+
+{\displaystyle A_{\rm {OL}}}
+
+ representa la ganancia del dispositivo cuando no hay realimentación, condición conocida también como "lazo (o bucle) abierto". En algunos amplificadores diferenciales, existen dos salidas con desfase de 180° para algunas aplicaciones especiales.
+La magnitud de la ganancia 
+
+
+
+
+A
+
+
+O
+L
+
+
+
+
+
+{\displaystyle A_{\rm {OL}}}
+
+ es, generalmente, muy grande, del orden de 100.000 veces o más y, por lo
+tanto, una pequeña diferencia entre las tensiones 
+
+
+
+
+V
+
++
+
+
+
+
+{\displaystyle V_{+}}
+
+ y 
+
+
+
+
+V
+
+−
+
+
+
+
+{\displaystyle V_{-}}
+
+ hace que la salida del amplificador sea de un valor cercano al de la tensión de alimentación, situación conocida como saturación del amplificador. La magnitud de 
+
+
+
+
+A
+
+
+O
+L
+
+
+
+
+
+{\displaystyle A_{\rm {OL}}}
+
+ no es bien controlada por el proceso de fabricación, así que es impráctico usar un amplificador en lazo abierto como amplificador diferencial.
+Si la entrada inversora es conectada a tierra (0 V) de manera directa o mediante una resistencia 
+
+
+
+
+R
+
+g
+
+
+
+
+{\displaystyle R_{g}}
+
+ y la tensión de entrada 
+
+
+
+
+V
+
+
+i
+n
+
+
+
+
+
+{\displaystyle V_{\rm {in}}}
+
+ aplicada a la otra entrada es positiva, la salida será la de la máxima tensión positiva de alimentación; si 
+
+
+
+
+V
+
+
+i
+n
+
+
+
+
+
+{\displaystyle V_{\rm {in}}}
+
+ es negativo, la salida será el valor negativo de alimentación. Como no existe realimentación, desde la salida a la entrada, el amplificador operacional actúa como comparador.
+Si se desea un comportamiento predecible en la señal de salida, se usa la realimentación negativa aplicando una parte de la tensión de salida a la entrada inversora. La configuración de lazo cerrado reduce notablemente la ganancia del dispositivo, ya que ésta es determinada por la red de realimentación y no por las características del dispositivo. Si la red de realimentación es hecha con resistencias menores que la resistencia de entrada del amplificador operacional, el valor de la ganancia en lazo abierto 
+
+
+
+
+A
+
+
+O
+L
+
+
+
+
+
+{\displaystyle A_{\rm {OL}}}
+
+ no afecta seriamente la operación del circuito. En el amplificador no inversor de la imagen, la red resistiva constituida por 
+
+
+
+
+R
+
+f
+
+
+
+
+{\displaystyle R_{f}}
+
+ y 
+
+
+
+
+R
+
+g
+
+
+
+
+{\displaystyle R_{g}}
+
+ determina la ganancia en lazo cerrado.
+Una forma válida de analizar este circuito se basa en estas suposiciones válidas:[2]​
+Debido a (1), la tensión V− ≅ Vin y la corriente que pasa por la resistencia 
+
+
+
+
+R
+
+g
+
+
+
+
+{\displaystyle R_{g}}
+
+ es:
+Pero la red conformada por las resistencias es un divisor de tensión y como la corriente 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ no entra al amplificador por presentar en sus entradas resistencias casi infinitas (2), entonces esa corriente circula también por la resistencia 
+
+
+
+
+R
+
+f
+
+
+
+
+{\displaystyle R_{f}}
+
+ y por ello:
+Como resultado, la ganancia en lazo cerrado 
+
+
+
+
+A
+
+
+C
+L
+
+
+
+
+
+{\displaystyle A_{\rm {CL}}}
+
+ la define la anterior ecuación:
+Estas características se pueden resumir en dos "reglas de oro":
+El amplificador real difiere del ideal en varios aspectos:
+Las aplicaciones más comunes de los amplificadores operacionales son las siguientes:[4]​
+Aplicación sin retroalimentación que compara señales entre las dos entradas y presenta una salida en función de qué entrada sea mayor. Se puede usar para adaptar niveles lógicos.
+Una aplicación simple pero útil, es la de proporcionar un sistema de control ON-OFF. Por ejemplo un control de temperatura, cuya entrada no inversora se conecta un termistor (sensor de temperatura) y en la entrada inversora un divisor resistivo con un preset (resistencia variables) para ajustar el valor de tensión de referencia. Cuando en la pata no inversora exista una tensión mayor a la tensión de referencia, la salida activara alguna señalización o un actuador.
+Es aquel circuito que proporciona a la salida la misma tensión que a la entrada. Presenta la ventaja de que la impedancia de entrada es elevada, la de salida prácticamente nula, y es útil como un búfer, para eliminar efectos de carga o para adaptar impedancias (conectar un dispositivo con gran impedancia a otro con baja impedancia y viceversa) y realizar mediciones de tensión de un sensor con una intensidad muy pequeña que no afecte sensiblemente a la medición.
+En el modo amplificador no inversor, la tensión de salida varía con la misma polaridad que la tensión de entrada. La ecuación de ganancia para esta configuración es:
+Sin embargo, en este circuito V− es una función de Vout debido a la realimentación negativa a través de la red constituida por R1 y R2, donde R1 y R2 forman un divisor de tensión, y como V− es una entrada de alta impedancia, no hay efecto de carga. Por consiguiente:
+Donde
+Sustituyendo esto en la ecuación de ganancia, se obtiene:
+Resolviendo para 
+
+
+
+
+V
+
+out
+
+
+
+
+{\displaystyle V_{\text{out}}}
+
+:
+donde si 
+
+
+
+
+A
+
+
+O
+L
+
+
+
+
+
+{\displaystyle A_{\rm {OL}}}
+
+ es muy grande, se simplifica a
+En el modo amplificador inversor, la tensión de salida varía con polaridad opuesta a la tensión de entrada. Como en el amplificador no inversor, se parte de la ecuación de ganancia general:
+En este caso, V− es función de Vout y Vin dada por el divisor de tensión formado por Rf y Rin.  De nuevo, no hay efecto de carga en V− debido a la alta impedancia del amplificador operacional, con lo que
+Sustituyendo esto en la ecuación de ganancia y resolviendo 
+
+
+
+
+V
+
+out
+
+
+
+
+{\displaystyle V_{\text{out}}}
+
+:
+Si 
+
+
+
+
+A
+
+OL
+
+
+
+
+{\displaystyle A_{\text{OL}}}
+
+ es muy grande, se simplifica a
+Aplicación en la cual la salida es de polaridad opuesta a la suma de las señales de entrada.
+Para resistencias independientes R1,R2,R3,R4 la salida se expresa como:
+La impedancia diferencial entre dos entradas es:
+donde 
+
+
+
+
+R
+
+
+i
+n
+
+
+
+
+
+{\displaystyle R_{\rm {in}}}
+
+ representa la resistencia de entrada diferencial del amplificador, ignorando las resistencias de entrada del amplificador de modo común. Este tipo de configuración tiene una resistencia de entrada baja en comparación con otro tipo de restadores como el amplificador de instrumentación.
+Este montaje integra e invierte la señal de entrada 
+
+
+
+
+V
+
+i
+n
+
+
+
+
+{\displaystyle V_{in}}
+
+ produciendo como salida:
+En esta ecuación 
+
+
+
+
+V
+
+
+i
+n
+i
+c
+i
+a
+l
+
+
+
+
+
+{\displaystyle V_{\rm {inicial}}}
+
+ es la tensión de origen al iniciarse el funcionamiento.
+Este integrador no se usa en la práctica de forma discreta ya que cualquier señal pequeña de corriente directa en la entrada puede ser acumulada en el condensador hasta saturarlo por completo; sin mencionar la característica de desplazamiento de tensión del amplificador operacional, que también es acumulada. Este circuito se usa de forma combinada en sistemas retroalimentados que son modelos basados en variables de estado (valores que definen el estado actual del sistema) donde el integrador conserva una variable de estado en la tensión de su condensador.
+Este circuito deriva e invierte la señal de entrada, produciéndose como salida:
+Además de lo anterior, este circuito también se usa como filtro, sin embargo no es estable. Esto se debe a que al amplificar más las señales de alta frecuencia, termina amplificando mucho el ruido.
+El conversor de corriente a tensión, se conoce también como amplificador de transresistencia, en el cual una corriente de entrada 
+
+
+
+
+I
+
+
+i
+n
+
+
+
+
+
+{\displaystyle I_{\rm {in}}}
+
+, produce a la salida una tensión proporcional a esta, con una impedancia de entrada muy baja, ya que está diseñado para trabajar con una fuente de corriente.
+Con la resistencia 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ como factor de proporcionalidad, la relación resultante entre la corriente de entrada y la tensión de salida es:
+Esta aplicación se usa en sensores, que entregan poca corriente y se acoplan un amplificador operacional que entrega la tensión de salida respectiva proporcional a dicha corriente.
+El logaritmo y su función inversa, la función exponencial, pueden ser implementados mediante amplificadores operacionales aprovechando el funcionamiento exponencial de un diodo, logrando una señal de salida proporcional al logaritmo o a la función exponencial a la señal de entrada.
+La señal de entrada 
+
+
+
+
+V
+
+
+i
+n
+
+
+
+
+
+{\displaystyle V_{\rm {in}}}
+
+, en este caso, producirá una salida 
+
+
+
+
+V
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle V_{\rm {out}}}
+
+ proporcional al logaritmo natural de la primera:
+Los factores 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ y 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ son factores de corrección, determinados por la temperatura y los parámetros propios del diodo.
+Para lograr la operación inversa, se intercambian las posiciones del diodo y de la resistencia, para dar lugar a la tensión de salida:
+En la práctica, implementar estas funciones en un circuito es más complicado, y en vez de usarse un diodo se usan transistores bipolares, para minimizar cualquier efecto no deseado debido a la temperatura de trabajo. No obstante, el principio de funcionamiento de la configuración se mantiene.
+En la realización de estos circuitos también podrían hacerse conexiones múltiples. En el amplificador antilogarítmico las multiplicaciones son adiciones, mientras que en el logarítmico, las adiciones son multiplicaciones. A partir de ello, se podrían combinar dos amplificadores logarítmicos, seguidos de un sumador, y a la salida, un amplificador antilogarítmico, con lo cual se habría logrado un multiplicador analógico, en el cual la salida es el producto de las dos tensiones de entrada.
+Mediante una red de resistencias R-2R, se pueden introducir en los extremos señalados como 
+
+
+
+
+V
+
+0
+
+
+
+
+{\displaystyle V_{0}}
+
+, 
+
+
+
+
+V
+
+1
+
+
+
+
+{\displaystyle V_{1}}
+
+,
+
+
+
+
+V
+
+2
+
+
+
+
+{\displaystyle V_{2}}
+
+ y 
+
+
+
+
+V
+
+3
+
+
+
+
+{\displaystyle V_{3}}
+
+ señales digitales del valor adecuado para realizar la conversión. En este caso, desde cualquiera de las entradas, con las demás conectadas a tierra, la resistencia de entrada es del valor:
+Si 
+
+
+
+
+R
+
+2
+
+
+=
+2
+R
+
+
+{\displaystyle R_{2}=2R}
+
+ entonces
+Dos inconvenientes asociados con este convertidor son que por cada entrada, se añaden dos resistencias y que, si se necesita un convertidor más preciso, se deben elegir los valores de resistencia que se ajusten en una relación 2 a 1 con bajas tolerancias.
+Usado como fuente por muchos fabricantes, y en múltiples productos similares, un ejemplo de un amplificador operacional con transistores bipolares es el circuito integrado μA741 diseñado en 1968 por David Fullagar en Fairchild Semiconductor después del lanzamiento del circuito integrado LM301 creado por el ingeniero Robert John Widlar.
+Aunque este dispositivo se ha utilizado históricamente en audio y otros equipos sensibles, hoy en día es raro su uso debido a las características de ruido mejoradas de los operacionales más modernos. Además de generar un "siseo" perceptible, el 741 y otros operacionales antiguos pueden presentar relaciones de rechazo al modo común muy pobres por lo que, generalmente, introducirán zumbido a través de los cables de entrada y otras interferencias de modo común, como chasquidos por conmutación, en equipos sensibles.
+Hoy en día el amplificador μA741 usualmente se utiliza para referirse a un operacional integrado genérico, como los dispositivos μA741, LM301, 558, LM342, TBA221 o un reemplazo más moderno como el TL071. La descripción de la etapa de salida del μA741 es cualitativamente similar a la de muchos otros diseños, que pueden tener etapas de entrada muy diferentes, exceptuando que:
+Las condiciones de reposo de la etapa de entrada se fijan mediante una red de alimentación negativa de alta ganancia cuyos bloques principales son los dos espejos de corriente del lado izquierdo de la figura, delineados con rojo. El propósito principal de la realimentación negativa (suministrar una corriente estable a la etapa diferencial de entrada) se realiza como sigue.
+La corriente a través de la resistencia de 39 kΩ actúa como una referencia de corriente para las demás corrientes de polarización usadas en el integrado. La tensión sobre esta resistencia es igual a la tensión entre los bornes de alimentación (
+
+
+
+
+V
+
+S
+
++
+
+
+−
+
+V
+
+S
+
+−
+
+
+
+
+{\displaystyle V_{S\!+}-V_{S\!-}}
+
+) menos dos caídas de diodo de transistor (Q11 y Q12), por lo tanto la corriente es 
+
+
+
+
+I
+
+ref
+
+
+=
+(
+
+V
+
+S
+
++
+
+
+−
+
+V
+
+S
+
+−
+
+
+−
+2
+
+V
+
+be
+
+
+)
+
+/
+
+(
+39
+
+ k
+
+Ω
+)
+
+
+{\displaystyle I_{\text{ref}}=(V_{S\!+}-V_{S\!-}-2V_{\text{be}})/(39{\text{ k}}\Omega )}
+
+. El espejo de corriente Widlar formado por Q10, Q11, y la resistencia de 5Kohm genera una pequeña fracción de Iref en el colector de Q10. Esta pequeña corriente constante entregada por el colector de Q10 suministra las corrientes de base de Q3 y Q4, así como la corriente de colector de Q9. El espejo Q8/Q9 fuerza a la corriente de colector de Q9 a ser igual a la suma de las corrientes de colector de Q1 y Q2. Por lo tanto las corrientes de base de Q1 y Q2 combinadas (que son del mismo orden que las corrientes de entrada del integrado) serán una pequeña fracción de la ya pequeña corriente por Q10.
+Entonces, si la etapa de entrada aumenta su corriente por alguna razón, el espejo de corriente Q8/Q9 tomará corriente de las bases de Q3 y Q4, reduciendo la corriente de la etapa de entrada, y viceversa. El lazo de realimentación además aísla el resto del circuito de señales de modo común al forzar la tensión de base de Q3/Q4 a seguir 
+
+
+
+2
+
+V
+
+
+b
+e
+
+
+
+
+
+{\displaystyle 2V_{\rm {be}}}
+
+ por debajo de la mayor de las dos tensiones de entrada.
+El bloque delineado con azul es un amplificador diferencial. Q1 y Q2 son seguidores de emisor de entrada y junto con el par en base común Q3 y Q4 forman la etapa diferencial de entrada. Además, Q3 y Q4 actúan como desplazadores de nivel y proporcionan ganancia de tensión para controlar el amplificador clase A. También ayudan a mejorar la máxima tensión 
+
+
+
+
+V
+
+
+b
+e
+
+
+
+
+
+{\displaystyle V_{\rm {be}}}
+
+ inversa de los transistores de entrada (la tensión de ruptura de las junturas base-emisor de los transistores NPN Q1 y Q2 es de 7 V aproximadamente, mientras que los transistores PNP Q3 y Q4 tienen rupturas del orden de 50 V).
+El amplificador diferencial formado por los cuatro transistores Q1-Q4 controlan un espejo de corriente como carga activa formada por los tres transistores Q5-Q7 (Q6 es la verdadera carga activa). Q7 aumenta la precisión del espejo al disminuir la fracción de corriente de señal tomada de Q3 para controlar las bases de Q5 y Q6. Esta configuración ofrece una conversión de diferencial a asimétrica de la siguiente forma:
+La señal de corriente por Q3 es la entrada del espejo de corriente mientras que su salida (el colector de Q6) se conecta al colector de Q4. Aquí las señales de corriente de Q3 y Q4 se suman. Para señales de entrada diferenciales, las señales de corriente de Q3 y Q4 son iguales y opuestas. Por tanto, la suma es el doble de las señales de corriente individuales. Así se completa la conversión de diferencial a modo asimétrico.
+La tensión en vacío en este punto está dada por el producto de la suma de las señales de corriente y el paralelo de las resistencias de colector de Q4 y Q6. Como los colectores de Q4 y Q6 presentan resistencias dinámicas altas a la señal de corriente, la ganancia de tensión a circuito abierto de esta etapa es muy alta.
+Nótese que la corriente de base de las entradas no es cero y la impedancia de entrada efectiva (diferencial) de un 741 es del orden de 2 MΩ. Las patas "offset null" pueden usarse para conectar resistencias externas en paralelo con las dos resistencias internas de 1 kΩ (generalmente los extremos de un potenciómetro) para balancear el espejo Q5/Q6 y así controlar indirectamente la salida del operacional cuando se aplica una señal igual a cero a las entradas.
+El bloque delineado con magenta es la etapa de ganancia clase A. El espejo superior derecho Q12/Q13 carga esta etapa con una corriente constante, desde el colector de Q13, que es prácticamente independiente de la tensión de salida. La etapa consiste en dos transistores NPN en configuración Darlington y utiliza la salida del espejo de corriente como carga activa de alta impedancia para obtener una elevada ganancia de tensión. El condensador de 30 pF ofrece una realimentación negativa selectiva en frecuencia a la etapa clase A como una forma de compensación en frecuencia para estabilizar el amplificador en configuraciones con relimentación. Esta técnica se llama compensación Miller y funciona de manera similar a un circuito integrador con amplificador operacional. También se la conoce como "compensación por polo dominante" porque introduce un polo dominante (uno que enmascara los efectos de otros polos) en la respuesta en frecuencia a lazo abierto. Este polo puede ser tan bajo como 10 Hz en un amplificador 741 e introduce una atenuación de -3 dB a esa frecuencia. Esta compensación interna se usa para garantizar la estabilidad incondicional del amplificador en configuraciones con realimantación negativa, en aquellos casos en que el lazo de realimentación no es reactivo y la ganancia de lazo cerrado es igual o mayor a uno. De esta manera se simplifica el uso del amplificador operacional ya que no se requiere compensación externa para garantizar la estabilidad cuando la ganancia sea unitaria; los amplificadores sin red de compensación interna pueden necesitar compensación externa o ganancias de lazo significativamente mayores que uno.
+El bloque delineado con verde (basado en Q16) es un desplazador de nivel de tensión (o multiplicador de 
+
+
+
+
+V
+
+
+b
+e
+
+
+
+
+
+{\displaystyle V_{\rm {be}}}
+
+); un tipo de fuente de tensión. En el circuito se puede ver que Q16 suministra una caída de tensión constante entre colector y emisor independientemente de la corriente que lo atraviesa. Si la corriente de base del transistor es despreciable, y la tensión entre base y emisor (y a través de la resistencia de 7.5 kΩ) es 0.625 V (un valor típico para un BJT en la región activa), entonces la corriente que atraviesa la resistencia de 4.5 kΩ será la misma que atraviesa 7.5 kΩ, y generará una tensión de 0.375 V. Esto mantiene la caída de tensión en el transistor, y las dos resistencias en 0.625 + 0.375 = 1 V. Esto sirve para polarizar los dos transistores de salida ligeramente en condición reduciendo la distorsión "crossover". En algunos amplificadores con componentes discretos esta función se logra con diodos de silicio (generalmente dos en serie).
+La etapa de salida (delineada con cian) es un amplificador seguidor de emisor push-pull Clase AB (Q14, Q20) cuya polarización está fijada por el multiplicador de 
+
+
+
+
+V
+
+
+b
+e
+
+
+
+
+
+{\displaystyle V_{\rm {be}}}
+
+ Q16 y sus dos resistencias de base. Esta etapa está controlada por los colectores de Q13 y Q19. Las variaciones en la polarización por temperatura, o entre componentes del mismo tipo son comunes, por lo tanto la distorsión "crossover" y la corriente de reposo pueden sufrir variaciones. El rango de salida del amplificador es aproximadamente un voltio menos que la tensión de alimentación, debido en parte a la tensión 
+
+
+
+
+V
+
+
+b
+e
+
+
+
+
+
+{\displaystyle V_{\rm {be}}}
+
+ de los transistores de salida Q14 y Q20.
+La resistencia de 25 Ω en la etapa de salida sensa la corriente para limitar la corriente que entrega el seguidor de emisor Q14 a unos 25 mA aproximadamente para el 741. La limitación de corriente negativa se obtiene sensando la tensión en la resistencia de emisor de Q19 y utilizando esta tensión para reducir tirar hacia abajo la base de Q15. Versiones posteriores del circuito de este amplificador pueden presentar un método de limitación de corriente ligeramente diferente. La impedancia de salida no es cero, como se esperaría en un amplificador operacional ideal, sin embargo se aproxima a cero con realimentación negativa a frecuencias bajas.
+Si a un Amplificador Operacional típico configurado como amplificador, le introducimos una dada señal de entrada, a la salida obtendremos (idealmente) la misma señal multiplicada por la ganancia. Pero esta salida no podrá tomar cualquier valor, sino que está limitada por la tensión con la que se alimenta, típicamente el 90% del valor de la misma. Cuando la salida alcanza este valor, se dice que está saturado, pues ya no está amplificando. 
+Ejemplo: Si a un AO (Amplificador operacional) de ganancia 100.000 le introducimos una señal de entrada de 1 voltio, se ve fácilmente que no tendremos 100.000 voltios a la salida, sino que estará limitada por la tensión de alimentación, como se mencionó anteriormente.
+Un concepto asociado a este es el Slew rate.
+Es la diferencia de tensión que se obtiene entre los dos pines de entrada cuando la tensión de salida es nula, esta tensión es cero en un amplificador ideal lo cual no se obtiene en un amplificador real. Esta tensión puede ajustarse a cero por medio del uso de las entradas de offset (solo en algunos modelos de operacionales) en caso de querer precisión. El offset puede variar dependiendo de la temperatura (T) del operacional como sigue:
+Donde T0 es una temperatura de referencia.
+Un parámetro importante, a la hora de calcular las contribuciones a la tensión de offset en la entrada de un operacional es el CMRR (Rechazo al modo común).
+Ahora también puede variar dependiendo de la alimentación del operacional, a esto se le llama PSRR (power supply rejection ratio, relación de rechazo a la fuente de alimentación). La PSRR es la variación de la tensión de offset respecto a la variación de las tensiones de alimentación, expresada en dB. Se calcula como sigue:
+Aquí hay dos tipos de corrientes que considerar y que los fabricantes suelen proporcionar:
+Idealmente ambas deberían ser cero.
+Al Amplificador Operacional típico también se le conoce como amplificador realimentado en tensión (VFA). En él hay una importante limitación respecto a la frecuencia: El producto de la ganancia en tensión por el ancho de banda es constante.
+Como la ganancia en lazo abierto es del orden de 100.000 un amplificador con esta configuración sólo tendría un ancho de banda de unos pocos Hercios(Hz). Al realimentar negativamente se baja la ganancia a valores del orden de 10 a cambio de tener un ancho de banda aceptable.
+Existen modelos de diferentes Aplificador Operacional para trabajar en frecuencias superiores, en estos amplificadores prima mantener las características a frecuencias más altas que el resto, sacrificando a cambio un menor valor de ganancia u otro aspecto técnico.
+El amplificador operacional presenta capacidades (capacitancias) parásitas, las cuales producen una disminución de la ganancia conforme se aumenta la frecuencia.
+Debido a que una unión semiconductora varía su comportamiento con la temperatura, los Amplificadores Operacionales también cambian sus características, en este caso hay que diferenciar el tipo de transistor en el que está basado, así las corrientes anteriores variarán de forma diferente con la temperatura si son bipolares o JFET.

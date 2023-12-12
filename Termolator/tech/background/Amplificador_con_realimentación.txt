@@ -1,0 +1,90 @@
+Un amplificador con realimentación es un circuito electrónico (normalmente se presenta como circuito integrado) que tiene dos entradas y una salida. La señal de salida Sout es la diferencia de las dos señales de entrada Sin A y Sin B multiplicada por un factor de ganancia G:
+
+
+
+
+G
+
+
+{\displaystyle G}
+
+ representa la ganancia del dispositivo realimentado dada por la red de realimentación, condición conocida también como "lazo (o bucle) cerrado". Los amplificadores con realimentación más comunes son los amplificadores con realimentación en voltaje, también llamados operacionales.
+Los diseños varían entre cada fabricante y cada producto, pero todos los amplificadores realimentados tienen básicamente la misma estructura:
+El dispositivo posee dos entradas y una red de realimentación. La entrada no inversora (+), en la cual hay una tensión indicada como 
+
+
+
+
+V
+
++
+
+
+
+
+{\displaystyle V_{+}}
+
+ y otra inversora (–) sometida a una tensión 
+
+
+
+
+V
+
+−
+
+
+
+
+{\displaystyle V_{-}}
+
+. En forma ideal, el dispositivo amplifica solamente la diferencia de tensión en las entradas, conocida como tensión de entrada diferencial (
+
+
+
+
+V
+
+in
+
+
+=
+
+V
+
++
+
+
+−
+
+V
+
+−
+
+
+
+
+{\displaystyle V_{\text{in}}=V_{+}-V_{-}}
+
+). La tensión o voltaje de salida del dispositivo 
+
+
+
+
+V
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle V_{\rm {out}}}
+
+ está dada por la ecuación:
+Los amplificadores realimentados en corriente (CFA) es un tipo de amplificador electrónico cuya entrada negativa es sensible a la corriente, a diferencia de los amplificadores normales que lo son a la tensión (VFA).
+El CFA fue inventado sobre 1988. Normalmente son producidos como circuitos integrados con la misma asignación de pines que los VFA, permitiendo así que los dos tipos puedan ser fácilmente intercambiables. En configuraciones simples, tales como amplificadores lineales, un CFA puede ser usado en lugar de un VFA sin modificar el circuito, pero en otros casos, como en los integradores se necesita un rediseño. La configuración clásica del amplificador con cuatro resistencias también funciona con un CFA, pero el CMRR es muy pobre.
+La principal ventaja del desarrollo usando amplificadores con realimentación en corriente es la altísima velocidad que proporcionan. En consecuencia, se ha comprobado que aumentar la velocidad tiene como ventaja una mejora del sonido. Así mismo, la velocidad influye en la rapidez en la que se podrán corregir los fallos que ellos mismos producen.

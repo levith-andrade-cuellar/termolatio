@@ -1,0 +1,1 @@
+Esta es una lista de sensores clasificados en función de la magnitud física que detectan.

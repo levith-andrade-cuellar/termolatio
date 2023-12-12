@@ -1,0 +1,11 @@
+El estilo Harvard de citas, sistema de autor-año o sistema de autor-fecha (entre otros nombres) es un estilo de cita que utiliza una forma abreviada de la referencia bibliográfica a la fuente de la cita (los apellidos de los autores, el año de edición y opcionalmente las páginas citadas) inmediatamente después del material citado dentro del texto; las referencias completas se encuentran ordenadas alfabéticamente en una sección aparte, generalmente llamada bibliografía. Otro sistema del tipo autor-año, a veces llamado también sistema Harvard (debido a que se suele combinar a ambos y son muy similares), es el estilo APA.
+En el sistema Harvard tras el texto citado, si el autor no es citado directamente en el mismo, se incluyen entre paréntesis su apellido o apellidos, el año de edición y opcionalmente la página o páginas citadas. Si el autor es citado directamente en el texto, dentro de los paréntesis solo se incluye el año y las páginas.
+El formato más habitual es el de (autor o autores, año:número de página) o (autor o autores año, número de página), por ejemplo:
+aunque existen otras variantes, que a veces también se llaman sistema Harvard (Separar el autor y el año por una coma, utilizar p., pág., pp. o págs. antes del número de página, etc). Por ejemplo, en el sistema APA:
+Las referencias bibliográficas se listan por orden alfabético de autores, y en caso de que se encuentren varios
+trabajos de los mismos autores, por orden cronológico. El formato exacto de las referencias puede variar dependiendo de la disciplina o de la editorial.
+Luego en la sección de referencias, la referencia completa se escribe como a continuación:
+Así, la referencia contiene suficiente información para ubicar la obra consultada en la sección de bibliografía.
+Existen algunas reglas adicionales:
+Si la fuente citada es de dos autores deben indicarse ambos; pero si autoría es múltiple, se mencionará al primero de ellos seguido por la abreviatura et al. (del latín, «y otros»).
+Si se menciona más de una obra publicada en el mismo año por los mismos autores, una letra minúscula se pospone al año como ordinal («2000a», «2000b», «2000c», etcétera);

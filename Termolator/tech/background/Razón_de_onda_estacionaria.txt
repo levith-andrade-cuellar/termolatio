@@ -1,0 +1,287 @@
+La Relación de Onda Estacionaria o ROE se refiere a la razón geométrica existente entre el valor máximo y el valor mínimo de la amplitud de voltaje observado en una condición de onda estacionaria eléctrica como sería a lo largo de una línea de transmisión. Este fenómeno se explica mediante los conceptos de onda directa y onda reflejada. La relación de onda estacionaria es un número positivo sin dimensiones y siempre mayor o igual a uno. Si la onda reflejada es cero, no existirán máximos ni mínimos, o en otras palabras la amplitud es constante, y por lo tanto el valor de ROE=1. Por el contrario, si existe una onda reflejada, aparecerán voltajes máximos y mínimos y la ROE será >1. En el límite, si toda la onda directa se refleja habrá valores máximos y puntos donde el voltaje mínimo es cero, en este último caso la ROE será infinita.
+El concepto de onda directa y onda reflejada trae como consecuencia el significado práctico de la Relación de Onda Estacionaria como potencia directa (emitida por un transmisor) y potencia reflejada (aquella rechazada por una carga):
+Suponiendo Potencia directa = 100%
+En términos prácticos estos valores de ROE son los más usados. Una ROE muy alta produce pérdidas y puede dañar a los amplificadores de potencia de un transmisor, es por ello que existen circuitos de protección contra ROE con umbrales de actuación variables. Un valor de ROE=1,5 podría ser un límite extremo para transmisores modernos[cita requerida]; los transmisores a válvulas podían aceptar una ROE algo mayor sin peligro para el transmisor. Hay que tener en cuenta que la ROE no es lineal.
+En una línea de transmisión, coexisten una onda incidente, de amplitud 
+
+
+
+
+V
+
+i
+
+
+
+
+{\displaystyle V_{i}}
+
+, y otra reflejada, de amplitud 
+
+
+
+
+V
+
+r
+
+
+
+
+{\displaystyle V_{r}}
+
+.
+Ambas ondas se combinan para dar una onda resultante.
+La onda resultante puede tener dos valores extremos:
+La ROE (SWR en inglés, ROS en francés) se define como la relación entre ambos valores extremos
+
+
+
+
+
+R
+O
+E
+
+=
+
+
+
+V
+
+
+m
+a
+x
+
+
+
+
+V
+
+
+m
+i
+n
+
+
+
+
+
+=
+
+
+
+
+V
+
+i
+
+
++
+
+V
+
+r
+
+
+
+
+
+V
+
+i
+
+
+−
+
+V
+
+r
+
+
+
+
+
+
+
+{\displaystyle \mathrm {ROE} ={\frac {V_{\mathrm {max} }}{V_{\mathrm {min} }}}={\frac {V_{i}+V_{r}}{V_{i}-V_{r}}}}
+
+
+Los teóricos definen el coeficiente de reflexión Γ como la relación entre ambas amplitudes, reflejada sobre incidente:
+
+
+
+
+Γ
+=
+
+
+
+
+
+V
+_
+
+
+
+r
+
+
+
+
+
+V
+_
+
+
+
+i
+
+
+
+
+
+
+{\displaystyle \Gamma ={\frac {{\underline {V}}_{r}}{{\underline {V}}_{i}}}}
+
+
+Para tener en cuenta la diferencia de fase entre ambas ondas, es preciso escribir Γ como un número complejo. Por esa razón, Γ sigue las reglas especiales de la matemática compleja. Sin embargo, en la práctica, para simplificar se utiliza ρ, el módulo del número complejo Γ :
+
+
+
+
+ρ
+=
+
+|
+
+Γ
+
+|
+
+=
+
+
+
+V
+
+r
+
+
+
+V
+
+i
+
+
+
+
+
+
+{\displaystyle \rho =|\Gamma |={\frac {V_{r}}{V_{i}}}}
+
+
+El valor de ρ también puede expresarse como un porcentaje.
+Si escribimos 
+
+
+
+
+V
+
+
+m
+i
+n
+
+
+
+
+
+{\displaystyle V_{\mathrm {min} }}
+
+ y 
+
+
+
+
+V
+
+
+m
+a
+x
+
+
+
+
+
+{\displaystyle V_{\mathrm {max} }}
+
+ en función de ρ:
+obtendremos una nueva expresión de la ROE, esta vez en función de ρ:
+
+
+
+
+
+R
+O
+E
+
+=
+
+
+
+1
++
+ρ
+
+
+1
+−
+ρ
+
+
+
+
+
+{\displaystyle \mathrm {ROE} ={\frac {1+\rho }{1-\rho }}}
+
+
+También puede deducirse fácilmente que:
+
+
+
+
+
+ρ
+
+=
+
+
+
+R
+O
+E
+−
+1
+
+
+R
+O
+E
++
+1
+
+
+
+
+
+{\displaystyle \mathrm {\rho } ={\frac {ROE-1}{ROE+1}}}
+
+
+Entre el transmisor y una antena, existe una línea de transmisión, cuya impedancia característica es Zc. 
+Dos condiciones son necesarias para que el máximo de energía entregado a la antena sea irradiado: :
+Cuando una línea de transmisión cumple con estas condiciones, se dice que la línea está adaptada.

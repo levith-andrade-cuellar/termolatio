@@ -1,0 +1,5 @@
+La conmutación se define como la acción de modificar el camino del flujo de la presión en válvulas de la neumática o hidráulica.
+Normalmente para llevarse a cabo una conmutación antes debe tener un accionamiento, dependiendo la válvula y su respectivo funcionamiento, será su conmutación.
+Por ejemplo, en una válvula Check la conmutación es unidireccional, mientras que en la válvula de Simultaneidad la conmutación depende de la dirección de la presión por donde se active. 
+La conmutación se lleva a cabo en cualquier válvula, en pocas palabras es el control y cambio de dirección en el flujo de presión del sistema provocado por el accionamiento de una válvula.
+

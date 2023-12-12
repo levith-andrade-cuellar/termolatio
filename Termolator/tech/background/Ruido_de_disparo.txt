@@ -1,0 +1,103 @@
+El ruido de disparo, ruido de granalla o ruido shot es un tipo de ruido electrónico que tiene lugar cuando el número finito de partículas que transportan energía, tales como los electrones en un circuito electrónico o los fotones en un dispositivo óptico, es suficientemente pequeño para dar lugar a la aparición de fluctuaciones estadísticas apreciables en una medición. Este tipo de ruido resulta importante en electrónica, en telecomunicaciones y en la física fundamental.
+El nivel de este ruido es tanto mayor cuanto mayor sea el valor promedio de la intensidad de corriente eléctrica o de la intensidad luminosa, según se trate de un dispositivo electrónico u óptico. Sin embargo, en tanto que el nivel de señal crece más rápidamente cuanto mayor es su nivel promedio, a menudo el ruido de disparo sólo supone un problema cuando se trabaja con intensidades de corriente o intensidades luminosas bajas.
+El ruido de disparo en los dispositivos electrónicos consiste en fluctuaciones aleatorias de la corriente eléctrica a través de un conductor, causadas por el hecho de que la corriente se transporta en cargas discretas (electrones). Es originado por el movimiento de los electrones o de otras partículas cargadas a través de una unión. Esto no sólo ocurre en las uniones p-n, sino en cualquier conductor, incluso en las situaciones en que la carga no esté bien localizada.
+Debe distinguirse el ruido de disparo de las fluctuaciones de corriente en equilibrio, las cuales se producen sin aplicar ningún voltaje y sin necesidad de que exista ningún flujo promedio de corriente. Estas fluctuaciones de la corriente de equilibrio se conocen como ruido de Johnson-Nyquist.
+El ruido de disparo se puede modelar como un proceso de Poisson y los portadores de carga que forman la corriente siguen una distribución de Poisson. Las fluctuaciones de corriente tienen una desviación estándar dada por:
+donde 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ es la carga elemental del electrón y 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ es la corriente promedio a través del dispositivo. Se asume que todas las cantidades están referidas en unidades del Sistema Internacional.
+Para una corriente de 
+
+
+
+100
+m
+A
+
+
+{\displaystyle 100mA}
+
+, la fórmula anterior arroja un valor de:
+Si se hace circular esta corriente de ruido a través de un resistor, la potencia de ruido resultante valdrá:
+Si la carga no está totalmente localizada en el tiempo pero tiene una distribución temporal dada por 
+
+
+
+q
+F
+(
+t
+)
+
+
+{\displaystyle qF(t)}
+
+, siendo la integral de 
+
+
+
+F
+(
+t
+)
+
+
+{\displaystyle F(t)}
+
+ sobre 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ igual a la unidad, entonces la densidad espectral de potencia asociada a la corriente de la señal de ruido será:
+donde 
+
+
+
+Ψ
+(
+f
+)
+
+
+{\displaystyle \Psi (f)}
+
+ es la transformada de Fourier de 
+
+
+
+F
+(
+t
+)
+
+
+{\displaystyle F(t)}
+
+.
+Nota: tanto el ruido de disparo como el ruido de Johnson-Nyquist son fluctuaciones cuánticas. Algunos autores tratan ambos tipos de ruido como un único concepto unificado.[1]​ (véase la discusión).
+En la óptica cuántica, el ruido de disparo se origina por las fluctuaciones de los fotones detectados, de nuevo como consecuencia de la discretización (en este caso, de la discretización de la energía en el campo electromagnético). El ruido de disparo es una parte importante del ruido cuántico.
+El ruido de disparo resulta medible tanto en mediciones del orden de unos pocos fotones mediante fotomultiplicadores como en mediciones de intensidades luminosas más fuertes realizadas a través de fotodiodos, cuando se emplean osciloscopios de alta resolución temporal. En tanto que la fotocorriente es proporcional a la intensidad luminosa (número de fotones), las fluctuaciones del campo electromagnético están normalmente presentes en la intensidad de corriente eléctrica medida.
+En el caso de una fuente luminosa coherente como puede ser un láser, el ruido de disparo se escala como la raíz cuadrada de la intensidad promedio:
+Existe un límite inferior similar del ruido cuántico para los amplificadores cuánticos lineales. La única excepción es que pueda llegarse a un estado forzado coherente mediante la generación de fotones correlada. Puede producirse la reducción de la incertidumbre sobre el número de fotones por modo (y, por lo tanto, la fotocorriente) simplemente debido a la saturación de la ganancia; este es un caso intermedio entre un láser con bloqueo de fase y un láser estabilizado en amplitud.
+Los dispositivos electrónicos de bajo ruido se diseñan de forma que el ruido de disparo sea suprimido por la repulsión electrostática de los portadores de carga. La limitación de la carga espacial no es posible en los dispositivos fotónicos.

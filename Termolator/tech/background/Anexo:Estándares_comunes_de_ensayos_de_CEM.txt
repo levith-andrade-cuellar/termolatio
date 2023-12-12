@@ -1,0 +1,5 @@
+La lista siguiente perfila un número de estándares de compatibilidad electromagnética (CEM) qué al momento de escribir este artículo se  sabe que están disponibles o que se están disponibles para el comentario público.  Estas normas tratan de estadarizar la operabilidad de CEM del producto, con respecto a la interferencia de radio inducida o irradiada del equipamiento eléctrico o electrónico, imposición de otros tipos de alteración en el suministro de la red eléctrica por tal equipamiento y la sensibilidad de tal equipamiento a la interferencia recibida. 
+El estado legal de estos estándares varía según la jurisdicción. Los estándares convocados por la Unión Europea  Directiva de CEM efectivamente tienen fuerza de ley en la UE. 
+Los estándares IEC de compatibilidad Electromagnética (EMC) son mayoritariamente parte de la familia IEC 61000. A continuación se muestran algunos ejemplos.
+Los siguientes son estándares ISO sobre asuntos de CEM en automóviles.
+

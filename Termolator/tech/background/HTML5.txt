@@ -1,0 +1,20 @@
+HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 específica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).[1]​[2]​ Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.
+La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.[3]​
+Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se recomienda al usuario común actualizar su navegador a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML 5.
+El desarrollo de este lenguaje de marcado es regulado por el Consorcio W3C.
+HTML5 establece una serie de nuevos elementos y atributos que reflejan el uso típico de los sitios web modernos. Algunos de ellos son técnicamente similares a las etiquetas <div> y <span>, pero tienen un significado semántico, como por ejemplo <nav> (bloque de navegación del sitio web) y <footer>.
+Notas:
+En amarillo aquellas etiquetas introducidas en esta nueva versión (en rojo aquellas que fueron eliminadas de la especificación HTML5), en azul las etiquetas que han sido cambiadas todo o en parte y en gris las etiquetas eliminadas de esta versión.
+Si bien en la práctica los navegadores no lo están teniendo en cuenta para evitar perder cuota de mercado.
+
+Para video es algo similar.
+Ejemplo de WebWorker (Hilo de ejecución en paralelo)
+
+Es necesario el uso de javascript.
+Para el archivo Prueba.html
+Para el archivo worker.js (fichero con la tarea del nuevo hilo de ejecución infinito)
+
+
+ Elimina muchas validaciones en Javascript.
+(La clave está en el atributo Type).
+

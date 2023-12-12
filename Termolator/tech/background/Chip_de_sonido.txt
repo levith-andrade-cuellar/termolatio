@@ -1,0 +1,1 @@
+Un chip de sonido es un circuito integrado diseñado para producir sonidos. Dicho sonido se puede producir en forma de señal digital, analógica o de modo mixto. Los circuitos integrados de sonido normalmente contienen componentes como osciladores internos, samplers, filtros y amplificadores.

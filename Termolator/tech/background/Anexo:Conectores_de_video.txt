@@ -1,0 +1,16 @@
+Esta es la lista de “conectores físicos de vídeo” y señales estándares de video relacionadas.
+Resolución máxima 
+(X-pix × Y-pix 
+@ Hz)
+Soporta 20,83 Mbit/s canal ascendente y poder sobre el mismo cable coaxial
+50 Ω para enlace de datos, como Ethernet, en RG58.
+93 Ω en RG62.
+Conector DVI-D macho de doble enlace.
+
+
+
+
+
+
+
+

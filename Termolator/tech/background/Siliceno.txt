@@ -1,0 +1,23 @@
+El siliceno es un alótropo bidimensional del silicio, similar al grafeno.
+Aunque los teóricos han especulado[1]​[2]​[3]​ sobre la existencia y las posibles propiedades del siliceno, los investigadores observaron primero estructuras de silicio que sugerían al siliceno en 2010.[4]​[5]​[6]​[7]​  
+Usando el microscopio de efecto túnel, estudiaron el autoensamblaje molecular de las nanocintas de siliceno y las hojas de siliceno depositadas sobre un cristal de plata con resolución atómica. Las imágenes revelaron hexágonos en una estructura de panal similar a la del grafeno.
+Los cálculos con la Teoría del funcional de la densidad (DFT) mostraron que los átomos de silicio tienden a formar tales estructuras de panal en la plata, y a adoptar una ligera curvatura que la hace más apropiada para una configuración tipo grafeno.
+En adición a su potencial compatibilidad con las técnicas existentes de semiconductores, el siliceno tiene la ventaja de que sus bordes no exhiben reactividad al oxígeno.[8]​
+Recientes cálculos DFT han revelado que los grupos (clústers) de siliceno son excelentes materiales para aplicaciones FET. Curiosamente, el siliceno en 2D no es realmente plano y parecen haber distorsiones como arrugas tipo silla distortions en los anillos. Esto lleva a tener ondas ordenadas en su superficie. La hidrogenación de silicenos a silicanos es bastante exotérmica. Esto ha llevado a la predicción de que el proceso de conversión del siliceno al silicane (siliceno hidrogenado) puede ser un eventual candidato para el almacenamiento de hidrógeno. A diferencia del grafito, el cual consiste de varias capas de grafeno débilmente unidas mediante fuerzas de dispersión, el acople entre capas en los silicenos es muy fuerte.[9]​
+La primera revisión sobre el siliceno ha aparecido.[10]​
+Presenta una estructura sólida de panel de abeja y cuya disposición de los átomos en el espacio llega a brindar mayor actividad química, exponiendo una conductividad térmica entre 9.4 W/mk a 300K en su monocapa, a su vez presenta una hibridación sp2, con sus átomos enlazados mediante enlaces covalentes.[11]​
+De hecho, por su estructura bidimensional, mediante la teoría del funcional de la densidad revela tres configuraciones;
+Se reportó que el siliceno crecía en la superficie de Ag(111).[6]​ Recientemente cuatro grupos han reportado de manera independiente fases ordenadas sobre la misma superficie.[13]​[14]​[15]​[16]​ 
+Sin embargo, el silíceno no se puede sintetizar en estado libre, existe si se lo prepara sobre un soporte metálico o semiconductor, como lo presenta los científicos de la Universidad de Marcella por medio de técnicas de deposición de vapor, produciendo láminas de silíceno y nanocintas en superficies de Ag (111) y Ag (110).[17]​[18]​
+En esta perspectiva, el silíceno ofrece novedosas ventajas al mundo de la informática, a pesar de que no surge de manera natural sino que, hay que fabricarlo artificialmente en un laboratorio.[19]​ De tal manera, su utilización permite dispositivos nanos electrónicos, más flexibles, resistentes y económicos, siendo uno de los candidatos para la alta eficiencia de los materiales termoeléctricos.[20]​
+Actualmente, se utiliza en la creación de chips, exhibiendo mayor velocidad, con grandes capacidades y tamaño disminuido.[20]​
+También se ha reportado que el siliceno crece sobre un sustrato de ZrB2.[21]​[22]​
+Otras referencias:
+[23]​
+[24]​
+[25]​
+[26]​
+[27]​
+[28]​
+[29]​
+[30]​

@@ -1,0 +1,2 @@
+El APDU (en inglés: Application Protocol Data Unit) es la unidad de comunicación entre un lector de tarjetas inteligentes y una tarjeta inteligente. La estructura de un APDU está definida en el estándar ISO/IEC 7816-4.
+Hay dos tipos de APDUs: comandos y respuestas. Los comandos APDU los envía el lector a la tarjeta y contienen una cabecera obligatoria de 4 bytes[1]​ y desde 0 hasta 255 bytes de datos. Las respuestas APDU las envía la tarjeta al lector y contienen una palabra de estado obligatoria de 2 bytes y desde 0 hasta 256 bytes de datos.[2]​

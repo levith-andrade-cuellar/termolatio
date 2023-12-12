@@ -1,0 +1,77 @@
+Cualquier circuito electrónico lineal o dispositivo que suministre una corriente se puede modelar como una fuente ideal de tensión en serie con una impedancia (o su equivalente de Thévenin). Este modelo ayuda a analizar la caída de tensión que ocurre por dicha impedancia al paso de la corriente.
+La resistencia interna es un concepto que ayuda a modelar las consecuencias eléctricas de las complejas reacciones químicas que se producen dentro de una batería. Es imposible medir directamente la resistencia interna de una batería, pero esta puede ser calculada mediante los datos de corriente y tensión medidos sobre ella. Así, cuando a una batería se le aplica una carga, la resistencia interna se puede calcular mediante cualquiera de las siguientes ecuaciones:
+
+
+
+
+
+R
+
+B
+
+
+=
+
+(
+
+
+
+V
+s
+
+I
+
+
+)
+
+−
+
+R
+
+L
+
+
+
+
+{\displaystyle R_{B}=\left({\frac {Vs}{I}}\right)-R_{L}}
+
+
+o
+
+
+
+
+
+R
+
+B
+
+
+=
+
+(
+
+
+
+
+V
+
+S
+
+
+−
+V
+
+I
+
+
+)
+
+
+
+{\displaystyle R_{B}=\left({\frac {V_{S}-V}{I}}\right)}
+
+
+donde:
+La resistencia interna varía con la edad de la batería, pero en la mayoría de baterías comerciales la resistencia interna es del orden de 1 ohmio. 
+Cuando una corriente está atravesando una célula de una batería, la f.e.m. medida es más baja que cuando esta no suministra corriente. La razón de esto es que, parte de la energía disponible en la célula está siendo utilizada en impulsar las cargas a través de la propia célula. Esta energía perdida se modela como la supuesta resistencia interna y aparece como una caída de tensión.

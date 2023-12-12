@@ -1,0 +1,148 @@
+Un diagrama de Bode es una representación gráfica que sirve para caracterizar la respuesta en frecuencia de un sistema. Normalmente consta de dos gráficas separadas, una que corresponde con la magnitud de dicha función y otra que corresponde con la fase. Recibe su nombre del científico estadounidense que lo desarrolló, Hendrik Wade Bode.
+Es una herramienta muy utilizada en el análisis de circuitos en electrónica, siendo fundamental para el diseño y análisis de filtros y amplificadores.
+El diagrama de magnitud de Bode dibuja el módulo de la función de transferencia (ganancia) en decibelios en función de la frecuencia (o la frecuencia angular) en escala logarítmica. Se suele emplear en procesado de señal para mostrar la respuesta en frecuencia de un sistema lineal e invariante en el tiempo.
+El diagrama de fase de Bode representa la fase de la función de transferencia en función de la frecuencia (o frecuencia angular) en escala logarítmica. Se puede dar en grados o en radianes. Permite evaluar el desplazamiento en fase de una señal a la salida del sistema respecto a la entrada para una frecuencia determinada. Por ejemplo, tenemos una señal Asin(ωt) a la entrada del sistema y asumimos que el sistema atenúa por un factor x y desplaza en fase −Φ. En este caso, la salida del sistema será (A/x) sin(ωt − Φ). Generalmente, este desfase es función de la frecuencia (Φ= Φ(f)); esta dependencia es lo que nos muestra el Bode. En sistemas eléctricos esta fase deberá estar acotada entre -90° y 90°. 	
+La respuesta en amplitud y en fase de los diagramas de Bode no pueden por lo general cambiarse de forma independiente: cambiar la ganancia implica cambiar también desfase y viceversa. En sistemas de fase mínima (aquellos que tanto su sistema inverso como ellos mismos son causales y estables) se puede obtener uno a partir del otro mediante la transformada de Hilbert.
+Si la función de transferencia es una función racional, entonces el diagrama de Bode se puede aproximar con segmentos rectilíneos. Estas representaciones asintóticas son útiles porque se pueden dibujar a mano siguiendo una serie de sencillas reglas (y en algunos casos se pueden predecir incluso sin dibujar la gráfica).
+Esta aproximación se puede hacer más precisa corrigiendo el valor de las frecuencias de corte (“diagrama de Bode corregido”).
+El uso de cálculo logarítmico nos va a permitir simplificar funciones del tipo
+a un simple sumatorio de los logaritmos de polos y ceros:
+Supongamos que la función de transferencia del sistema objeto de estudio viene dada por la siguiente transformada de Laplace:
+Las normas a seguir para dibujar la aproximación del Bode son las siguientes
+Para poder manejar polinomios irreducibles de segundo grado (
+
+
+
+a
+
+x
+
+2
+
+
++
+b
+x
++
+c
+ 
+
+
+{\displaystyle ax^{2}+bx+c\ }
+
+) se puede en muchos casos aproximar dicha expresión por 
+
+
+
+(
+
+
+a
+
+
+x
++
+
+
+c
+
+
+
+)
+
+2
+
+
+
+
+{\displaystyle ({\sqrt {a}}x+{\sqrt {c}})^{2}}
+
+.
+Nótese que hay ceros y polos cuando ω es igual a un determinado 
+
+
+
+
+x
+
+n
+
+
+
+
+{\displaystyle x_{n}}
+
+ o 
+
+
+
+
+y
+
+n
+
+
+
+
+{\displaystyle y_{n}}
+
+. Eso ocurre porque la función en cuestión es el módulo de H(jω), y como dicha función es compleja,
+Por ello, en cualquier lugar en el que haya un cero o un polo asociado a un término 
+
+
+
+(
+s
++
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle (s+x_{n})}
+
+, el módulo de dicho término será
+Para corregir la aproximación dibujada en el apartado anterior:
+Este método de corrección no indica cómo trabajar con valores de 
+
+
+
+
+x
+
+n
+
+
+
+
+{\displaystyle x_{n}}
+
+ o 
+
+
+
+
+y
+
+n
+
+
+
+
+{\displaystyle y_{n}}
+
+ complejos. En caso de un polinomio irreducible, el mejor modo de corregir la gráfica es calcular el módulo de la función de transferencia en el polo o el cero correspondiente al polinomio irreducible, y dibujar ese punto por encima o por debajo de la línea en el valor de frecuencia angular correspondiente.
+Sea una función de transferencia de la misma forma que la anterior:
+Ahora se trata de dibujar gráficas separadas para cada polo y cero, y después unificarlas en un solo gráfico. El valor real de la fase está dado por la fórmula
+Para dibujar la aproximación, para cada polo y cero:
+Un filtro paso bajo RC, por ejemplo, tiene la siguiente respuesta en frecuencia:
+La frecuencia de corte (fc) toma el valor (en hercios):
+La aproximación lineal del diagrama consta de dos líneas agudos y centimetricos:
+Estas dos líneas se encuentran en la frecuencia de corte. Observando el gráfico se verá que a frecuencias bastante por debajo de dicha frecuencia, el circuito tendrá una atenuación de 0 decibelios. Por encima, la señal se atenuará, y a mayor frecuencia, mayor atenuación.
+Los diagramas de Bode son de amplia aplicación en la Ingeniería de Control, pues permiten representar la magnitud y la fase de la función de transferencia de un sistema, sea este eléctrico, mecánico,... Su uso se justifica en la simplicidad con que permiten, atendiendo a la forma del diagrama, sintonizar diferentes controladores (mediante el empleo de redes de adelanto o retraso, y los conceptos de margen de fase y margen de ganancia, estrechamente ligados estos últimos a los llamados diagramas de Nyquist), y porque permiten, en un reducido espacio, representar un amplio espectro de frecuencias. En la teoría de control, ni la fase ni el argumento están acotadas salvo por características propias del sistema. En este sentido, sólo cabe esperar, si el sistema es de orden 2 tipo 0, por ejemplo, que la fase esté acotada entre 0° y -180°.
+Así pues, datos importantes a obtener tras la realización del diagrama de Bode para en análisis de la estabilidad de dicho sistema son los siguientes:
+El sistema representado será estable si el margen de ganancia y el margen de fase son positivos.

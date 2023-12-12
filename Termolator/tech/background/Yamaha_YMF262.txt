@@ -1,0 +1,2 @@
+El Yamaha YMF262 también conocido como OPL3 (OPL es un acrónimo de FM Operator Type-L), es una versión mejorada del chip de sonido Yamaha YM3812 (OPL2) diseñado y fabricado por Yamaha Corporation. Tiene las siguientes características :
+Este chip es usado en la Sound Blaster Pro 2.0.

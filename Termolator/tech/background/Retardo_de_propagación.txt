@@ -1,0 +1,18 @@
+Retardo de propagación, en lo que a la electrónica se refiere, es el tiempo que tarda una señal para atravesar un conductor o dispositivo. 
+También se entiende por retardo el intervalo de tiempo que existe en el momento en el que cualquier punto asignado en una onda atraviesa dos puntos cualesquiera de un circuito de transmisión.
+Es el intervalo que tarda un aparato reproductor en activarse sería en prenderse o apagarse
+Retardo de sincronización introducido en el momento del impulso de radar durante la transmisión.
+De esta forma se evita el círculo de altitud.
+Tiempo transcurrido en un circuito de retención y muestreo entre la apertura del contacto y el comando de retención.
+En un circuito de retención y muestreo, es la diferencia de tiempo entre el comando de retención y el tiempo en el que la señal de entrada está a la tensión mantenida.
+Retardo arbitrario que existe entre las señales enviadas por los transmisores principales, secundarios y las señales de impulso.
+Intervalo entre el paso de la chispa y la consecución de tensión mínima de ésta.
+Tiempo transcurrido entre el comienzo de sonido de una alarma local o transmisión de una señal de alarma por medio de la unidad de control y el funcionamiento de un sensor colocado en una puerta de entrada.
+Tiempo que transcurre mientras una onda transmitida pasa cualquiera de los dos puntos de un circuito de transmisión. 
+Es el retraso de propagación de la parte de la onda que identifica su fase , en la propagación de una onda de frecuencia única de un punto a otro de un sistema.
+También conocido como retardo envolvente, es el retardo de transmisión de información modulada sobre una portadora.
+Tiempo que transcurre desde que se pone en funcionamiento una unidad de control hasta que suena una alarma local al activarse un sensor puesto sobre una puerta de salida.
+Es ocasionado por un temporizador dentro de la unidad de control.
+Tiempo de transmisión de una señal a través de una red eléctrica.
+Retardo entre la presentación de información de salida y la inserción de información en una unidad.
+Diferencia entre los retardos máximo y mínimos de las frecuencia comprendidas en una banda determinada.

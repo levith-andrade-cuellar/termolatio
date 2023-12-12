@@ -1,0 +1,9 @@
+El chip Yamaha YM3812, conocido también como OPL2 (OPL es un acrónimo de FM "Operator Type-L") es un chip de sonido creado por Yamaha Corporation, famoso por su amplia utilización en tarjetas de sonido para los PCs como AdLib y Sound Blaster.
+Es retrocompatible con el Yamaha YM3526 (OPL), que es muy similar - de hecho, solo añade 3 nuevas formas de onda. Una versión mejorada del OPL2, el OPL3 también conocido como Yamaha YMF262, también muy popular en tarjetas de sonido posteriores como la Sound Blaster 16. Otro chip relacionado es el Yamaha YM2413 (OPLL), que es una versión reducida.
+El circuito tiene 244 registros diferentes de solo escritura. Puede generar 9 canales de sonido, cada uno compuesto de dos osciladores. Cada oscilador puede generar sinusoides que a su vez pueden ser modificadas en otras tres formas de onda - la parte negativa del seno puede ser silenciada o invertida, y las seudo ondas de sawtooth o serrucho (ondas de 1/4 de seno arriba con secciones de silencio en medio) pueden también ser producidas. Esta manera impar de producir formas de onda da al YM3812 un sonido característico. Cada generador de ondas tiene su propio generador de envolvente acústico. Su principal método de síntesis es FM o síntesis por modulación de frecuencia - donde uno de los osciladores del canal modula el otro.
+
+Descripción de los registros de un canal:
+Para el canal entero:
+Para cada uno de los 2 osciladores:
+Hay también algunos parámetros que se pueden fijar para todo el chip:
+Internamente, el sonido es generado usando DDS ( direct digital synthesis ) y es enviado a un conversor digital-analógico (DAC) externo, el Yamaha YM3014B, como una corriente de números en punto flotante a una velocidad de muestreo aproximada de 49720 Hz.

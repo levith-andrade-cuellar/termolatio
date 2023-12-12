@@ -1,0 +1,4 @@
+IBM Q System One es la primera computadora cuántica para uso comercial, de negocios e investigación, y ha sido creada por la empresa IBM. Se presentó en público el martes 8 de enero de 2019.[1]​[2]​
+Este sistema de computación cuántica integrado está alojado en un cubo de vidrio hermético de 2,7 metros de ancho por 2,7 metros de alto que mantiene la temperatura correcta exacta y absorbe las vibraciones, ya que los chips cuánticos son extremadamente delicados.[3]​ El sistema se probó por primera vez en el verano de 2018 durante dos semanas en Milán, Italia. Cuenta con una potencia de 20 cúbits.[4]​
+El diseño ha sido realizado por la compañía de diseño industrial Map Project Office, que le ha dado una imagen entre tradicional y futurista
+En 2017 IBM presentó un prototipo de computadora cuántica de 50 cúbits y un tiempo de coherencia de 90 segundos.[2]​ Y se anunció que aprovecharían esta tecnología para realizar un producto comercial, el IBM Q System One.

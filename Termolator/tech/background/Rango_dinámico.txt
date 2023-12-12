@@ -1,0 +1,9 @@
+El rango dinámico o margen dinámico se puede definir de dos maneras:
+Las dos maneras son válidas; por ello, es común que, para indicar qué margen dinámico están utilizando, los fabricantes incluyan frases como 60 dB (ref. salida máxima) o 60 dB (ref. nivel de pico).
+Para indicar correctamente el margen dinámico, la medida en dB debe ir acompañada por:
+Que en las especificaciones técnicas de un equipo aparezca el margen dinámico indicado en dB no significa nada si no va acompañado por los puntos de referencia utilizados y las ponderaciones.
+Por ejemplo, en el caso de un magnetófono, en las especificaciones técnicas encontraríamos:
+En el caso de aparatos relacionados con la óptica (escáneres, cámaras, película fotográfica) el rango dinámico se mide teniendo en cuenta la densidad mínima (datos "más claros o tenues") y la densidad máxima (datos "más oscuros o cargados ") que se pueden representar o captar.
+Normalmente el rango dinámico de una cámara digital es de 5 pasos f, esto significa que a la cámara le será imposible captar una escena con más de 5 pasos f de diferencia entre luz y sombra, debiendo elegir si se quiere conservar detalle en las sombras o en las zonas de alta luminosidad.
+En aplicaciones de electrónica y audio, la proporción implicada es a menudo tan enorme que se ha convenido en convertirla en un logaritmo y se especifica en decibeles.
+Los ingenieros de estas especialidades aplican el término a:

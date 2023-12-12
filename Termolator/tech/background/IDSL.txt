@@ -1,0 +1,2 @@
+IDSL son las siglas de ISDN Digital Subscriber Line, proporciona la tecnología DSL sobre líneas ISDN, o dicho de otro modo, ofrece un servicio básico de RDSI utilizando la tecnología DSL. Los circuitos de IDSL llevan los datos (no voz).
+

@@ -1,0 +1,2 @@
+Las tecnologías asistidas por computadora o Computer-aided technologies (CAx)[1]​ es el término amplio que se refiere al uso de tecnologías por computadora para ayudar en el diseño, análisis, y fabricación de productos.
+Las herramientas avanzadas de CAx fusionan diferentes aspectos de la administración del ciclo de vida de productos (PLM), incluyendo el diseño, el análisis de elementos finitos (FEA), la manufactura, la planificación del producto y el producto.

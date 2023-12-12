@@ -1,0 +1,460 @@
+En Física de plasmas la longitud de Debye, también llamada radio de Debye es la escala a través de la cual portadores de carga móviles —por ejemplo, electrones— generan un apantallamiento de los campos eléctricos en los plasmas y otros conductores. En otras palabras, la longitud de Debye es la distancia sobre la cual puede ocurrir una separación significativa de carga. Análogamente, una esfera de Debye es el volumen cuyo radio es una longitud de Debye, dentro de la cual existe una esfera de influencia, y fuera de la cual las cargas son «apantalladas». La longitud de Debye recibe su nombre en honor del físico y físico-químico holandés Peter Debye. La noción de la longitud de Debye juega un importante papel en la Física de plasmas, electrolitos y coloides (teoría DLVO).
+La longitud de Debye surge de forma natural en la descripción termodinámica de grandes sistemas que contienen cargas en movimiento. En un sistema de 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ diferentes especies de cargas, la 
+
+
+
+j
+
+
+{\displaystyle j}
+
+-ésima especie porta una carga 
+
+
+
+
+q
+
+j
+
+
+
+
+{\displaystyle q_{j}}
+
+ y tiene una concentración 
+
+
+
+
+n
+
+j
+
+
+(
+
+r
+
+)
+
+
+{\displaystyle n_{j}(\mathbf {r} )}
+
+ en la posición 
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+
+. De acuerdo con el llamado «modelo primitivo», estas cargas se distribuyen en un medio continuo caracterizado solamente por su permitividad relativa estática: 
+
+
+
+
+ε
+
+r
+
+
+
+
+{\displaystyle \varepsilon _{r}}
+
+. La distribución de cargas dentro de este medio da lugar a un potencial eléctrico, 
+
+
+
+Φ
+(
+
+r
+
+)
+
+
+{\displaystyle \Phi (\mathbf {r} )}
+
+, que satisface la ecuación de Poisson:
+siendo 
+
+
+
+
+ε
+
+0
+
+
+
+
+{\displaystyle \varepsilon _{0}}
+
+ la permitividad eléctrica del vacío.
+Las cargas en movimiento no solo establecen 
+
+
+
+Φ
+(
+
+r
+
+)
+
+
+{\displaystyle \Phi (\mathbf {r} )}
+
+, sino que también se mueven respondiendo a la fuerza de Coulomb asociada: 
+
+
+
+
+F
+
+=
+−
+
+q
+
+j
+
+
+
+∇
+Φ
+(
+
+r
+
+)
+
+
+{\displaystyle \mathbf {F} =-q_{j}\,\nabla \Phi (\mathbf {r} )}
+
+. Si además suponemos que el sistema se encuentra en equilibrio termodinámico con un foco calórico a temperatura absoluta 
+
+
+
+T
+
+
+{\displaystyle T}
+
+, entonces las concentraciones de carga discreta, 
+
+
+
+
+n
+
+j
+
+
+(
+
+r
+
+)
+
+
+{\displaystyle n_{j}(\mathbf {r} )}
+
+, pueden considerarse ensambles termodinámicos promedio y el potencial eléctrico asociado puede considerarse un campo medio. Con estas suposiciones, la concentración de la 
+
+
+
+j
+
+
+{\displaystyle j}
+
+-ésima especie de carga está descrita por la distribución de Boltzmann.
+
+donde 
+
+
+
+
+k
+
+B
+
+
+
+
+{\displaystyle k_{B}}
+
+ es la constante de Boltzmann y 
+
+
+
+
+n
+
+j
+
+
+0
+
+
+
+
+{\displaystyle n_{j}^{0}}
+
+ es la concentración media de cargas de especies 
+
+
+
+j
+
+
+{\displaystyle j}
+
+. Al identificar las concentraciones instantáneas y el potencial instantáneo en la ecuación de Poisson con sus contrapartes de campo medio en la distribución de Boltzmann, se obtiene la ecuación de Poisson-Boltzmann:
+Se conocen soluciones para esta ecuación no lineal para algunos sistemas simples. Para sistemas más generales, se pueden obtener soluciones en el límite de alta temperatura (acoplamiento débil), 
+
+
+
+
+q
+
+j
+
+
+
+Φ
+(
+
+r
+
+)
+≪
+
+k
+
+B
+
+
+T
+
+
+{\displaystyle q_{j}\,\Phi (\mathbf {r} )\ll k_{B}T}
+
+, por medio de una expansión en serie de Taylor de la función exponencial:
+Esta aproximación da como resultado la ecuación linearizada de Poisson-Boltzmann:
+la cual se conoce como ecuación de Debye-Hückel.[1]​
+[2]​
+[3]​
+[4]​
+[5]​ 
+El segundo término del lado derecho de la ecuación desaparece en sistemas que son eléctricamente neutros. El término entre paréntesis de longitud inversa al cuadrado y conduce de manera natural a la definición de escala de longitud característica:
+
+
+
+
+
+λ
+
+D
+
+
+=
+
+
+(
+
+
+
+
+ε
+
+r
+
+
+
+ε
+
+0
+
+
+
+
+k
+
+B
+
+
+T
+
+
+
+∑
+
+j
+=
+1
+
+
+N
+
+
+
+n
+
+j
+
+
+0
+
+
+
+
+q
+
+j
+
+
+2
+
+
+
+
+
+)
+
+
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle \lambda _{D}=\left({\frac {\varepsilon _{r}\varepsilon _{0}\,k_{B}T}{\sum _{j=1}^{N}n_{j}^{0}\,q_{j}^{2}}}\right)^{1/2}}
+
+
+que es llamada comúnmente «longitud de Debye-Hückel». La longitud 
+
+
+
+
+λ
+
+D
+
+
+
+
+{\displaystyle \lambda _{D}}
+
+ establece la escala de variaciones en el potencial y en las concentraciones de especies cargadas. Se debe hacer énfasis en que todas las especies cargadas contribuyen de igual manera a la longitud de Debye-Hückel, sin importar el signo de sus cargas. El potencial producido por una carga puntual externa 
+
+
+
+
+ρ
+
+
+e
+x
+t
+
+
+
+=
+Q
+δ
+(
+
+r
+
+)
+
+
+{\displaystyle \rho _{\rm {ext}}=Q\delta (\mathbf {r} )}
+
+ es:
+El potencial de Coulomb es apantallado exponencialmente por el medio, a una distancia del orden de la longitud de Debye: esto se llama apantallamiento de Debye.
+En los plasmas en el espacio, donde la densidad de electrones es relativamente baja, la longitud de Debye puede alcanzar valores macroscópicos, como en la magnetosfera, el viento solar o el medio intergaláctico (véase la tabla):[6]​
+Hannes Alfvén asegura que: «En un plasma de baja densidad regiones localizadas de carga pueden generar grandes caídas de potencial a distancias del orden de varias decenas de longitudes de Debye. Estas regiones son llamadas “capas eléctricas dobles”. Una doble capa eléctrica es la distribución espacial de carga más simple que da una caída de potencial en la capa y un campo eléctrico que desaparece al otro lado de la capa. En el laboratorio las dobles capas se han estudiado por medio siglo, pero su importancia en plasmas cósmicos no ha sido reconocida de forma general».
+Para un plasma de baja colisión, el apantallamiento de Debye se puede introducir de forma muy intuitiva teniendo en cuenta su carácter granular. Imaginemos una esfera alrededor de uno de sus electrones, y comparemos el número de electrones que atraviesan esa esfera con y sin repulsión de Coulomb. Con la repulsión, este número es menor. Por lo tanto, según el teorema de Gauss, la carga aparente del primer electrón es menor que en ausencia de repulsión. Cuanto mayor sea el radio de la esfera, mayor será el número de partículas deflerizadas, y menor será la carga aparente: es el apantallamiento de Debye. Puesto que la desviación global de los electrones incluye las contribuciones de muchos otros, la densidad de los electrones no cambia, en contradicción con el apantallamiento en las proximidades de una pared material. Los iones hacen una contribución similar al apantallamiento, debido a la desviación coulombiana atractiva de las cargas con signos opuestos.
+Esta imagen intuitiva conduce a un cálculo eficaz del apantallamiento de Debye (ver sección II.A.2 de[7]​). La hipótesis de una distribución de Boltzmann no es necesaria en este cálculo: funciona para cualquier función de distribución de partículas. El cálculo evita también el tratamiento de los plasmas de baja colisión como medios continuos. Un cálculo N-cuerpo revela que la aceleración de Coulomb de una partícula por otra se altera por una contribución mediada por todas las demás partículas, firma del apantallamiento de Debye (véase la sección 8 de[8]​). Partiendo de posiciones aleatorias de partículas, la escala de tiempo típica para el apantallamiento es el tiempo que tarda una partícula térmica en atravesar una longitud de Debye, es decir, el inverso de la frecuencia de plasma. Por lo tanto, en un plasma de baja colisión, las colisiones juegan un papel esencial en aportar un proceso de auto-organización cooperativa: el apantallamiento de Debye.
+En un plasma, el medio que se encuentra en el fondo puede ser tratado como vacío (
+
+
+
+
+ε
+
+r
+
+
+=
+1
+
+
+{\displaystyle \varepsilon _{r}=1}
+
+), y la longitud de Debye es
+donde
+El término iónico se elimina generalmente, dando
+aunque esto es válido solamente cuando la movilidad de los iones es despreciable comparada con la escala de tiempo del proceso.[9]​
+En un electrolito o un coloide la longitud de Debye se denota usualmente con el símbolo 
+
+
+
+
+κ
+
+−
+1
+
+
+
+
+{\displaystyle \kappa ^{-1}}
+
+:[10]​ 
+donde 
+Para un electrolito simétrico monovalente:
+donde
+De forma alternativa:
+donde
+Para agua a temperatura ambiente 
+
+
+
+
+λ
+
+B
+
+
+≈
+
+
+{\displaystyle \lambda _{B}\approx }
+
+ 0,7 nm. A esta temperatura se puede considerar en el agua la siguiente relación:[11]​
+donde
+La longitud de Debye se ha vuelto cada vez más importante en el modelado de dispositivos de estado sólido conforme los avances en tecnologías litográficas han permitido geometrías más pequeñas.[12]​[13]​[14]​
+La longitud de Debye en el silicio está dada por:
+donde
+cuando el perfil de impurezas excede la longitud de Debye, la mayoría de los portadores no se comportan ya de acuerdo a la distribución de las impurezas. En vez de ello, una medida del perfil de los  gradientes de impurezas da un perfil «efectivo» que se ajusta mejor al perfil de la densidad de los portadores.

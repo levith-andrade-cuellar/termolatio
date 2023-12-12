@@ -1,0 +1,23 @@
+
+El clinchado es un proceso simple que permite unir dos o más chapas metálicas entre sí. Es un método en donde las partes se unen por deformación plástica en frío.
+Durante el proceso de clinchado, los materiales a unir se sitúan entre un punzón y una matriz. Cuando el punzón desciende, un pisador mantiene unidas las piezas. El punzón penetra en el material hasta un tope mecánico. Una vez que las chapas están en contacto con la matriz, el punzón ejerce presión sobre el material, que fluye lateralmente por la apertura de las paredes móviles de la matriz.
+La deformación local así realizada crea un anclaje mecánico entre las piezas.
+El punzón regresa luego a la posición inicial. En este caso, el pisador actúa de extractor del punzón asegurando la separación limpia del punzón y la pieza. Entonces, la pieza puede retirarse de la matriz. Las paredes móviles vuelven a cerrarse gracias a un muelle.
+
+Este proceso es usado para la unión de chapas de entre 0,5 y 3 mm hasta un espesor total de 6 mm. Los materiales deben tener la suficiente ductilidad para evitar romperse. El clinchado puede usarse en materiales revestidos y pintados, y es conveniente para unir materiales diferentes. 
+Los materiales típicos que se pueden clinchar son: 
+Según la herramienta utilizada se puede encontrar dos tipos de puntos de clinchado: rectangular o redondo.
+Los beneficios del proceso de clinchado son:[1]​	
+Además tenemos que tener en cuenta varios parámetros determinantes a la hora de establecer un punto de clinchado:
+Para desmontar el clinchado, lo mejor es taladrar el agujero con un taladro con una broca un poco más ancha que la bolsa hecha por el punzón.
+Además, también se puede quitar la parte que resalta del remache (el “casquillo del botón”) con una amoladora.
+Como última opción también seria posible hacer palanca con un destornillador aunque mediante este método produzca daño a las piezas.
+Los riesgos de este proceso consisten sobre en todo peligros de enganche del operario con la máquina o con las chapas a clinchar. Sin embargo, este peligro puede ser evitado utilizando ambas manos para manejar la máquina (mando a dos manos). Además, como muchas de estas máquinas son hidráulicas, deberían usarse gafas de seguridad.
+El clinchado debe soportar sobre todo esfuerzos a cizallamiento. Para testear estos esfuerzos se utiliza el método de separación de la junta por tirón o por pelado (como si se tratara de despegar un adhesivo). En la producción, sin embargo, una indicación del esfuerzo común puede ser encontrada midiendo el diámetro del casquillo en la cara del lado de la junta. 
+No obstante, el mejor método es determinar el esfuerzo aceptable para cada aplicación y realizar una unión que lo cumpla. 
+Costes de inversión bajos debido a que:
+Costes de operación bajos debidos a:
+Inexistencia de costes después del proceso ya que:
+Bajos tiempos de producción por:
+El clinchado se utiliza principalmente para la unión de chapas en los electrodomésticos, calefacción, ventilación y en el sector automovilístico. Además, este proceso reemplaza técnicas como la soldadura por puntos, así como el uso de otras sujeciones mecánicas como el remachado. 
+Este proceso se puede usar en:

@@ -1,0 +1,31 @@
+El concepto Marco Digital de Aprendizaje (MDA) hace referencia a la representación visual e interactiva que crea el docente para enseñar un concepto o un tema. Se trata de un recurso digital, en formato interactivo y con una estructura gamificada que permite a los destinatarios del mismo poder ver, comprender y consultar todo lo relacionado acerca de ese tema.[1]​
+El Marco Digital de Aprendizaje es una imagen interactiva a modo de pantalla de juego que funciona como página web, albergando múltiples enlaces a otras páginas web, guías visuales que estructuran esa imagen. Normalmente se basa en una historia o un guion. 
+Los Marcos Digitales de Aprendizaje parten de dos elementos básicos: una web gráfica con enlaces a otras páginas o a otros mini-marcos, y unas guías visuales de actividad, que relacionan los diferentes elementos del marco. Este formato de MDA permite crear escenarios personalizados, de manera que el alumno dispone de un entorno en el que desenvolverse, donde puede tomar elecciones en su aprendizaje, gozando de gran autonomía y a partir de una estructura de juego. Ello le permite trabajar a su propio ritmo, así como posibilita la atención a sus características personales.
+Un Marco Digital de Aprendizaje puede tener diferentes niveles de complejidad, dependiendo de la voluntad del creador. En formato digital, se emplean diferentes caminos que se entrecruzan y en los que emergen distintas opciones que hacen que cada alumno deba ofrecer respuestas, resolver incógnitas para llegar cada uno a un destino por caminos diferentes. El empleo de esta herramienta pedagógica, que tiene vínculos con herramientas como el pensamiento visual (Visual Thinking), el aprendizaje cooperativo, la gamificación, los paisajes de aprendizaje y la evaluación por competencias, ofrece toda una serie de posibilidades y potencialidades para el proceso educativo.
+Las ventajas que nos facilita el Marco Digital de Aprendizaje son las siguientes:
+Cabe destacar que el MDA se puede usar en los diferentes niveles educativos, tan solo hay que adaptarlos al contexto específico de uso. En el caso de Educación Infantil se puede usar con contenido audiovisual o con textos muy básicos. En Educación Primaria y Secundaria se pueden plantear itinerarios de diferente dificultad para que el propio alumnos mida sus posibilidades. Por último, en Bachillerato y Educación Superior, pueden ser más largos y exigen una participación más comprometida. 
+El primer paso es elegir la temática que se ha de trabajar para crear nuestro propio MDA.
+Después habrá que seleccionar una imagen, que será lo primero que va a ver el espectador y la que nos permite organizar el aprendizaje. Esta imagen debe ser atractiva y debe estar relacionada con el contenido que queremos aprender y tener en cuenta la historia que vamos a desarrollar como base lúdica de nuestro marco educativo. 
+Es aconsejable que la imagen tenga incorporadas las estructuras que guíen a las actividades a realizar, por ejemplo, con una narrativa de apoyo o con indicaciones visuales. Puede proceder de internet, en alguno de los repositorios de imágenes libres de derechos, o podemos dibujarla nosotros mismos, para personalizarla y adaptarla a nuestro contenido.
+La historia deberá ajustarse a los intereses y edades de nuestros alumnos, ya que será la base de trabajo durante un periodo de tiempo.[2]​
+Después de elegir la imagen y la historia, escogeremos los bloques de contenido que se van a abordar.
+Luego diseñaremos los diferentes recursos y actividades que llevaremos a cabo. Para ello, partiremos de dos elementos básicos: la taxonomía de Bloom y las competencias clave.
+Evaluar
+Analizar
+Aplicar
+Comprender
+Recordar
+Matemática, ciencia y tecnología
+Digital
+Aprender a aprender
+Sociales y cívicas
+Iniciativa y espíritu emprendedor
+Conciencia y expresiones culturales
+Cruzando ambos sistemas se genera una tabla de 42  casillas en los que podemos encuadrar las actividades del MDA, de manera que los elementos del currículum se relacionen en ese contexto visual que hemos creado y que será el mapa-guía para el aprendizaje.
+No se requiere hacer una actividad para cada una de las 42 casillas, pero es conveniente conocer este abanico de posibilidades para que nuestra propuesta sea lo más rica y variada posible.
+En este punto, cabe señalar que los MDA y los Paisajes de Aprendizaje son variantes de un mismo modo de trabajo, pero utilizando las Competencias Básicas de aprendizaje.
+Una vez elegidas y diseñadas las actividades, es conveniente asignarlas a los distintos bloques y decidir también si se plantean como obligatorias, voluntarias u optativas. 
+Finalmente hay que organizarlas en itinerarios, que se podrán enlazar, ordenar, agrupar o secuenciar.
+El paso de digitalización nos permitirá incorporar todos los elementos al marco visual, haciendo que la historia “cobre vida” y sea interactiva: iconos, insignias, actividades, información y enlaces. Las actividades deben colocarse en el marco visual digital como un mapa y una guía para los estudiantes. Este es un elemento clave en el diseño, ya que permitirá que el trabajo se realice de forma autónoma a través de unos recursos técnicos, que permitirán itinerarios de aprendizaje y horarios de trabajo personalizados. Además facilitará su distribución entre los alumnos y el seguimiento por parte del docente en cualquier momento y desde cualquier lugar.
+Se pueden usar editores web (Google sites, blogger, Wix, etc.), pues en realidad se trata sencillamente de ponerlo accesible desde un formato digital. También se pueden utilizar programas gratuitos tales como Genially, Canva, etc., donde podemos encontrar numerosos recursos y plantillas que nos ayudarán a empezar con una base.[2]​ 
+

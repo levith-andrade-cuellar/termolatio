@@ -1,0 +1,66 @@
+En electrónica el Slew Rate (SR) es un efecto no lineal en los amplificadores. Representa la incapacidad de un amplificador para seguir variaciones rápidas de la señal de entrada. Se le define como la máxima tasa de cambio en el voltaje de salida cuando el voltaje de entrada cambia.
+El slew rate de un amplificador se define como el rango máximo de cambio de la tensión de salida para todas las señales de entrada posibles, por lo que limita la velocidad de funcionamiento, es decir la frecuencia máxima a la que puede funcionar el amplificador para un nivel dado de señal de salida.
+Según su definición, el SR es:
+dónde 
+
+
+
+
+V
+
+
+o
+
+
+
+(
+t
+)
+
+
+{\displaystyle V_{\mathrm {o} }(t)}
+
+ es la tensión de salida.
+Si la señal es senoidal, podemos relacionar el valor máximo de tensión a la salida con la frecuencia máxima de operación del amplificador simplemente usando:
+dónde hemos llamado 
+
+
+
+
+V
+
+
+p
+k
+
+
+
+
+
+{\displaystyle V_{\mathrm {pk} }}
+
+ a la tensión pico máxima que podemos tener a la salida. Y a 
+
+
+
+
+f
+
+
+m
+a
+x
+
+
+
+
+
+{\displaystyle f_{\mathrm {max} }}
+
+ la frecuencia máxima de operación del amplificador.
+El Slew Rate se suele expresar en unidades de V/μs.
+Para un amplificador operacional 741 la máxima velocidad de respuesta es 0,5 V/μs. , y para el OP-07 es de 0,3V/μs, lo que quiere decir que el voltaje de salida cambiará a una razón máxima de 0,5 V en 1µs y 0,3 V en 1µs respectivamente.
+La razón de la limitación del SR es el condensador de compensación que usa internamente el amplificador para corregir ciertas características de la respuesta en frecuencia. Se puede analizar que la relación aproximada entre el slew-rate, la capacidad de dicho condensador y la corriente máxima que puede suministrar el operacional viene dada por: 
+En el caso del 741:
+En electrónica digital, el concepto de slew rate es también relevante, aunque suele manejarse de una forma ligeramente distinta: el tiempo de transición de una señal digital entre dos puntos fijos de medida, que suelen ser típicamente el 20% y el 80% de la tensión de alimentación respectivamente.
+El slew rate ha de ser mantenido cuidadosamente dentro de unos límites por una serie de motivos:

@@ -1,0 +1,12 @@
+G.992.5 (también referido como ADSL2+, G.dmt.bis+, y G.adslplus[1]​) es un estándar de ITU-T para la línea de suscriptor digital asimétrica (ADSL) acceso de Internet de banda ancha. El estándar tiene una velocidad de sincronización descendente teórica máxima de 24 Mbit/s. Si se utiliza el Anexo M de G.992.5 se pueden lograr velocidades de sincronización ascendente de 3.3 Mbit/s.
+ 
+ADSL2+ amplia la capacidad del ADSL básico al duplicar el número de canales de comunicación descendentes. Las velocidades de datos pueden ser tan altas como 24 Mbit/s en sentido descendente y hasta 1.4 Mbit/s en sentido ascendente, dependiendo de la distancia desde el DSLAM a las instalaciones del cliente.
+ADSL2+ es capaz de duplicar la banda de frecuencia de las conexiones de ADSL típicas de 1.1 MHz a 2.2 MHz. Esto duplica las velocidades de datos descendentes del ADSL2 anterior (el cual era de hasta 12 Mbit/s) y, al igual que los estándares anteriores, se degradará desde su velocidad de bits máxima después de una cierta distancia.
+ADSL2+ también permite la vinculación de puertos. Aquí es donde se aprovisionan físicamente varios puertos al usuario final y el ancho de banda total es igual a la suma de todos los puertos aprovisionados. Entonces, si se unieran 2 líneas capaces de descargar 24 Mbit/s,, el resultado final sería una conexión capaz de descargar 48 Mbit/s y el doble de la velocidad de carga original. No todos los proveedores de DSLAM han implementado esta funcionalidad. El enlace de puertos ADSL2+ también se conoce como G.998.x o G.Bond.
+Jazztel, es el primer operador para proporcionar el ADSL2+ tecnología.
+Orange (España) (anteriormente Wanadoo)
+Tele2 España (comprado por Vodafone en septiembre de 2007)
+Telefónica
+Ya.com (comprado por Orange en 2007)
+Operador mexicano Telmex utiliza el servicio de ADSL2+ con una velocidad de descarga de hasta 24Mbit/s y de velocidad ascendente de 1024 kbit/s; Este operador está lanzando su red FTTH que ya esta disponible para ciertos clientes.
+ 

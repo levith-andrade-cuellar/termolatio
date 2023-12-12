@@ -1,0 +1,53 @@
+El mecanismo de compensación de unión de metales homogéneos es una técnica utilizada en circuitos de medición de temperatura, principalmente basados en termopares, para compensar la dependencia con la temperatura ambiente inherente en la realización de la medida. Dicha compensación permite la realización de una medida absoluta de la temperatura de un cuerpo o fluido.
+Dado su uso principal en circuitos basados en termopares, a continuación se explica una descripción detallada del proceso de compensación para los circuitos que los utilicen.
+El principio de funcionamiento de un termopar se basa en el hecho de que, si un metal tiene diferentes temperaturas en sus extremos, sobre este existirá un flujo de energía desde la zona de más temperatura a la de menos, con el fin de equilibrar energéticamente el sistema. Este flujo provocará una diferencia de potencial entre los extremos que será la magnitud que se mida, para mediante una relación directa conocer la temperatura deseada. La respuesta del termopar ante la diferencia de temperaturas, dependerá fundamentalmente del tipo de metales usados y su tecnología de fabricación. Comúnmente los termopares constan de dos metales con un punto en común de unión, denominado unión caliente, al ser este punto el que está en contacto con aquello del cual se desee conocer su temperatura. Los otros dos extremos se encuentran abiertos y son sobre los que se mide la diferencia de potencial o tensión. Estos extremos pertenece a la denominada unión fría, debido a que se encuentran a temperatura ambiente, por lo general menor que la temperatura a medir.
+Particularmente, la tensión entre extremos del termopar, se puede aproximar según la siguiente expresión: 
+donde α es un parámetro dependiente de los tipos de metales usados y representa la sensibilidad de la tensión de salida frente a cambios de temperatura(normalmente μv/°C),(To) es la temperatura ambiente y (Tª) la temperatura a medir.
+Para poder medir tensiones en un extremo, ha de existir pues una diferencia de temperatura que vendrá dada por la que deseamos medir, y por la temperatura ambiente a la que se encuentre el termopar. Por lo tanto, vemos que la tensión depende de la temperatura ambiente, cosa que no es nada recomendable. Pensemos por ejemplo que la tensión de salida de un objeto que está a 45 °C con una temperatura ambiente de 30 °C, será diferente de la obtenida con el mismo objeto a 45 °C y temperatura ambiente de -10 °C. El objetivo de la compensación de la unión fría es pues, eliminar el efecto que produce la temperatura ambiente. La manera más inmediata, es la de sumarle un término αTo a la expresión comentada anteriormente. Para ello, se crea un circuito auxiliar que dependa de la misma temperatura ambiente To, y que entregue una tensión capaz de anular el término -αTo de la tensión.
+En la Figura 1 adjunta a este artículo, se presenta un circuito muy simple capaz de realizar esta compensación de una manera sencilla.
+En éste se hace uso de un circuito compensador, comúnmente un termistor de los muchos que se puedan encontrar en el mercado a temperatura ambiente To junto con la unión fría. La respuesta de dicho circuito, es una tensión de salida fijada por el fabricante según la temperatura a la que encuentre, y normalmente se considera la respuesta de éste lineal de la forma: Vtermisor = βTo, donde β representa la sensibilidad que posea el circuito integrado aportada por el fabricante(normalmente en mv/°C).
+Seguidamente se intercala una etapa para acondicionar el valor de su salida a uno que sea αTo con el fin de conseguir el propósito antes comentado. En el caso de la Figura 1, se hace uso de un simple divisor de tensión. Por lo tanto siguiendo la nomenclatura de la imagen, la tensión de toda la sección compensadora se puede expresar como:
+Si queremos anular el efecto del término -αTo en la tensión del termopar (Vtermopar), deberemos conseguir con Vcompensador una tensión de esta magnitud y sumársela, para así obtener como tensión resultante de la suma de ambas, Vresultante, una medida que no depende de la temperatura ambiente.
+Por lo tanto, la condición a cumplir es que el término 
+
+
+
+β
+⋅
+T
+o
+⋅
+
+
+
+R
+1
+
+
+R
+1
++
+R
+2
+
+
+
+
+
+{\displaystyle \beta \cdot To\cdot {\frac {R1}{R1+R2}}}
+
+ sea igual a 
+
+
+
+α
+⋅
+T
+o
+
+
+{\displaystyle \alpha \cdot To}
+
+, quedando finalmente la condición de compensación de la unión fría como: 
+Jugando con los valores de R1 y R2 se consigue compensar adecuadamente la dependencia respecto a la temperatura ambiente en el circuito de medida.
+Cabe destacar que el lector se estará cuestionando que, paradójicamente; se necesita un termistor -otro sensor de temperatura- para poder medir temperatura correctamente con el termopar. La respuesta es que en algunas circunstancias es necesario el uso de un termopar allí donde un termistor o circuito integrado sería imposible. Pensemos por ejemplo en medir una temperatura de 600 °C donde ningún integrado sobreviviría, pero podemos tener el termopar a dicha temperatura y a una distancia con temperatura ambiente, la unión fría con su compensador y el circuito que capta la señal. También cabe destacar que el termopar es mucho más lineal y tiene mucho mayor rango de operatividad que cualquier termistor.

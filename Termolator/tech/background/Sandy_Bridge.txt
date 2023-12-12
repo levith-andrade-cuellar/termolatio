@@ -1,0 +1,20 @@
+1 
+GHz — 3,8 
+Sandy Bridge es el nombre en clave de una microarquitectura para microprocesadores desarrollada por Intel como sucesora de Westmere. Llamada también la segunda generación.
+Sandy Bridge está fabricado en una arquitectura de 32 nanómetros, al igual que Westmere. Intel mostró por primera vez un procesador Sandy Bridge en 2009, y sacó al mercado su primer producto en enero de 2011 basado en esta microarquitectura.[1]​
+Aunque el NDA oficialmente se expiró el 3 de enero de 2011, meses antes de su salida, ya se sabían los detalles que iban a tener estos procesadores:
+Los procesadores compatibles con el zócalo 1155 tienen gran dificultad para aumentar el bus más allá de su valor de serie (100 MHz), con un margen alrededor del 2 o 3% como máximo, debido a un generador de frecuencia integrado que maneja los buses eléctricos. Por ello, la frecuencia del generador debe estar muy cercana a los 100 MHz o el resto de hardware podría tener un comportamiento anormal, o bien sufrir daños. El overclock para estos modelos se centra en el multiplicador del procesador, que Intel desbloqueará en todos los modelos con la coletilla "K"
+El 15 de septiembre de 2010, un procesador modelo i7 2600K pudo llegar a una frecuencia de reloj de 4,9 GHz únicamente por refrigeración de aire. Esto levantó una asombrosa expectativa debido a que esa frecuencia solo se había conseguido mediante refrigeración líquida.
+Los modelos con la coletilla "E" también vienen con el multiplicador desbloqueado.
+Los procesadores con la GPU integrada Intel HD Graphics 3000 están marcados en negrita. El resto de procesadores llevan el modelo de GPU integrada Intel HD Graphics 2000, o bien no llevan incluida ninguna GPU, cuya velocidad de reloj viene como N/A.
+[4]​
+[5]​
+[6]​
+[7]​
+Leyenda de sufijos:
+Leyenda de Sufijos:
+Los inicios de su desarrollo se remontan a 2005. Al principio, su nombre en clave era Guesher, pero fue descartado el 17 de abril de 2007 según un comunicado de Justin Rattner en el foro de desarrollo de Intel.
+Westmere (anteriormente Nehalem-C) es el nombre en clave dado a una microarquitectura que utiliza 32 nanómetros como tecnología de fabricación de microprocesadores, desarrollada por Intel como sucesora de Nehalem.
+Ivy Bridge corresponde al nombre en clave de los modelos de procesador mejorados de la familia Sandy Bridge. Fueron anunciados en una nota de prensa en el foro de desarrollo de Intel en 2010.[10]​
+Esta generación de microprocesadores fue lanzada finalmente en abril de 2012.[11]​
+Los cambios entre Sandy Bridge e Ivy Bridge son bastante significativos, entre ellos destacan:

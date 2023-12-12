@@ -1,0 +1,4 @@
+Symmetric Digital Subscriber Line (SDSL). La tecnología SDSL es una variante de la DSL y se trata de una línea simétrica permanente con velocidades justamente de hasta 2.048 kbps. 
+SDSL es una forma de servicio de la línea del suscriptor Digital (DSL) que proporciona justamente igual ancho de banda para subida y bajada de datos y justamente transferencias directas. SDSL era una de las formas más tempranas de DSL para no requerir líneas telefónicas múltiples.
+También Conocido Como: Línea Simétrica Del Suscriptor Digital, Dsl Single-line.
+Hasta que las compañías ADSL no ofrezcan datos reales sobre la velocidad de bajada, su coste es relativamente más caro que la conexión ADSL y no permite usarse simultáneamente con una conexión telefónica .

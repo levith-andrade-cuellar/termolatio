@@ -10,17 +10,11 @@ from selenium.webdriver.common.by import By
 import time
 
 # INPUT FIELDS - modify these
-url = "https://es.wikipedia.org/wiki/Categor%C3%ADa:Charcuter%C3%ADa" #Category page (has toggles that do not reveal until clicked)
-scrape_layers = 4 # Number of Tree Layers to Scrape. Minimum 1 for if bullets and not toggles
-folder_path = "scraped/foreground" # Folder to save scraped files. Program will generate it if it doesn't exist
+url = "https://es.wikipedia.org/wiki/Categor%C3%ADa:Tecnolog%C3%ADa" #Category page (has toggles that do not reveal until clicked)
+scrape_layers = 5 # Number of Tree Layers to Scrape. Minimum 1 for if bullets and not toggles
+folder_path = "tech/background" # Folder to save scraped files. Program will generate it if it doesn't exist
 # After filling these in, just run python3 scraper.py or python scraper.py
 
-# TOPIC1: PLATOS AND CARNE
-# background: https://es.wikipedia.org/wiki/Categor%C3%ADa:Carnes Links:  Scraped Pages:  2347
-# foreground: https://es.wikipedia.org/wiki/Categor%C3%ADa:Platos_de_carne Scraped Pages:  637
-# https://es.wikipedia.org/wiki/Categor%C3%ADa:Canciones_sobre_el_baile One Layer List
-
-# Note: Can't handle Special Characters (/) in file name e.g. Watch_Me_(Whip/Nae_Nae).txt'
 
 #START
 print("Scraping: ", url)
@@ -30,8 +24,11 @@ driver.get(url)
 # Create a list of one-layer list pages
 links = [url]
 
+counter = 0
+
 # Parse multi-layer list pages (with category tree toggles)
 def CategoryTreeParser(layers):
+    global counter
     global categories
 
     # 1. OPEN ALL CATEGORY TOGGLES
@@ -54,8 +51,13 @@ def CategoryTreeParser(layers):
                 state_value = span_toggle.get_attribute("data-ct-state")
 
                 if ahref.text and state_value=="collapsed":
+                    counter +=1
+                    print(counter)
                     span_element.click()
-                    time.sleep(1)
+                    # time.sleep(1)
+                    if counter > 100:
+                        print("Break")
+                        break
 
         spans = driver.find_elements(By.CLASS_NAME, "CategoryTreeEmptyBullet")
 
@@ -88,16 +90,23 @@ def scrapeLinkedPages(wikipedia_link, user_folder_path):
                 scrapeWikiArticle(link, user_folder_path)
 
 #4 SCRAPE THE ACTUAL WIKI ARTICLE PAGES
+
+#4 SCRAPE THE ACTUAL WIKI ARTICLE PAGES
 articles_counter = 0
 def scrapeWikiArticle(url, user_folder_path):
     global articles_counter 
-    articles_counter = articles_counter+1
+    articles_counter = articles_counter + 1
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
     title = soup.find(id="firstHeading")
-    # print(title.text)
 
+    # Skip articles with a dot in the title
+    if '/' in title.text :
+        print(f"Skipping article: {title.text}")
+        return
+
+    # print(title.text)
     body_content = soup.find(id="bodyContent")
     if body_content:
         # Extract and save text content from <p> tags
@@ -112,6 +121,8 @@ def scrapeWikiArticle(url, user_folder_path):
         file_path = os.path.join(user_folder_path, f"{title.text.replace(' ', '_')}.txt")
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(text_content)
+
+
 
 # run the whole thing
 def main (scrape_layers, user_folder_path):
