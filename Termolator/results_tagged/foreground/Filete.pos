@@ -1,0 +1,36 @@
+En	ADP
+el	DET
+ámbito	NOUN
+de	ADP
+la	DET
+cocina	NOUN
+y	CCONJ
+de	ADP
+la	DET
+gastronomía	NOUN
+un	DET
+filete	NOUN
+(	PUNCT
+del	ADP
+francés	NOUN
+filet	NOUN
+)	PUNCT
+es	AUX
+un	DET
+trozo	NOUN
+rebanado	ADJ
+que	PRON
+puede	AUX
+ser	AUX
+o	CCONJ
+bien	ADV
+de	ADP
+carne	NOUN
+o	CCONJ
+bien	ADV
+de	ADP
+pescado	NOUN
+.	PUNCT
+
+
+	SPACE

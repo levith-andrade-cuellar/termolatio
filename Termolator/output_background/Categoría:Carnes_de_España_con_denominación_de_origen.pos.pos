@@ -1,0 +1,10 @@
+carne	|||	S: 1E: 6	|||	NOUN
+asada	|||	S: 6E: 11	|||	ADJ
+Esta	|||	S: 11E: 15	|||	DET
+categoría	|||	S: 15E: 24	|||	NOUN
+contiene	|||	S: 24E: 32	|||	VERB
+las	|||	S: 32E: 35	|||	DET
+siguientes	|||	S: 35E: 45	|||	ADJ
+7	|||	S: 45E: 46	|||	NUM
+páginas	|||	S: 46E: 53	|||	NOUN
+:	|||	S: 53E: 54	|||	PUNCT
