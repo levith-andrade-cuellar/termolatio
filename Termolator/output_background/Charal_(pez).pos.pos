@@ -1,0 +1,16 @@
+Charal	|||	S: 1E: 7	|||	PROPN
+es	|||	S: 7E: 9	|||	AUX
+el	|||	S: 9E: 11	|||	DET
+nombre	|||	S: 11E: 17	|||	NOUN
+vernáculo	|||	S: 17E: 26	|||	NOUN
+común	|||	S: 26E: 31	|||	ADJ
+de	|||	S: 31E: 33	|||	ADP
+muchas	|||	S: 33E: 39	|||	DET
+especies	|||	S: 39E: 47	|||	NOUN
+de	|||	S: 47E: 49	|||	ADP
+peces	|||	S: 49E: 54	|||	NOUN
+,	|||	S: 54E: 55	|||	PUNCT
+que	|||	S: 55E: 58	|||	PRON
+puede	|||	S: 58E: 63	|||	AUX
+referirse	|||	S: 63E: 72	|||	VERB
+a:[1]​[2]​	|||	S: 72E: 82	|||	NOUN

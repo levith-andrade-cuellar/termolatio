@@ -1,0 +1,12 @@
+Thor	|||	S: 1E: 5	|||	PROPN
+es	|||	S: 5E: 7	|||	AUX
+un	|||	S: 7E: 9	|||	DET
+género	|||	S: 9E: 15	|||	NOUN
+de	|||	S: 15E: 17	|||	ADP
+camarones	|||	S: 17E: 26	|||	NOUN
+,	|||	S: 26E: 27	|||	PUNCT
+que	|||	S: 27E: 30	|||	PRON
+contiene	|||	S: 30E: 38	|||	VERB
+las	|||	S: 38E: 41	|||	DET
+siguientes	|||	S: 41E: 51	|||	ADJ
+especies:[1]​[2]​	|||	S: 51E: 68	|||	NOUN
