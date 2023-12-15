@@ -130,7 +130,7 @@ class Metric:
                     freq += doc.counts[word]
             self._TermFreq[word] = freq
             # Inside _getTermFreq method
-            print(f"Term frequency for {word}: {freq}")
+            # print(f"Term frequency for {word}: {freq}")
         return freq
     def _getTermDocFreq(self, word):
         """Returns the document frequency of a term in the rdg"""
@@ -414,7 +414,7 @@ Keys = 'DC', 'DR', 'DRDC', 'TokenDRDC', 'IDF', 'TFIDF', 'TokenIDF', 'Entropy', '
                 ## Filter.unstem(w): #include all word variants
                 ranking.append((s, temp))
                 # Inside rankTerms method
-                print(f"Ranking word: {w}, score: {temp}")
+                # print(f"Ranking word: {w}, score: {temp}")
                 if save:
                     #logging.error("Saving word: " + str(s) + " to ranking.pkl  with measurement: " + measure + " and value: " + str(temp))
                     ## ranking_map[(s,measure)]=temp
@@ -432,7 +432,7 @@ Keys = 'DC', 'DR', 'DRDC', 'TokenDRDC', 'IDF', 'TFIDF', 'TokenIDF', 'Entropy', '
         pickle.dump(stuff_to_save,f)
         logging.debug('Done')
         # Inside rankTerms method, before returning ranking
-        print(f"Final ranking before sorting: {ranking}")
+        # print(f"Final ranking before sorting: {ranking}")
         return ranking
     def rankTermsFromPrevious(self, measure='DRDC'):
         """Score the RDG, return list of (word, rank) tuples"""
@@ -547,25 +547,25 @@ for use in weighted scoring. This method is VERY slow."""
         #                'Entropy':0.5, 'KLDiv':0.5}
         for i in range(100):
             for w in self.weights:
-                print(w, 1)
+                # print(w, 1)
                 currweight = self.weights[w]
                 currscore = self.scoreByRankSum(termfiles, measure='Weighted')
-                print (w, 2)
+                # print (w, 2)
                 self.weights[w] = currweight - 0.1
                 score = self.scoreByRankSum(termfiles, measure='Weighted')
-                print (w, 3)
+                # print (w, 3)
                 if score < currscore:
                     continue
-                print (w, 4)
+                # print (w, 4)
                 self.weights[w] = currweight + 0.1
                 score = self.scoreByRankSum(termfiles, measure='Weighted')
-                print (w, 5)
+                # print (w, 5)
                 if score < currscore:
                     continue
-                print (w, 6)
+                # print (w, 6)
                 self.weights[w] = currweight
-                print (w, 7)
-            print (self.weights)
+                # print (w, 7)
+            # print (self.weights)
         return self.weights
     def _EMWeights(testfolder, N=300):
         """Use EM to find and return a dictionary of weights for use in \
