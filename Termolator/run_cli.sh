@@ -30,7 +30,7 @@ echo '
 
 echo "Please specify your folder arguments below."
 
-# Prompt the user for input with default values
+# prompt the user for input with default values
 read -p "Enter results folder (enter for default): " results
 results=${results:-results}
 
