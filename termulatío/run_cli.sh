@@ -16,8 +16,8 @@ EOF
 
 echo '     termolatío is at your service!'
 echo '
-                      __     
-              _(\    |@@|  <( nlp4lyf )
+                       __     
+               _(\    |@@|  <( nlp4lyf )
               (__/\__ \--/ __ 
                 \___|----|  |   __
                     \ }{ /\ )_ / _\
