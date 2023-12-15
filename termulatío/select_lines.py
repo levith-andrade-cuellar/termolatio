@@ -16,7 +16,7 @@ def select_lines(input_file, output_file):
         outfile.writelines(selected_lines)
 
 if __name__ == "__main__":
-    input_file_path = "input.txt"  # Replace with the actual input file path
-    output_file_path = "tester.txt"  # Replace with the desired output file path
+    input_file_path = "input.txt"  
+    output_file_path = "tester.txt" 
 
     select_lines(input_file_path, output_file_path)
