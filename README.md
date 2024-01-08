@@ -4,7 +4,7 @@
 ## Description
 The [Termolator](https://github.com/AdamMeyers/The_Termolator) is an open-source terminology extraction system that identifies the most characteristic terms of a specialized set of documents when compared to a related but more general set of literature. 
 
-This project seeks to address a significant gap in the Termolator’s coverage by adapting it to work for Spanish. The system so far works for English, Chinese, and French. As a final project for our Natural Language Processing class we developed this adaptation of The Termolator and wrote an academic paper about it. 
+This project seeks to address a significant gap in the Termolator’s coverage by adapting it to work for Spanish. The system so far works for English, Chinese, and French. As a final project for our Natural Language Processing class we developed this adaptation of The Termolator and wrote an [academic paper](/academic-paper.pdf) about it. 
 
 ### How It Works
 First, Termolatío scrapes background and foreground corpora from Spanish Wikipedia using Beautiful Soup. 
