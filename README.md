@@ -21,6 +21,15 @@ Termolatío can be used to identify the most characteristic terminology of a for
 To use the system:
 1. Download or clone the repository onto your machine.
 2. Download the spacy Python module and other dependencies, as alerted, that your machine may not already have.
-3. Use the [run_cli.sh](termolatío/run_cli.sh) bash file to run the system. Follow its instructions to run the demo.
+3. Use the [run_cli.sh](termolatío/run_cli.sh) bash file to run the system. When asked for input click "ENTER" for all prompts to run the demo. 
 
 The command line interface is still under development to allow for seemless use. For the time being please modify the codebase on your machine if necessary. 
+
+## Preview
+Here are some screenshots of the command line interface (CLI) that exemplify how Termolatío works.
+<p>Termolatío's friendly robot mascot greets you and asks for your input files —</p>
+<img src="/preview/input-screen.png" alt="Input Screen" width="300"/>
+<p>Termolatío is "done cooking" and tells you what your result files have been named —</p>
+<img src="/preview/output-screen.png" alt="Output Screen" width="300"/>
+
+Termolatío does all of the hard work by leveraging a variety of Python files in the background which it runs via the [run_termolator_spanish.sh](/termolatío/run_termolator_spanish.sh) bash file.
