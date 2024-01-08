@@ -27,9 +27,15 @@ The command line interface is still under development to allow for seemless use.
 
 ## Preview
 Here are some screenshots of the command line interface (CLI) that exemplify how Termolatío works.
-<p>Termolatío's friendly robot mascot greets you and asks for your input files —</p>
+
+### Input
+Termolatío's friendly robot mascot greets you and asks for your input files.
+
 <img src="/preview/input-screen.png" alt="Input Screen" width="300"/>
-<p>Termolatío is "done cooking" and tells you what your result files have been named —</p>
+
+### Output 
+Termolatío is "done cooking" and tells you what your result files have been named.
+
 <img src="/preview/output-screen.png" alt="Output Screen" width="300"/>
 
 Termolatío does all of the hard work by leveraging a variety of Python files in the background which it runs via the [run_termolator_spanish.sh](/termolatío/run_termolator_spanish.sh) bash file.
