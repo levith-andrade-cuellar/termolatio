@@ -1,16 +1,5 @@
 # Termolatío - The Termolator for Spanish
 **Contributors:** Pauline Wee, Jhon Kim, Levith Andrade Cuellar
-~~~
-           __     
-   _(\    |@@|  <( nlp4lyfe )
-  (__/\__ \--/ __ 
-     \___|----|  |   __
-         \ }{ /\ )_ / _\
-         /\__/\ \__O (__ 
-        (--/\--)    \__/
-        _)(  )(_
-      `---'' '---`
-~~~
 
 ## Description
 The [Termolator](https://github.com/AdamMeyers/The_Termolator) is an open-source terminology extraction system that identifies the most characteristic terms of a specialized set of documents when compared to a related but more general set of literature. 
